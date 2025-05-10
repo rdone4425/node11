@@ -17,6 +17,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           fetch-depth: 0  # 获取完整历史记录，避免浅克隆问题
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -32,20 +33,40 @@ jobs:
         run: |
           python download-script.py
 
+      - name: Check for changes
+        id: git-check
+        run: |
+          git add downloads/
+          if git diff --staged --quiet; then
+            echo "changes=false" >> $GITHUB_OUTPUT
+            echo "没有检测到文件变化，跳过提交"
+          else
+            echo "changes=true" >> $GITHUB_OUTPUT
+            echo "检测到文件变化，将进行提交"
+          fi
+
       - name: Commit changes
+        if: steps.git-check.outputs.changes == 'true'
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add downloads/
-          git commit -m "Update downloaded files" -a || echo "No changes to commit"
+          git commit -m "Update downloaded files [$(date +'%Y-%m-%d %H:%M:%S')]"
 
       # 使用更直接的方式推送更改
-      - name: Push changes
+      - name: Pull and Push changes
         env:
           # 直接使用GitHub提供的默认令牌
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          # 设置Git用户信息（确保在拉取前已设置）
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+
           # 设置远程URL，包含身份验证信息
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+
+          # 先拉取最新更改
+          git pull --rebase origin ${GITHUB_REF#refs/heads/}
+
           # 推送到当前分支
           git push origin HEAD:${GITHUB_REF#refs/heads/}
