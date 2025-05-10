@@ -61,6 +61,17 @@ def log_message(message):
 
     print(message)
 
+def generate_github_raw_urls(repo_owner, repo_name, branch, downloaded_files):
+    """生成GitHub raw格式的URL列表"""
+    urls = []
+    base_url = f"https://raw.githubusercontent.com/{repo_owner}/{repo_name}/{branch}"
+
+    for filename in downloaded_files:
+        url = f"{base_url}/{filename}"
+        urls.append(url)
+
+    return urls
+
 def main():
     # 确保下载目录存在
     ensure_dir(DOWNLOAD_DIR)
@@ -87,6 +98,9 @@ def main():
     urls_list = list(all_urls)
     log_message(f"总共获取到 {len(urls_list)} 个唯一URL")
 
+    # 用于存储成功下载的文件名
+    downloaded_files = []
+
     # 下载每个URL指向的文件
     for i, url in enumerate(urls_list, 1):
         filename = get_filename_from_url(url)
@@ -96,8 +110,32 @@ def main():
         status = "成功" if success else "失败"
         log_message(f"[{i}/{len(urls_list)}] [{status}] {message}")
 
+        if success:
+            downloaded_files.append(filename)
+
         # 避免请求过于频繁
         time.sleep(1)
+
+    # 生成GitHub raw格式的URL列表
+    if downloaded_files:
+        # 设置你的GitHub仓库信息
+        repo_owner = "rdone4425"
+        repo_name = "node11"
+        branch = "main"
+
+        # 生成URL列表
+        raw_urls = []
+        for filename in downloaded_files:
+            raw_url = f"https://raw.githubusercontent.com/{repo_owner}/{repo_name}/{branch}/downloads/{filename}"
+            raw_urls.append(raw_url)
+
+        # 保存URL列表到文件
+        urls_file_path = os.path.join(DOWNLOAD_DIR, "raw_urls.txt")
+        with open(urls_file_path, 'w', encoding='utf-8') as f:
+            for url in raw_urls:
+                f.write(f"- \"{url}\"\n")
+
+        log_message(f"已生成 {len(raw_urls)} 个GitHub raw格式的URL，保存到 {urls_file_path}")
 
     log_message("所有文件下载完成")
 
