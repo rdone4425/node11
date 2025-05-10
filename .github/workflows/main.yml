@@ -39,10 +39,13 @@ jobs:
           git add downloads/
           git commit -m "Update downloaded files" -a || echo "No changes to commit"
 
+      # 使用更直接的方式推送更改
       - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          # 可以使用自定义的个人访问令牌（需要在仓库设置中添加）
-          # 如果没有设置PAT_TOKEN，则使用默认的GITHUB_TOKEN
-          github_token: ${{ secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
+        env:
+          # 直接使用GitHub提供的默认令牌
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # 设置远程URL，包含身份验证信息
+          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+          # 推送到当前分支
+          git push origin HEAD:${GITHUB_REF#refs/heads/}
