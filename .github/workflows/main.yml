@@ -5,12 +5,18 @@ on:
     - cron: '0 */12 * * *'  # 每12小时运行一次
   workflow_dispatch:  # 允许手动触发
 
+# 添加权限设置
+permissions:
+  contents: write  # 给予写入仓库内容的权限
+
 jobs:
   download:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # 获取完整历史记录，避免浅克隆问题
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -32,4 +38,4 @@ jobs:
           git config --local user.name "GitHub Action"
           git add downloads/
           git commit -m "Update downloaded files" -a || echo "No changes to commit"
-          git push
+          git push origin HEAD:${GITHUB_REF}
