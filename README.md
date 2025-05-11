@@ -13,11 +13,28 @@
 
 ## 快速开始
 
+### Linux系统:
 ```bash
+# 安装必要的依赖
+apt update && apt install -y wget curl coreutils || yum install -y wget curl coreutils
+
+# 下载并运行脚本
 wget https://raw.githubusercontent.com/rdone4425/node11/main/deploy-subs-check.sh && \
 chmod +x deploy-subs-check.sh && \
 ./deploy-subs-check.sh
 ```
+
+### Windows系统:
+1. 下载脚本:
+   - 在浏览器中打开 https://raw.githubusercontent.com/rdone4425/node11/main/deploy-subs-check.sh
+   - 右键点击页面,选择"另存为"
+   - 保存文件到本地(例如: D:\deploy-subs-check.sh)
+
+2. 运行脚本:
+   - 安装 [Git Bash](https://git-scm.com/downloads)
+   - 打开 Git Bash
+   - 进入脚本所在目录: `cd /d/`
+   - 运行脚本: `bash deploy-subs-check.sh`
 
 ## 配置说明
 
