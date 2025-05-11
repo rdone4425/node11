@@ -15,13 +15,19 @@
 
 ### Linux系统:
 ```bash
-# 安装必要的依赖
-apt update && apt install -y wget curl coreutils || yum install -y wget curl coreutils
+# 确保系统已安装基本工具
+sudo apt update
+sudo apt install -y wget curl coreutils
 
 # 下载并运行脚本
-wget https://raw.githubusercontent.com/rdone4425/node11/main/deploy-subs-check.sh && \
-chmod +x deploy-subs-check.sh && \
-./deploy-subs-check.sh
+wget https://raw.githubusercontent.com/rdone4425/node11/main/deploy-subs-check.sh
+sudo chmod +x deploy-subs-check.sh
+sudo ./deploy-subs-check.sh
+```
+
+# 如果是CentOS/RHEL系统:
+```bash
+sudo yum install -y wget curl coreutils
 ```
 
 ### Windows系统:
