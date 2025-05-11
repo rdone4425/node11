@@ -2,6 +2,10 @@
 
 这是一个用于快速部署 [beck-8/subs-check](https://github.com/beck-8/subs-check) Docker 镜像的一键部署脚本。本脚本可以帮助用户快速搭建和管理订阅测试服务。
 
+## 致谢
+- 感谢 [beck-8](https://github.com/beck-8) 提供的优秀项目
+- 感谢 [cmliu](https://github.com/cmliu) 提供的订阅源
+
 ## 功能特点
 
 - 自动检测系统环境并安装 Docker
@@ -14,16 +18,29 @@
 ## 快速开始
 
 ### Linux系统:
+
+#### 方式一：一键安装（推荐）
 ```bash
-# 方式一：一键安装（推荐）
 bash <(curl -Ls https://raw.githubusercontent.com/rdone4425/node11/main/deploy-subs-check.sh)
+```
 
-# 方式二：分步安装
-# 确保系统已安装基本工具
-sudo apt update && sudo apt install -y wget curl coreutils || sudo yum install -y wget curl coreutils
+#### 方式二：手动安装
+1. 安装依赖
+```bash
+# Ubuntu/Debian系统
+sudo apt update && sudo apt install -y wget curl coreutils
 
-# 下载并运行脚本
+# CentOS/RHEL系统
+sudo yum install -y wget curl coreutils
+```
+
+2. 下载脚本
+```bash
 wget https://raw.githubusercontent.com/rdone4425/node11/main/deploy-subs-check.sh
+```
+
+3. 设置权限并运行
+```bash
 chmod +x deploy-subs-check.sh
 ./deploy-subs-check.sh
 ```
