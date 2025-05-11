@@ -130,10 +130,10 @@ def main():
             raw_urls.append(raw_url)
 
         # 保存URL列表到根目录
-        urls_file_path = "raw_urls.txt"  # 直接使用文件名,不加路径前缀
+        urls_file_path = "raw_urls.txt"  # 直接使用文件名，确保保存在根目录
         with open(urls_file_path, 'w', encoding='utf-8') as f:
             for url in raw_urls:
-                f.write(f"- \"{url}\"\n")
+                f.write(f"{url}\n")  # 简化输出格式，移除多余的引号和破折号
 
         log_message(f"已生成 {len(raw_urls)} 个GitHub raw格式的URL，保存到 {urls_file_path}")
 
