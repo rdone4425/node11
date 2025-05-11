@@ -15,19 +15,17 @@
 
 ### Linux系统:
 ```bash
+# 方式一：一键安装（推荐）
+bash <(curl -Ls https://raw.githubusercontent.com/rdone4425/node11/main/deploy-subs-check.sh)
+
+# 方式二：分步安装
 # 确保系统已安装基本工具
-sudo apt update
-sudo apt install -y wget curl coreutils
+sudo apt update && sudo apt install -y wget curl coreutils || sudo yum install -y wget curl coreutils
 
 # 下载并运行脚本
 wget https://raw.githubusercontent.com/rdone4425/node11/main/deploy-subs-check.sh
-sudo chmod +x deploy-subs-check.sh
-sudo ./deploy-subs-check.sh
-```
-
-# 如果是CentOS/RHEL系统:
-```bash
-sudo yum install -y wget curl coreutils
+chmod +x deploy-subs-check.sh
+./deploy-subs-check.sh
 ```
 
 ### Windows系统:
