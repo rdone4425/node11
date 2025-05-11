@@ -47,28 +47,24 @@ jobs:
             echo "检测到文件变化，将进行提交"
           fi
 
-      - name: Commit changes
+      - name: Handle conflicts and commit
         if: steps.git-check.outputs.changes == 'true'
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          
+          # 先获取最新更改但不合并
+          git fetch origin ${GITHUB_REF#refs/heads/}
+          
+          # 使用策略选项来自动解决冲突，保留我们的更改
+          git merge -X ours --no-commit origin/${GITHUB_REF#refs/heads/}
+          
+          # 重新添加我们的更改
+          git add downloads/
+          git add raw_urls.txt
+          
+          # 提交更改
           git commit -m "Update downloaded files [$(date +'%Y-%m-%d %H:%M:%S')]"
-
-      # 使用更直接的方式推送更改
-      - name: Pull and Push changes
-        env:
-          # 直接使用GitHub提供的默认令牌
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          # 设置Git用户信息（确保在拉取前已设置）
-          git config --global user.email "action@github.com"
-          git config --global user.name "GitHub Action"
-
-          # 设置远程URL，包含身份验证信息
-          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
-
-          # 先拉取最新更改
-          git pull --rebase origin ${GITHUB_REF#refs/heads/}
-
-          # 推送到当前分支
-          git push origin HEAD:${GITHUB_REF#refs/heads/}
+          
+          # 推送更改
+          git push origin ${GITHUB_REF#refs/heads/}
