@@ -36,7 +36,9 @@ jobs:
       - name: Check for changes
         id: git-check
         run: |
+          # 同时添加 downloads 目录和 raw_urls.txt 文件
           git add downloads/
+          git add raw_urls.txt
           if git diff --staged --quiet; then
             echo "changes=false" >> $GITHUB_OUTPUT
             echo "没有检测到文件变化，跳过提交"
