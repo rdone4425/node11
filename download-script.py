@@ -72,27 +72,58 @@ def generate_github_raw_urls(repo_owner, repo_name, branch, downloaded_files):
 
     return urls
 
-def main():
-    # 确保下载目录存在
-    ensure_dir(DOWNLOAD_DIR)
-
-    all_urls = set()  # 使用集合避免重复URL
-
-    # 从多个源获取URL列表
-    for source_url in SOURCE_URLS:
+def analyze_source_urls(source_urls):
+    """分析源URL列表中的重复内容"""
+    url_sources = {}  # 记录每个URL来自哪些源
+    
+    for source_url in source_urls:
         try:
             log_message(f"正在从 {source_url} 获取URL列表")
             response = requests.get(source_url, timeout=30)
             response.raise_for_status()
-
+            
             # 获取并清理URL
-            source_urls = [url.strip() for url in response.text.strip().split() if url.strip()]
-            all_urls.update(source_urls)  # 添加到集合中，自动去重
-
-            log_message(f"从 {source_url} 获取到 {len(source_urls)} 个URL")
-
+            urls = [url.strip() for url in response.text.strip().split() if url.strip()]
+            
+            # 记录每个URL的来源
+            for url in urls:
+                if url not in url_sources:
+                    url_sources[url] = []
+                url_sources[url].append(source_url)
+                
+            log_message(f"从 {source_url} 获取到 {len(urls)} 个URL")
+            
         except Exception as e:
             log_message(f"获取URL列表失败 ({source_url}): {str(e)}")
+    
+    # 分析重复情况
+    duplicates = {url: sources for url, sources in url_sources.items() if len(sources) > 1}
+    unique_urls = {url: sources for url, sources in url_sources.items() if len(sources) == 1}
+    
+    # 输出分析结果
+    log_message("\n=== URL重复性分析 ===")
+    log_message(f"总URL数量: {len(url_sources)}")
+    log_message(f"唯一URL数量: {len(unique_urls)}")
+    log_message(f"重复URL数量: {len(duplicates)}")
+    
+    if duplicates:
+        log_message("\n重复的URL及其来源:")
+        for url, sources in duplicates.items():
+            log_message(f"\nURL: {url}")
+            for source in sources:
+                log_message(f"  - 来自: {source}")
+    
+    return url_sources
+
+def main():
+    # 确保下载目录存在
+    ensure_dir(DOWNLOAD_DIR)
+    
+    # 分析源URL列表
+    url_sources = analyze_source_urls(SOURCE_URLS)
+    
+    # 使用所有去重后的URL
+    all_urls = set(url_sources.keys())
 
     # 将集合转换为列表以便枚举
     urls_list = list(all_urls)
