@@ -120,7 +120,7 @@ def main():
     if downloaded_files:
         # 设置你的GitHub仓库信息
         repo_owner = "rdone4425"
-        repo_name = "node11"
+        repo_name = "node11" 
         branch = "main"
 
         # 生成URL列表
@@ -129,8 +129,8 @@ def main():
             raw_url = f"https://raw.githubusercontent.com/{repo_owner}/{repo_name}/{branch}/downloads/{filename}"
             raw_urls.append(raw_url)
 
-        # 保存URL列表到文件
-        urls_file_path = os.path.join(DOWNLOAD_DIR, "raw_urls.txt")
+        # 保存URL列表到根目录
+        urls_file_path = "raw_urls.txt"  # 直接使用文件名,不加路径前缀
         with open(urls_file_path, 'w', encoding='utf-8') as f:
             for url in raw_urls:
                 f.write(f"- \"{url}\"\n")
