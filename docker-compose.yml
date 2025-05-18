@@ -1,0 +1,22 @@
+version: "3"
+services:
+  subs-check:
+    image: ghcr.io/beck-8/subs-check:latest
+    container_name: subs-check
+    # mem_limit: 500m
+    volumes:
+      - ./config:/app/config
+      - ./output:/app/output
+    ports:
+      - "8199:8199"
+      - "8299:8299"
+    environment:
+      - TZ=Asia/Shanghai
+      # 是否使用代理
+      # - HTTP_PROXY=http://192.168.1.1:7890
+      # - HTTPS_PROXY=http://192.168.1.1:7890
+      # 设置 api-key
+      # - API_KEY=password
+    restart: always
+    tty: true
+    network_mode: bridge
