@@ -21,7 +21,7 @@
 
 #### 方式一：一键安装（推荐）
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/rdone4425/node11/main/deploy-subs-check.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/rdone4425/node11/main/subs-check.sh)
 ```
 
 #### 方式二：手动安装
@@ -36,7 +36,7 @@ sudo yum install -y wget curl coreutils
 
 2. 下载脚本
 ```bash
-wget https://raw.githubusercontent.com/rdone4425/node11/main/deploy-subs-check.sh
+wget https://raw.githubusercontent.com/rdone4425/node11/main/subs-check.sh
 ```
 
 3. 设置权限并运行
@@ -47,7 +47,7 @@ chmod +x deploy-subs-check.sh
 
 ### Windows系统:
 1. 下载脚本:
-   - 在浏览器中打开 https://raw.githubusercontent.com/rdone4425/node11/main/deploy-subs-check.sh
+   - 在浏览器中打开 https://raw.githubusercontent.com/rdone4425/node11/main/subs-check.sh
    - 右键点击页面,选择"另存为"
    - 保存文件到本地(例如: D:\deploy-subs-check.sh)
 
