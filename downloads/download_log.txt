@@ -7679,3 +7679,158 @@ URL: https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml
 [2025-06-05 01:07:36] [81/81] [成功] 成功下载: https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/refs/heads/main/APIs/sc3.yaml -> downloads/sc3.yaml
 [2025-06-05 01:07:37] 已生成 76 个GitHub raw格式的URL，保存到 raw_urls.txt
 [2025-06-05 01:07:37] 所有文件下载完成
+[2025-06-05 12:27:46] 正在从 https://raw.githubusercontent.com/cmliu/cmliu/refs/heads/main/SubsCheck-URLs 获取URL列表
+[2025-06-05 12:27:46] 从 https://raw.githubusercontent.com/cmliu/cmliu/refs/heads/main/SubsCheck-URLs 获取到 65 个URL
+[2025-06-05 12:27:46] 正在从 https://raw.githubusercontent.com/rdone4425/node11/refs/heads/main/node.txt 获取URL列表
+[2025-06-05 12:27:47] 从 https://raw.githubusercontent.com/rdone4425/node11/refs/heads/main/node.txt 获取到 31 个URL
+[2025-06-05 12:27:47] 
+=== URL重复性分析 ===
+[2025-06-05 12:27:47] 总URL数量: 81
+[2025-06-05 12:27:47] 唯一URL数量: 66
+[2025-06-05 12:27:47] 重复URL数量: 15
+[2025-06-05 12:27:47] 
+重复的URL及其来源:
+[2025-06-05 12:27:47] 
+URL: https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta.yaml
+[2025-06-05 12:27:47]   - 来自: https://raw.githubusercontent.com/cmliu/cmliu/refs/heads/main/SubsCheck-URLs
+[2025-06-05 12:27:47]   - 来自: https://raw.githubusercontent.com/rdone4425/node11/refs/heads/main/node.txt
+[2025-06-05 12:27:47] 
+URL: https://raw.githubusercontent.com/go4sharing/sub/main/sub.yaml
+[2025-06-05 12:27:47]   - 来自: https://raw.githubusercontent.com/cmliu/cmliu/refs/heads/main/SubsCheck-URLs
+[2025-06-05 12:27:47]   - 来自: https://raw.githubusercontent.com/rdone4425/node11/refs/heads/main/node.txt
+[2025-06-05 12:27:47] 
+URL: https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/main/all_configs.txt
+[2025-06-05 12:27:47]   - 来自: https://raw.githubusercontent.com/cmliu/cmliu/refs/heads/main/SubsCheck-URLs
+[2025-06-05 12:27:47]   - 来自: https://raw.githubusercontent.com/rdone4425/node11/refs/heads/main/node.txt
+[2025-06-05 12:27:47] 
+URL: https://raw.githubusercontent.com/firefoxmmx2/v2rayshare_subcription/main/subscription/clash_sub.yaml
+[2025-06-05 12:27:47]   - 来自: https://raw.githubusercontent.com/cmliu/cmliu/refs/heads/main/SubsCheck-URLs
+[2025-06-05 12:27:47]   - 来自: https://raw.githubusercontent.com/rdone4425/node11/refs/heads/main/node.txt
+[2025-06-05 12:27:47] 
+URL: https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_yaml.yml
+[2025-06-05 12:27:47]   - 来自: https://raw.githubusercontent.com/cmliu/cmliu/refs/heads/main/SubsCheck-URLs
+[2025-06-05 12:27:47]   - 来自: https://raw.githubusercontent.com/rdone4425/node11/refs/heads/main/node.txt
+[2025-06-05 12:27:47] 
+URL: https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.yml
+[2025-06-05 12:27:47]   - 来自: https://raw.githubusercontent.com/cmliu/cmliu/refs/heads/main/SubsCheck-URLs
+[2025-06-05 12:27:47]   - 来自: https://raw.githubusercontent.com/rdone4425/node11/refs/heads/main/node.txt
+[2025-06-05 12:27:47] 
+URL: https://raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml
+[2025-06-05 12:27:47]   - 来自: https://raw.githubusercontent.com/cmliu/cmliu/refs/heads/main/SubsCheck-URLs
+[2025-06-05 12:27:47]   - 来自: https://raw.githubusercontent.com/rdone4425/node11/refs/heads/main/node.txt
+[2025-06-05 12:27:47] 
+URL: https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml
+[2025-06-05 12:27:47]   - 来自: https://raw.githubusercontent.com/cmliu/cmliu/refs/heads/main/SubsCheck-URLs
+[2025-06-05 12:27:47]   - 来自: https://raw.githubusercontent.com/rdone4425/node11/refs/heads/main/node.txt
+[2025-06-05 12:27:47] 
+URL: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml
+[2025-06-05 12:27:47]   - 来自: https://raw.githubusercontent.com/cmliu/cmliu/refs/heads/main/SubsCheck-URLs
+[2025-06-05 12:27:47]   - 来自: https://raw.githubusercontent.com/rdone4425/node11/refs/heads/main/node.txt
+[2025-06-05 12:27:47] 
+URL: https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml
+[2025-06-05 12:27:47]   - 来自: https://raw.githubusercontent.com/cmliu/cmliu/refs/heads/main/SubsCheck-URLs
+[2025-06-05 12:27:47]   - 来自: https://raw.githubusercontent.com/rdone4425/node11/refs/heads/main/node.txt
+[2025-06-05 12:27:47] 
+URL: https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml
+[2025-06-05 12:27:47]   - 来自: https://raw.githubusercontent.com/cmliu/cmliu/refs/heads/main/SubsCheck-URLs
+[2025-06-05 12:27:47]   - 来自: https://raw.githubusercontent.com/rdone4425/node11/refs/heads/main/node.txt
+[2025-06-05 12:27:47] 
+URL: https://raw.githubusercontent.com/mfbpn/tg_mfbpn_sub/main/trial.yaml
+[2025-06-05 12:27:47]   - 来自: https://raw.githubusercontent.com/cmliu/cmliu/refs/heads/main/SubsCheck-URLs
+[2025-06-05 12:27:47]   - 来自: https://raw.githubusercontent.com/rdone4425/node11/refs/heads/main/node.txt
+[2025-06-05 12:27:47] 
+URL: https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml
+[2025-06-05 12:27:47]   - 来自: https://raw.githubusercontent.com/cmliu/cmliu/refs/heads/main/SubsCheck-URLs
+[2025-06-05 12:27:47]   - 来自: https://raw.githubusercontent.com/rdone4425/node11/refs/heads/main/node.txt
+[2025-06-05 12:27:47] 
+URL: https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash
+[2025-06-05 12:27:47]   - 来自: https://raw.githubusercontent.com/cmliu/cmliu/refs/heads/main/SubsCheck-URLs
+[2025-06-05 12:27:47]   - 来自: https://raw.githubusercontent.com/rdone4425/node11/refs/heads/main/node.txt
+[2025-06-05 12:27:47] 
+URL: https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml
+[2025-06-05 12:27:47]   - 来自: https://raw.githubusercontent.com/cmliu/cmliu/refs/heads/main/SubsCheck-URLs
+[2025-06-05 12:27:47]   - 来自: https://raw.githubusercontent.com/rdone4425/node11/refs/heads/main/node.txt
+[2025-06-05 12:27:47] 总共获取到 81 个唯一URL
+[2025-06-05 12:27:47] [1/81] [成功] 成功下载: https://raw.githubusercontent.com/mgit0001/test_clash/refs/heads/main/heima.txt -> downloads/heima.txt
+[2025-06-05 12:27:48] [2/81] [成功] 成功下载: https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/c.yaml -> downloads/c.yaml
+[2025-06-05 12:27:49] [3/81] [成功] 成功下载: https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml -> downloads/list.meta.yml
+[2025-06-05 12:27:50] [4/81] [成功] 成功下载: https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash -> downloads/clash
+[2025-06-05 12:27:51] [5/81] [成功] 成功下载: https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_yaml.yml -> downloads/sub_merge_yaml.yml
+[2025-06-05 12:27:52] [6/81] [失败] 下载失败: https://raw.githubusercontent.com/mai19950/clashgithub_com/main/site, 错误: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/mai19950/clashgithub_com/main/site
+[2025-06-05 12:27:53] [7/81] [成功] 成功下载: https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/sub -> downloads/sub
+[2025-06-05 12:27:54] [8/81] [成功] 成功下载: https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/main/APIs/sc4.yaml -> downloads/sc4.yaml
+[2025-06-05 12:27:55] [9/81] [成功] 成功下载: https://raw.githubusercontent.com/xiaoji235/airport-free/refs/heads/main/clash/naidounode.txt -> downloads/naidounode.txt
+[2025-06-05 12:27:56] [10/81] [失败] 下载失败: https://raw.githubusercontent.com/mai19950/sites/main/sub/v2ray/base64, 错误: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/mai19950/sites/main/sub/v2ray/base64
+[2025-06-05 12:27:57] [11/81] [成功] 成功下载: https://raw.githubusercontent.com/shahidbhutta/Clash/refs/heads/main/Router -> downloads/Router
+[2025-06-05 12:27:58] [12/81] [成功] 成功下载: https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml -> downloads/list.yml
+[2025-06-05 12:27:59] [13/81] [成功] 成功下载: https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/ndnode.txt -> downloads/ndnode.txt
+[2025-06-05 12:28:00] [14/81] [成功] 成功下载: https://raw.githubusercontent.com/xiaoji235/airport-free/main/clash/naidounode.txt -> downloads/naidounode.txt
+[2025-06-05 12:28:02] [15/81] [成功] 成功下载: https://raw.githubusercontent.com/xiaoji235/airport-free/main/v2ray.txt -> downloads/v2ray.txt
+[2025-06-05 12:28:03] [16/81] [成功] 成功下载: https://raw.githubusercontent.com/yorkLiu/FreeV2RayNode/main/v2ray.txt -> downloads/v2ray.txt
+[2025-06-05 12:28:04] [17/81] [成功] 成功下载: https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/refs/heads/main/APIs/sc2.yaml -> downloads/sc2.yaml
+[2025-06-05 12:28:05] [18/81] [成功] 成功下载: https://raw.githubusercontent.com/lagzian/SS-Collector/main/SS/VM_TrinityBase -> downloads/VM_TrinityBase
+[2025-06-05 12:28:06] [19/81] [成功] 成功下载: https://raw.githubusercontent.com/shahidbhutta/Clash/main/Router -> downloads/Router
+[2025-06-05 12:28:07] [20/81] [成功] 成功下载: https://raw.githubusercontent.com/darknessm427/IranConfigCollector/main/bulk/vless_iran.txt -> downloads/vless_iran.txt
+[2025-06-05 12:28:08] [21/81] [成功] 成功下载: https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/wenode.txt -> downloads/wenode.txt
+[2025-06-05 12:28:09] [22/81] [成功] 成功下载: https://raw.githubusercontent.com/mgit0001/test_clash/main/heima.txt -> downloads/heima.txt
+[2025-06-05 12:28:10] [23/81] [成功] 成功下载: https://raw.githubusercontent.com/free18/v2ray/main/c.yaml -> downloads/c.yaml
+[2025-06-05 12:28:11] [24/81] [成功] 成功下载: https://raw.githubusercontent.com/MrMohebi/xray-proxy-grabber-telegram/master/collected-proxies/clash-meta/all.yaml -> downloads/all.yaml
+[2025-06-05 12:28:12] [25/81] [成功] 成功下载: https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/refs/heads/main/APIs/sc3.yaml -> downloads/sc3.yaml
+[2025-06-05 12:28:13] [26/81] [成功] 成功下载: https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub -> downloads/sub
+[2025-06-05 12:28:14] [27/81] [成功] 成功下载: https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/main/APIs/sc3.yaml -> downloads/sc3.yaml
+[2025-06-05 12:28:15] [28/81] [成功] 成功下载: https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta-2.yaml -> downloads/clash-meta-2.yaml
+[2025-06-05 12:28:16] [29/81] [成功] 成功下载: https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/refs/heads/main/APIs/sc4.yaml -> downloads/sc4.yaml
+[2025-06-05 12:28:17] [30/81] [成功] 成功下载: https://raw.githubusercontent.com/gfpcom/free-proxy-list/main/list/trojan.txt -> downloads/trojan.txt
+[2025-06-05 12:28:19] [31/81] [成功] 成功下载: https://raw.githubusercontent.com/anaer/Sub/refs/heads/main/clash.yaml -> downloads/clash.yaml
+[2025-06-05 12:28:20] [32/81] [成功] 成功下载: https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/yudou66.txt -> downloads/yudou66.txt
+[2025-06-05 12:28:21] [33/81] [成功] 成功下载: https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml -> downloads/clash.yaml
+[2025-06-05 12:28:22] [34/81] [成功] 成功下载: https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/main/APIs/sc1.yaml -> downloads/sc1.yaml
+[2025-06-05 12:28:23] [35/81] [成功] 成功下载: https://raw.githubusercontent.com/aiboboxx/v2rayfree/refs/heads/main/README.md -> downloads/README.md
+[2025-06-05 12:28:24] [36/81] [成功] 成功下载: https://raw.githubusercontent.com/gfpcom/free-proxy-list/main/list/vmess.txt -> downloads/vmess.txt
+[2025-06-05 12:28:25] [37/81] [成功] 成功下载: https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/refs/heads/main/APIs/sc1.yaml -> downloads/sc1.yaml
+[2025-06-05 12:28:27] [38/81] [成功] 成功下载: https://raw.githubusercontent.com/SamanGho/v2ray_collector/main/v2tel_links1.txt -> downloads/v2tel_links1.txt
+[2025-06-05 12:28:28] [39/81] [成功] 成功下载: https://raw.githubusercontent.com/leetomlee123/freenode/refs/heads/main/README.md -> downloads/README.md
+[2025-06-05 12:28:29] [40/81] [成功] 成功下载: https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/refs/heads/main/APIs/sc0.yaml -> downloads/sc0.yaml
+[2025-06-05 12:28:30] [41/81] [成功] 成功下载: https://raw.githubusercontent.com/NiceVPN123/NiceVPN/main/utils/pool/output.yaml -> downloads/output.yaml
+[2025-06-05 12:28:31] [42/81] [成功] 成功下载: https://raw.githubusercontent.com/gfpcom/free-proxy-list/main/list/vless.txt -> downloads/vless.txt
+[2025-06-05 12:28:32] [43/81] [成功] 成功下载: https://raw.githubusercontent.com/NiceVPN123/NiceVPN/main/Clash.yaml -> downloads/Clash.yaml
+[2025-06-05 12:28:33] [44/81] [成功] 成功下载: https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml -> downloads/list.yml
+[2025-06-05 12:28:34] [45/81] [成功] 成功下载: https://raw.githubusercontent.com/darknessm427/IranConfigCollector/main/bulk/trojan_iran.txt -> downloads/trojan_iran.txt
+[2025-06-05 12:28:35] [46/81] [成功] 成功下载: https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/nodev2ray.txt -> downloads/nodev2ray.txt
+[2025-06-05 12:28:37] [47/81] [成功] 成功下载: https://raw.githubusercontent.com/darknessm427/IranConfigCollector/main/bulk/ss_iran.txt -> downloads/ss_iran.txt
+[2025-06-05 12:28:38] [48/81] [成功] 成功下载: https://raw.githubusercontent.com/acymz/AutoVPN/main/data/V2.txt -> downloads/V2.txt
+[2025-06-05 12:28:39] [49/81] [成功] 成功下载: https://raw.githubusercontent.com/Roywaller/clash_subscription/refs/heads/main/clash_subscription.txt -> downloads/clash_subscription.txt
+[2025-06-05 12:28:40] [50/81] [成功] 成功下载: https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.yml -> downloads/Eternity.yml
+[2025-06-05 12:28:41] [51/81] [成功] 成功下载: https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/main/all_configs.txt -> downloads/all_configs.txt
+[2025-06-05 12:28:42] [52/81] [成功] 成功下载: https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml -> downloads/clash.yaml
+[2025-06-05 12:28:43] [53/81] [成功] 成功下载: https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2 -> downloads/v2
+[2025-06-05 12:28:44] [54/81] [成功] 成功下载: https://raw.githubusercontent.com/firefoxmmx2/v2rayshare_subcription/main/subscription/clash_sub.yaml -> downloads/clash_sub.yaml
+[2025-06-05 12:28:45] [55/81] [成功] 成功下载: https://raw.githubusercontent.com/darknessm427/IranConfigCollector/main/bulk/vmess_iran.txt -> downloads/vmess_iran.txt
+[2025-06-05 12:28:46] [56/81] [成功] 成功下载: https://raw.githubusercontent.com/lagzian/SS-Collector/main/SS/TrinityBase -> downloads/TrinityBase
+[2025-06-05 12:28:47] [57/81] [成功] 成功下载: https://raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml -> downloads/clash.provider.yaml
+[2025-06-05 12:28:48] [58/81] [成功] 成功下载: https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/nodefree.txt -> downloads/nodefree.txt
+[2025-06-05 12:28:50] [59/81] [成功] 成功下载: https://raw.githubusercontent.com/darknessm427/IranConfigCollector/main/V2.txt -> downloads/V2.txt
+[2025-06-05 12:28:51] [60/81] [成功] 成功下载: https://raw.githubusercontent.com/go4sharing/sub/main/sub.yaml -> downloads/sub.yaml
+[2025-06-05 12:28:52] [61/81] [成功] 成功下载: https://raw.githubusercontent.com/xiaoji235/airport-free/main/v2ray/v2rayshare.txt -> downloads/v2rayshare.txt
+[2025-06-05 12:28:53] [62/81] [成功] 成功下载: https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/main/APIs/sc0.yaml -> downloads/sc0.yaml
+[2025-06-05 12:28:54] [63/81] [失败] 下载失败: https://raw.githubusercontent.com/mai19950/clashgithub_com/refs/heads/main/site, 错误: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/mai19950/clashgithub_com/refs/heads/main/site
+[2025-06-05 12:28:55] [64/81] [成功] 成功下载: https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta.yaml -> downloads/clash-meta.yaml
+[2025-06-05 12:28:56] [65/81] [成功] 成功下载: https://raw.githubusercontent.com/ts-sf/fly/main/clash -> downloads/clash
+[2025-06-05 12:28:57] [66/81] [成功] 成功下载: https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/clashmeta.txt -> downloads/clashmeta.txt
+[2025-06-05 12:28:58] [67/81] [成功] 成功下载: https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/main/APIs/sc2.yaml -> downloads/sc2.yaml
+[2025-06-05 12:28:59] [68/81] [成功] 成功下载: https://raw.githubusercontent.com/gfpcom/free-proxy-list/main/list/ss.txt -> downloads/ss.txt
+[2025-06-05 12:29:00] [69/81] [成功] 成功下载: https://raw.githubusercontent.com/Roywaller/clash_subscription/main/clash_subscription.txt -> downloads/clash_subscription.txt
+[2025-06-05 12:29:01] [70/81] [成功] 成功下载: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml -> downloads/clash.yml
+[2025-06-05 12:29:02] [71/81] [成功] 成功下载: https://raw.githubusercontent.com/gfpcom/free-proxy-list/main/list/ssr.txt -> downloads/ssr.txt
+[2025-06-05 12:29:04] [72/81] [失败] 下载失败: https://raw.githubusercontent.com/ggborr/FREEE-VPN/main/4V2ray, 错误: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/ggborr/FREEE-VPN/main/4V2ray
+[2025-06-05 12:29:05] [73/81] [成功] 成功下载: https://raw.githubusercontent.com/lagzian/SS-Collector/main/SS/trinity_clash.yaml -> downloads/trinity_clash.yaml
+[2025-06-05 12:29:06] [74/81] [成功] 成功下载: https://raw.githubusercontent.com/mfbpn/tg_mfbpn_sub/main/trial.yaml -> downloads/trial.yaml
+[2025-06-05 12:29:07] [75/81] [成功] 成功下载: https://raw.githubusercontent.com/SamanGho/v2ray_collector/main/v2tel_links2.txt -> downloads/v2tel_links2.txt
+[2025-06-05 12:29:08] [76/81] [成功] 成功下载: https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/v2rayshare.txt -> downloads/v2rayshare.txt
+[2025-06-05 12:29:09] [77/81] [成功] 成功下载: https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml -> downloads/speednodes.yaml
+[2025-06-05 12:29:10] [78/81] [成功] 成功下载: https://raw.githubusercontent.com/peacefish/nodefree/main/sub/proxy_cf.yaml -> downloads/proxy_cf.yaml
+[2025-06-05 12:29:11] [79/81] [成功] 成功下载: https://raw.githubusercontent.com/vxiaov/free_proxies/main/links.txt -> downloads/links.txt
+[2025-06-05 12:29:12] [80/81] [成功] 成功下载: https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml -> downloads/clash.yaml
+[2025-06-05 12:29:13] [81/81] [成功] 成功下载: https://raw.githubusercontent.com/leetomlee123/freenode/main/README.md -> downloads/README.md
+[2025-06-05 12:29:14] 已生成 77 个GitHub raw格式的URL，保存到 raw_urls.txt
+[2025-06-05 12:29:14] 所有文件下载完成
