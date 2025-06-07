@@ -1,7 +1,7 @@
 proxies:
 - uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   server: 104.17.148.22
-  name: 052432065df6460a881d814da842ef86_@_[🇨🇦]t.me/ConfigsHub`
+  name: 2f6e2e21b8804505974cd1cd34505aca_@_[🇨🇦]t.me/ConfigsHub`
   type: vless
   port: 443
   network: ws
@@ -17,7 +17,7 @@ proxies:
       /egFIvRfmDaCdL5Uk/ODQuMjM1LjE2OS4yMzQ=?ed=2560/?@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
 - uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   server: 104.17.147.22
-  name: c81d46976e6346ca82b4595ec21436c6_@_[🇨🇦]t.me/ConfigsHub`
+  name: 90a99d17db644038a99ba09fe4984fb6_@_[🇨🇦]t.me/ConfigsHub`
   type: vless
   port: 443
   network: ws
@@ -33,7 +33,7 @@ proxies:
       /egFIvRfmDaCdL5Uk/ODQuMjM1LjE2OS4yMzQ=?ed=2560/?@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
 - uuid: 4ea841c1-0dc1-4563-9f47-deba8407cb4e
   server: 172.67.73.163
-  name: 7e9cf193738f4a3a8545b1ae3b189695_@_[🇨🇦]t.me/ConfigsHub`
+  name: 1f479441d59d48c98c5ded7d2a7bbab8_@_[🇨🇦]t.me/ConfigsHub`
   type: vless
   port: 8080
   network: ws
@@ -46,175 +46,10 @@ proxies:
       /?ed=2048@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
 - uuid: df0680ca-e43c-498d-ed86-8e196eedd012
   server: 45.159.248.125
-  name: 63806d42392d483ba66a33cbce52ea94_@_[🇬🇧]t.me/ConfigsHub`
+  name: 97b6157f785a4b20ba583c731564ff7f_@_[🇬🇧]t.me/ConfigsHub`
   type: vless
   port: 8880
   network: grpc
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: 41ec8f30-6cd7-4703-94e1-95913c1626fa
-  server: nufilter.fastly80-2.hosting-ip.com
-  name: 03da7ccf61d24bc79ae1a33434183f04_@_19%F0%9F%8C%BA%40oneclickvpnkeys
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: 
-      /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80
-- uuid: 6603a779-07c9-4bc9-8f61-4a09c238653a
-  server: 62.60.193.221
-  name: 
-    911457a334b34cc6a27ce45562aab81f_@_👉🆔@v2ray_configs_pool📡🇮🇷®️Iran©️Tehrān🅿️ping:156.77ms`
-  type: vless
-  port: 32774
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /6603a779
-- uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  server: 5.10.215.20
-  name: a4d44418ac4140dbb3a24a2283e1f2dc_@_👉🆔@v2ray_configs_pool📡🇩🇪®️Germany©️Frankfurt
-    am Main🅿️ping:8.41ms`
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /?ed=2560
-- uuid: 15face3d-979a-40e5-fcbe-62b82a46aed4
-  server: 151.101.64.155
-  name: 
-    d45761b522134fcfbc6d51acd5338627_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Montreal🅿️ping:7.42ms`
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: 
-      /tel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel?ed=2048
-- uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
-  server: domain2025.dpdns.org
-  name: 
-    e9a8e93927414013bf3052330f145c88_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.83ms`
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /yeTxGofK7eV9fR3N?ed=2560
-- uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-  server: 95.164.45.85
-  name: 
-    1eba78cd9178424689cda28e2c18f03d_@_👉🆔@v2ray_configs_pool📡🇫🇷®️France©️Paris🅿️ping:45.5ms`
-  type: vless
-  port: 8880
-  network: grpc
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: e4824193-4f54-453b-d037-88368e85ef0e
-  server: 45.82.251.149
-  name: a0e678aae5904adbacf85d92018db635_@_👉🆔@v2ray_configs_pool📡🇲🇽®️Mexico©️Mexico
-    City🅿️ping:104.58ms`
-  type: vless
-  port: 8880
-  network: grpc
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: pqh33v3.vetdomok.shop
-  fingerprint: ''
-- uuid: 7a240994-4475-4f45-d10d-7f5b3599ff71
-  server: 188.34.164.75
-  name: 
-    883798f7d4dd4b5f9a98e7e2e6511130_@_👉🆔@v2ray_configs_pool📡🇩🇪®️Germany©️Falkenstein🅿️ping:51.21ms`
-  type: vless
-  port: 2053
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: 
-      /telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY-telegram,@BINEXTIFY?ed=2560
-- uuid: 959aa447-dd4e-4267-97ab-e1c780f39e1d
-  server: hajlab.ucdavis.edu
-  name: 8d599598b0ee442db8aa4fad075b5384_@_🇷🇺@𝚅2𝚁𝙰𝚈_𝙾𝙵𝙵𝙸𝙲𝙸𝙰𝙻 | All¹`
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: 
-      /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048
-- uuid: b79c6f9b-c143-44ba-ac7e-c89c02c42a7f
-  server: iranserver.com
-  name: 5a5a0e57b2e048ec9a7825bd8c55777e_@_🇩🇪@𝚅2𝚁𝙰𝚈_𝙾𝙵𝙵𝙸𝙲𝙸𝙰𝙻 | All²
-  type: vless
-  port: 2052
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: '@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET?ed=2048'
-- uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  cipher: auto
-  alterId: 0
-  server: 15.235.50.172
-  name: 
-    8822ba82f4e644ffa521ec316f2561f3_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Beauharnois🅿️ping:147.74ms
-  type: vmess
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /linkvws
-- uuid: ab126a40-24fa-4a51-a505-00cfb67ada28
-  server: 185.79.158.154
-  name: 
-    45a12cf93180434fa506da2fe884b7b6_@_👉🆔@v2ray_configs_pool📡🇮🇷®️Iran©️Isfahan🅿️ping:109.13ms`
-  type: vless
-  port: 8087
-  network: tcp
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: 18d32757-070c-40aa-8904-eef3a590f7c6
-  server: 147.45.73.191
-  name: 
-    0b45dfd85d964cf58acd59ba04a6e65c_@_👉🆔@v2ray_configs_pool📡🇸🇪®️Sweden©️Stockholm🅿️ping:15.42ms`
-  type: vless
-  port: 29108
-  network: tcp
   tls: false
   udp: false
   client-fingerprint: chrome
@@ -222,8 +57,7 @@ proxies:
 - uuid: d3541bb4-2cb5-4372-beab-fac34d5b8539
   server: 104.17.147.22
   name: 
-    ecd995cac1124545a28fc15a0b5107d3_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:9.25ms`vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@162.159.248.20:8880?path=%2F%3Fed%3D2560&security=none&encryption=none&host=reedfree8mahsang2.redorg.ir&type=ws#👉🆔@v2ray_configs_pool📡🇺🇸®️United
-    States©️Newark🅿️ping:8.31ms`
+    0656eed621864774a45d96ff557be72a_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.23ms`
   type: vless
   port: 443
   network: ws
@@ -238,7 +72,7 @@ proxies:
     path: /netherlands/amsterdam/vl/ws/tls
 - uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   server: 66.81.247.236
-  name: 3799902de4c84fde98fca044eb929788_@_👉🆔@v2ray_configs_pool📡🇺🇸®️United States©️Belmont🅿️ping:8.42ms`
+  name: eb9eee55df8c4f9dac0276de7f5caf40_@_👉🆔@v2ray_configs_pool📡🇺🇸®️United States©️Belmont🅿️ping:8.45ms`
   type: vless
   port: 8880
   network: ws
@@ -248,40 +82,12 @@ proxies:
   fingerprint: ''
   ws-opts:
     path: '/Channel id: @VPN365R?ed=2560'
-- uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  server: 198.41.214.20
-  name: 
-    e17587cea0f54b179b1ace3eeab9f7af_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.1ms`
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /?ed
-- uuid: 90f357dd-79ac-47c6-b0b8-958e2d19de07
-  cipher: auto
-  alterId: 0
-  server: xcvfgty674.999815.xyz
-  name: 
-    5313e7113a424200b9f605c085fcc266_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.47ms
-  type: vmess
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /10W6SJaK0F0oVXeNU6S2RVRP
 - uuid: db69d5bc-d36c-4903-f471-74b98c5cefe5
   cipher: auto
   alterId: 0
   server: hk2.lrzdx.uk
   name: 
-    c6048d7fa25946fbb22f732551e52833_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.93ms
+    b529c410f7e04d158d81f3b0150a0387_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:9.23ms
   type: vmess
   port: 443
   network: ws
@@ -294,25 +100,10 @@ proxies:
     headers:
       host: hk2.lrzdx.uk
     path: /register
-- uuid: d4e52293-4a82-404c-ac29-93afc006dcbb
-  server: bitbolajepe.vip
-  name: 650c7153745640f7b518e3b7e3574065_@_👉🆔@v2ray_configs_pool📡🇺🇸®️United States©️Washington
-    D.C.🅿️ping:9.45ms`
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: random
-  servername: crolindd.dearcarlotta.cloudns.org
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: crolindd.dearcarlotta.cloudns.org
-    path: /proxyip=citlali.shorekeeper.ir
-- uuid: 8c9a892c-e9d5-4fff-bfdb-8ef9c50272b1
-  server: 162.251.82.187
-  name: 2713567fc08f4f3981d6a55eec0b932a_@_👉🆔@v2ray_configs_pool📡🇺🇸®️United States©️Burlington🅿️ping:8.1ms`
+- uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
+  server: domain2025.dpdns.org
+  name: 
+    168d360a3ff748429c3b563a2e383060_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:9.52ms`
   type: vless
   port: 80
   network: ws
@@ -321,10 +112,102 @@ proxies:
   client-fingerprint: chrome
   fingerprint: ''
   ws-opts:
-    path: 58834/mail-template
-- uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  server: 185.162.229.243
-  name: 54c5cc56ae5e4dc1bb249ee3642cd5f3_@_👉🆔@v2ray_configs_pool📡🇬🇧®️United Kingdom©️Southport🅿️ping:8.42ms`
+    path: /yeTxGofK7eV9fR3N?ed=2560
+- uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
+  server: 104.21.75.66
+  name: 
+    349578f6ca30469781938f699c3c2d7b_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.35ms`
+  type: vless
+  port: 2086
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /s9OZ6FClZzVoeUpN?ed=2560
+- uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
+  server: 104.21.75.66
+  name: 
+    977b24069de6437bb30db06bfe7dc257_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.84ms`
+  type: vless
+  port: 8080
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /XxRU33bZpeTdFLR6?ed=2560
+- uuid: 4c2347c2-7751-4dda-b370-af9178cdab97
+  server: 194.182.79.216
+  name: 
+    1723bfa4d3a242cc9beb1ed8e389767d_@_👉🆔@v2ray_configs_pool📡🇨🇿®️Czechia©️Prague🅿️ping:38.56ms`
+  type: vless
+  port: 52843
+  network: grpc
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  grpc-opts:
+    grpc-service-name: 
+      ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON?ed=2048
+- uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+  server: 45.140.167.168
+  name: a00c2e8d49e14f02ae367a4bc6eaf818_@_👉🆔@v2ray_configs_pool📡🇬🇧®️United Kingdom©️Coventry🅿️ping:56.94ms`
+  type: vless
+  port: 8880
+  network: grpc
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+- uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
+  server: 104.21.75.66
+  name: 
+    8cb3fa577aec43b195cdccdc8e8a233b_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.05ms`
+  type: vless
+  port: 2082
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /KQqqEF0TKMgJcC15?ed=2560
+- uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  cipher: auto
+  alterId: 0
+  server: 23.162.200.227
+  name: 
+    6f27fbce67714a26985414c4e41eee22_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:109.93ms
+  type: vmess
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /linkvws
+- uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  server: www.speedtest.net
+  name: 
+    7f20e02bddf44a5a8a1b70b2937b3c8c_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:25.85ms`
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /Vb2kRpQSrEqsUKCX?ed=2560/?BIA_CHANEL@JOKERRVPN
+- uuid: 1e9cdbc8-8bff-4a97-8d53-8e10dc4848bf
+  server: www.speedtest.net
+  name: 
+    332497cccde84e8ab74b66ace5416f89_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:9.41ms`
   type: vless
   port: 8880
   network: ws
@@ -333,13 +216,83 @@ proxies:
   client-fingerprint: chrome
   fingerprint: ''
   ws-opts:
-    path: /Telegram@ShadowProxy66
+    path: 
+      /telegram---Academi_vpn--telegram--Academi_vpn--telegram--Academi_vpn--telegram--Academi_vpn--telegram----Academi_vpn--Mystic_vpn?ed=2048
+- uuid: 1e9cdbc8-8bff-4a97-8d53-8e10dc4848bf
+  server: www.zula.ir
+  name: 
+    d1cc38d86a154e00bb0bec39e8efc643_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.96ms`
+  type: vless
+  port: 8880
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: 
+      /telegram---Academi_vpn--telegram--Academi_vpn--telegram--Academi_vpn--telegram--Academi_vpn--telegram----Academi_vpn--Mystic_vpn?ed=2048
+- uuid: 6d94acdb-04cf-409a-9410-81442f8417c5
+  server: 62.60.148.163
+  name: 
+    9b36c04f56b34cfda54dca1177ba7cf8_@_%40meli_proxyy%D8%B3%D8%B1%D9%88%D8%B1%D8%A7%DB%8C%E2%80%8C%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1`
+  type: vless
+  port: 11072
+  network: tcp
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+- uuid: 41ec8f30-6cd7-4703-94e1-95913c1626fa
+  server: nufilter.fastly80-2.hosting-ip.com
+  name: 
+    5793c98a47234d9093b9cf802d14ebc5_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Montreal🅿️ping:7.75ms`
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: 
+      /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80
+- uuid: 15face3d-979a-40e5-fcbe-62b82a46aed4
+  server: 151.101.64.155
+  name: 
+    1af8b88bfbbe4f0c84d0848815893573_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Montreal🅿️ping:7.23ms`
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: 
+      /tel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel?ed=2048
+- uuid: 64b48f35-d81e-4227-8075-6337e6ef0b85
+  server: 185.143.233.120
+  name: 
+    a80dea9517df463eb04840be6d77b75e_@_👉🆔@v2ray_configs_pool📡🇮🇷®️Iran©️Tehrān🅿️ping:96.81ms`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: jmu.ac.ir
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: jmu.ac.ir
+    path: /telegram-mitivpn-telegram-mitivpn-telegram-mitivpn
 - uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
   cipher: auto
   alterId: 0
   server: 104.19.32.0
   name: 
-    8df1052f90f14b11a926d12caf3661ba_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.29ms
+    d9fa07fab5cf486fa440adf871b32094_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:23.97ms
   type: vmess
   port: 443
   network: ws
@@ -352,21 +305,10 @@ proxies:
     headers:
       host: xmivideo.cfd
     path: /linkws
-- uuid: c6e48175-7639-4e16-b374-455f1939c075
-  server: farsidutch.nl
-  name: bb9d20bdbe4941fa8689845a11f83eb3_@_👉🆔@v2ray_configs_pool📡🇩🇪®️Germany©️Bad
-    Oeynhausen🅿️ping:30.22ms`
-  type: vless
-  port: 30595
-  network: grpc
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: 1be972af-90f5-4ce7-88bc-188ec4122082
-  server: 151.101.64.155
-  name: 
-    92a1d5c38b7d47a69bd1b2fb428a0c27_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Montreal🅿️ping:7.16ms`vless://00f8d77b-ba64-4807-8fc0-bb3cbe89b6e6@51.75.168.148:1370?security=reality&encryption=none&pbk=_N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw&host=---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net&headerType=none&fp=chrome&type=tcp&sni=refersion.com&sid=e1afb93bfe75a34b#[🇬🇧]t.me/ConfigsHub`
+- uuid: d3541bb4-2cb5-4372-beab-fac34d5b8539
+  server: 199.232.13.32
+  name: ad8cf7ea215d4e959c276ab4f1b92939_@_👉🆔@v2ray_configs_pool📡🇺🇸®️United States©️San
+    Francisco🅿️ping:7.6ms`
   type: vless
   port: 80
   network: ws
@@ -375,295 +317,10 @@ proxies:
   client-fingerprint: chrome
   fingerprint: ''
   ws-opts:
-    path: 
-      /-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2048
-- uuid: 41ec8f30-6cd7-4703-94e1-95913c1626fa
-  server: nufilter.fastly80-2.hosting-ip.com
-  name: 95bb584a60ff4de3a3771582e9800ee5_@_[🇺🇸]t.me/ConfigsHub`
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: 
-      /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80
-- uuid: 4ea841c1-0dc1-4563-9f47-deba8407cb4e
-  server: 172.67.73.163
-  name: 68c9489b322b4a71abf9bc37b65596f8_@_[🇨🇦]t.me/ConfigsHub`
-  type: vless
-  port: 8080
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: 
-      /?ed=2048@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
-- uuid: 621a5d75-7cfa-4677-8826-c4acec005dcf
-  server: 104.24.159.174
-  name: 7f6892132ba34efba26206e4dacdd227_@_[🇨🇦]t.me/ConfigsHub`
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: vmess.yxxc.cn
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: vmess.yxxc.cn
-    path: /?ed=2560
-- uuid: 18d32757-070c-40aa-8904-eef3a590f7c6
-  server: 147.45.73.191
-  name: 7831bb97c2fd48b5b0658c85a13a3dd2_@_[🇸🇪]t.me/ConfigsHub`
-  type: vless
-  port: 29108
-  network: tcp
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: 15face3d-979a-40e5-fcbe-62b82a46aed4
-  server: 151.101.64.155
-  name: e503acb796a946078093ccd45754f348_@_[🇺🇸]t.me/ConfigsHub`
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: 
-      /tel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel?ed=2048
-- uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-  server: 45.159.248.125
-  name: 9814e5075ff147f4945139529eb99c99_@_[🇬🇧]t.me/ConfigsHub`
-  type: vless
-  port: 8880
-  network: grpc
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: f105d697-b051-4731-a710-95b79e3edc1a
-  server: zula.ir
-  name: 010a59e28c9447b9a4eacbfb989dd43d_@_[🇨🇦]t.me/ConfigsHub`
-  type: vless
-  port: 2053
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: all15.kikforwindows.com
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: all15.kikforwindows.com
-    path: /containers/de
-- uuid: e4824193-4f54-453b-d037-88368e85ef0e
-  server: 45.82.251.133
-  name: 65ab4097d6634f9697093eef41a31235_@_[🇺🇸]t.me/ConfigsHub`
-  type: vless
-  port: 8880
-  network: grpc
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: e4824193-4f54-453b-d037-88368e85ef0e
-  server: 45.82.251.139
-  name: 5347b19e83364127b962472319937ee6_@_[🇺🇸]t.me/ConfigsHub`
-  type: vless
-  port: 8880
-  network: grpc
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-  server: 84.32.9.86
-  name: f48b2984fcd3490283cc061894659a21_@_[🏁]t.me/ConfigsHub`
-  type: vless
-  port: 8880
-  network: grpc
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-  server: 84.32.131.73
-  name: bc7f72f781f74fba83ecf9e905875b6a_@_[🇺🇸]t.me/ConfigsHub`
-  type: vless
-  port: 8880
-  network: grpc
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-  server: 95.164.45.70
-  name: 7acda3eabbb24776b3ae61929e215451_@_[🇫🇷]t.me/ConfigsHub`
-  type: vless
-  port: 8880
-  network: grpc
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: 1bfe7cf3-5faa-481a-87b6-c6318c3f4d52
-  server: hajlab.ucdavis.edu
-  name: 60c20340894f40d092d3c8deacd93288_@_[🇺🇸]t.me/ConfigsHub`
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: 
-      /@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy?ed=2048
-- uuid: 01e09d56-4242-439f-a180-939273b1df4b
-  server: 104.19.54.50
-  name: 948abb510f6f4f21bbccb7d6c227cc75_@_[🇨🇦]t.me/ConfigsHub`
-  type: vless
-  port: 8080
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: 
-      /@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy?ed=2048
-- uuid: 5d61eb48-8187-4b04-9921-400a76b7441f
-  server: www.speedtest.net
-  name: d70c4d4906864d168288df325caf4389_@_[🇨🇦]t.me/ConfigsHub`
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: 
-      /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048
-- uuid: 959aa447-dd4e-4267-97ab-e1c780f39e1d
-  server: hajlab.ucdavis.edu
-  name: 5985775aa70549c188171cf957fc57a4_@_[🇺🇸]t.me/ConfigsHub`
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: 
-      /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048
-- uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-  server: 95.164.45.85
-  name: 0a896e5e42cb469f8d70e1721de9aaf9_@_[🇫🇷]t.me/ConfigsHub`
-  type: vless
-  port: 8880
-  network: grpc
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: d4e52293-4a82-404c-ac29-93afc006dcbb
-  server: bitbolajepe.vip
-  name: b317df81a8614423858b78b8033e27b4_@_[🇺🇸]t.me/ConfigsHub`
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: random
-  servername: crolindd.dearcarlotta.cloudns.org
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: crolindd.dearcarlotta.cloudns.org
-    path: /proxyip=citlali.shorekeeper.ir
-- uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  server: 104.17.148.22
-  name: 21d8fef9a4c24c1da880435bd9185fea_@_%40G0Dv2ray%20ALL
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: randomized
-  servername: UUHuhyYgESDfgh.UyHjhgvgFCjgujhBuILbVFDXdxM.xYZ
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: UUHuhyYgESDfgh.UyHjhgvgFCjgujhBuILbVFDXdxM.xYZ
-    path: 
-      /egFIvRfmDaCdL5Uk/ODQuMjM1LjE2OS4yMzQ=?ed=2560/?MTMVPN---MTMVPN---MTMVPN---MTMVPN---MTMVPN---MTMVPN
-- uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
-  server: 172.67.153.156
-  name: 09510448d3054eddba3ad364c1c15739_@_%40G0Dv2ray
-  type: vless
-  port: 8443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: ovhwuxian.pai50288.uk
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: ovhwuxian.pai50288.uk
-    path: /57ba2ab1
-- uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  server: www.speedtest.net
-  name: 4b907abcf0554398b061d075c911520f_@_%40V2ray1_Ng
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /Vb2kRpQSrEqsUKCX?ed=2560/?BIA_CHANEL@JOKERRVPN
-- uuid: ab126a40-24fa-4a51-a505-00cfb67ada28
-  server: 185.79.158.154
-  name: 5863b6a3639243b5bca445bbd912afe4_@_%40V2ray1_Ng
-  type: vless
-  port: 8087
-  network: tcp
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: 0d0782a3-2c62-4936-b893-5790188778ea
-  server: www.speedtest.net
-  name: b28be39ee0d7404d84b70f30e10ba09a_@_%40V2ray1_Ng`
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: XbU10cS9vT.gIgA1.oRg
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: XbU10cS9vT.gIgA1.oRg
-    path: /
+    path: /netherlands/amsterdam/vl/ws/tls
 - uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-  server: 15.236.59.146
-  name: 3d31879909f745399e0a7739c27e9a9a_@_@VlessConfig 🇨🇵
+  server: 35.181.245.246
+  name: da5c73b6f3fe431f8580e8b734080161_@_@VlessConfig 🇨🇵
   type: vless
   port: 22224
   network: ws
@@ -676,123 +333,10 @@ proxies:
     headers:
       host: trojan.burgerip.co.uk
     path: /telegram-channel-vlessconfig
-- uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
-  server: 172.67.153.156
-  name: 
-    faa449cc3b0f454d97c4de03e0d3f644_@_%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20%D9%85%D8%A7%20%D8%AF%D8%B1%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%3A%20V2rayng_Fast%40`
-  type: vless
-  port: 8443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: ovhwuxian.pai50288.uk
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: ovhwuxian.pai50288.uk
-    path: /57ba2ab1
-- uuid: 5a76615b-10e1-46f7-d521-17662f3c7287
-  server: 37.27.191.28
-  name: 88dded8258b542b0ba258c064c9eb0e8_@_[🇫🇮]t.me/ConfigsHub`
-  type: vless
-  port: 8880
-  network: grpc
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: d41d2d38-8d13-4458-b9cf-1dfc8b0fe2b7
-  server: 199.232.13.59
-  name: ed2f664fc25a4a34ae9c7ea0da4e49ce_@_[🇺🇸]t.me/ConfigsHub`
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /?ed=2048
-- uuid: e607e472-cee3-4ea7-c731-4a041a961a05
-  server: 5.75.194.94
-  name: 4488e3ac11c44b63bb65df4b163a0c86_@_[🇩🇪]t.me/ConfigsHub`
-  type: vless
-  port: 8880
-  network: grpc
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: 4f7f81ac-07fe-4d6a-ba57-728cb970b9fb
-  server: 194.182.79.143
-  name: 6edd182e07494cf4a7deac9f36f16d73_@_[🏁]t.me/ConfigsHub`
-  type: vless
-  port: 36936
-  network: grpc
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  grpc-opts:
-    grpc-service-name: 
-      ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON?ed=2048
-- uuid: 70f8697b-f9f3-4692-8e0a-3d1834fd76dc
-  server: 104.21.75.193
-  name: f60fa16859e84c01a0ae7cd4dca0f17b_@_[🇨🇦]t.me/ConfigsHub`
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: 64D78605.Fr-7rB.pageS.dEv
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: 64D78605.Fr-7rB.pageS.dEv
-    path: /YBa1BBPnrlsvyMZD/MzUuMTgwLjIyOS4x?ed=2560
-- uuid: 18d32757-070c-40aa-8904-eef3a590f7c6
-  server: 147.45.73.191
-  name: f5cca198ff49423592a87a2119e73fc8_@_[🇸🇪]t.me/ConfigsHub`
-  type: vless
-  port: 29108
-  network: tcp
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: 63d7714a-2ac5-46ac-93be-96cea00300f8
-  server: 172.64.88.159
-  name: a227a61e1f594aeeac6232e66343cf5b_@_[🇨🇦]t.me/ConfigsHub`
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /Telegram@V2ray_Alpha/?ed=2560
-- uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
-  server: 172.67.153.156
-  name: 802060ca78ae4872987350271d497e1d_@_[🇨🇦]t.me/ConfigsHub`
-  type: vless
-  port: 8443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: ovhwuxian.pai50288.uk
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: ovhwuxian.pai50288.uk
-    path: /57ba2ab1
-- uuid: 1be972af-90f5-4ce7-88bc-188ec4122082
+- uuid: 53cb5021-3adf-45a0-8ca4-6fb9d25e96ce
   server: 151.101.64.155
   name: 
-    0ac7ff8ab3914d5c9a2646bac8db1aff_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Montreal🅿️ping:7.26ms`
+    09b57de014e84154b677d19f8024ebd9_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Montreal🅿️ping:7.23ms`
   type: vless
   port: 80
   network: ws
@@ -803,128 +347,75 @@ proxies:
   ws-opts:
     path: 
       /-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2048
-- uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  server: 104.17.148.22
+- uuid: 1fd3b251-7b2b-46df-bbbe-72f17ef7a77b
+  server: 194.182.79.143
   name: 
-    074a5b2a859f40aa9cfe9167706f5b67_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.28ms`
+    3ff488a50a404a3d9a15b7bbf06a4440_@_👉🆔@v2ray_configs_pool📡🇨🇿®️Czechia©️Prague🅿️ping:38.74ms`
   type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: randomized
-  servername: UUHuhyYgESDfgh.UyHjhgvgFCjgujhBuILbVFDXdxM.xYZ
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: UUHuhyYgESDfgh.UyHjhgvgFCjgujhBuILbVFDXdxM.xYZ
-    path: 
-      /egFIvRfmDaCdL5Uk/ODQuMjM1LjE2OS4yMzQ=?ed=2560/?@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
-- uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  server: 104.17.148.22
-  name: 
-    8eddacdffde64bac89b192c964d36741_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.28ms`
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: randomized
-  servername: UUHuhyYgESDfgh.UyHjhgvgFCjgujhBuILbVFDXdxM.xYZ
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: UUHuhyYgESDfgh.UyHjhgvgFCjgujhBuILbVFDXdxM.xYZ
-    path: 
-      /egFIvRfmDaCdL5Uk/ODQuMjM1LjE2OS4yMzQ=?ed=2560/?@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
-- uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  server: 104.17.147.22
-  name: 
-    384a767df0614d6e9194e400c2ac0938_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.14ms`
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: randomized
-  servername: UUHuhyYgESDfgh.UyHjhgvgFCjgujhBuILbVFDXdxM.xYZ
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: UUHuhyYgESDfgh.UyHjhgvgFCjgujhBuILbVFDXdxM.xYZ
-    path: 
-      /egFIvRfmDaCdL5Uk/ODQuMjM1LjE2OS4yMzQ=?ed=2560/?@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
-- uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  server: 104.17.147.22
-  name: 
-    86c12278d7e4483686b2ab2a73f8ade0_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.14ms`
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: randomized
-  servername: UUHuhyYgESDfgh.UyHjhgvgFCjgujhBuILbVFDXdxM.xYZ
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: UUHuhyYgESDfgh.UyHjhgvgFCjgujhBuILbVFDXdxM.xYZ
-    path: 
-      /egFIvRfmDaCdL5Uk/ODQuMjM1LjE2OS4yMzQ=?ed=2560/?@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
-- uuid: 4ea841c1-0dc1-4563-9f47-deba8407cb4e
-  server: 172.67.73.163
-  name: 
-    c9f7c4da53d84b019a8f0d924f8fc306_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.37ms`
-  type: vless
-  port: 8080
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: 
-      /?ed=2048@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
-- uuid: 4ea841c1-0dc1-4563-9f47-deba8407cb4e
-  server: 172.67.73.163
-  name: 
-    921d72f1e8704efb867073836e0b3fa3_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.37ms`
-  type: vless
-  port: 8080
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: 
-      /?ed=2048@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
-- uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-  server: 45.159.248.125
-  name: ee6e188da151496ca3b2f2906d3403e3_@_👉🆔@v2ray_configs_pool📡🇬🇧®️United Kingdom©️New
-    Barnet🅿️ping:60.18ms`
-  type: vless
-  port: 8880
+  port: 36936
   network: grpc
   tls: false
   udp: false
   client-fingerprint: chrome
   fingerprint: ''
-- uuid: 4e0d4934-b519-4652-90c0-e20a911a2647
-  server: 185.79.158.154
+  grpc-opts:
+    grpc-service-name: 
+      ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON?ed=2048
+- server: 212.183.88.58
+  name: 76cbe42dac4e46f099865da28899cecc_@_👉🆔@v2ray_configs_pool📡🇦🇹®️Austria©️Vienna
+    (Leopoldstadt)🅿️ping:8.73ms`
+  type: trojan
+  port: 443
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  client-fingerprint: chrome
+- uuid: 1da60ffd-f9f4-4601-89c4-e017f7584097
+  server: 194.182.79.143
   name: 
-    34f2277e134f4f00b730c4bd86af0213_@_👉🆔@v2ray_configs_pool📡🇮🇷®️Iran©️Isfahan🅿️ping:124.67ms`
+    c8ade6eb83774b90b387cf6cfee7fe73_@_👉🆔@v2ray_configs_pool📡🇨🇿®️Czechia©️Prague🅿️ping:38.74ms`
   type: vless
-  port: 8087
-  network: tcp
+  port: 36936
+  network: grpc
   tls: false
   udp: false
   client-fingerprint: chrome
   fingerprint: ''
-- uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
-  server: 199.232.13.32
-  name: 88f664fcae5940eeac6743f054de6f30_@_👉🆔@v2ray_configs_pool📡🇺🇸®️United States©️San
-    Francisco🅿️ping:7.15ms`
+  grpc-opts:
+    grpc-service-name: 
+      ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON?ed=2048
+- uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  server: 162.159.248.20
+  name: c08300a6c6854a83ac914c8e2ad33b92_@_👉🆔@v2ray_configs_pool📡🇺🇸®️United States©️Newark🅿️ping:8.35ms`
+  type: vless
+  port: 8880
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /?ed=2560
+- uuid: 5428dcc2-9950-4404-b8a5-9dac82acb210
+  cipher: auto
+  alterId: 0
+  server: cloudgetservice.mcloudservice.site
+  name: 
+    dacc9da50b674f5cba7bea95ca2da61c_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:10.39ms
+  type: vmess
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: cloudgetservice.mcloudservice.site
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: cloudgetservice.mcloudservice.site
+    path: /linkws
+- uuid: 48924168-851d-4b75-acf0-b9ff91c709bd
+  server: www.speedtest.net
+  name: 
+    d970dc88d39e467bb04de370205696db_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.92ms`
   type: vless
   port: 80
   network: ws
@@ -934,13 +425,740 @@ proxies:
   fingerprint: ''
   ws-opts:
     path: 
-      /Telegram:@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG,@ConfingV2RaayNG?ed=2048
+      /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048
+- uuid: 391c477b-545d-405f-bb78-371e0d1fb63f
+  server: 194.182.79.41
+  name: 
+    dcf7932b896a4e85abe3fbb28c4f79f1_@_👉🆔@v2ray_configs_pool📡🇨🇿®️Czechia©️Prague🅿️ping:38.28ms`
+  type: vless
+  port: 48615
+  network: grpc
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  grpc-opts:
+    grpc-service-name: 
+      ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON?ed=2048
+- server: 217.163.76.227
+  name: a0053309e7064e42a81affe9c358e9b2_@_👉🆔@v2ray_configs_pool📡🇬🇧®️United Kingdom©️Havant🅿️ping:10.73ms`
+  type: trojan
+  port: 443
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  client-fingerprint: chrome
+- uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
+  server: 104.17.148.22
+  name: 
+    3fd9eccb3c9946bd9b8fa263ff55849e_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:35.46ms`
+  type: vless
+  port: 2095
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /901qf5SHefST0QYH?ed=2560
+- uuid: 3554a8e1-1c36-4717-bc2b-c29663d63d28
+  server: 194.182.79.147
+  name: d32f1c11320f4523a3a2750a9d81ce28_@_[🏁]t.me/ConfigsHub`
+  type: vless
+  port: 35628
+  network: grpc
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  grpc-opts:
+    grpc-service-name: 
+      ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON?ed=2048
+- uuid: f7051b24-863a-4971-aa5d-456d2cc47834
+  server: 151.101.64.155
+  name: 
+    6d64d9435f784c6ea1b40865ae874923_@_%F0%9F%87%A9%F0%9F%87%AAXPNTEAM%20%20%20%5BCONFIGFREE%5D-qxne482lg```
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: '@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam?ed=2048'
+- uuid: e7f058b7-557c-4bcf-a0b5-3865e0a845a1
+  server: 104.19.54.50
+  name: 
+    93995423baf045f39039cdd93b09e088_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.53ms`
+  type: vless
+  port: 8080
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: 
+      /@Moft_Vpn----@Moft_Vpn----@Moft_Vpn----@Moft_Vpn----@Moft_Vpn----@Moft_Vpn----@Moft_Vpn----@Moft_Vpn----@Moft_Vpn----@Moft_Vpn----@Moft_Vpn----@Moft_Vpn?ed=2048
+- uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
+  server: 172.67.215.253
+  name: 
+    a909b4d14c6442eeb5124ad3e1bc686a_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.37ms`
+  type: vless
+  port: 2082
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /zgXMXYP1CPe1GKrv?ed=2560
+- uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
+  server: domain2025.dpdns.org
+  name: 
+    3e819aecfa5847feac3408fbc943c787_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:9.97ms`
+  type: vless
+  port: 2082
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /OBSsA6RsqLVPFcMu?ed=2560
+- uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
+  server: 172.67.215.253
+  name: 
+    d9d3586c4ab9419ba07a9c68a174994d_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:10.55ms`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: randomized
+  servername: doMaIn2025.dPDnS.OrG
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: doMaIn2025.dPDnS.OrG
+    path: /b5anVPU4Ifk7baFU?ed=2560
+- uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
+  server: domain2025.dpdns.org
+  name: 
+    5d3f52b3751c45f388f43a5fefb25b1e_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:9.57ms`
+  type: vless
+  port: 2096
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: randomized
+  servername: DoMaiN2025.DPDNs.oRg
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: DoMaiN2025.DPDNs.oRg
+    path: /Hv491CPHlKPsYtSW?ed=2560
+- uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
+  server: domain2025.dpdns.org
+  name: 
+    5b4e10e056b04317a5de0a23c20cfe87_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.56ms`
+  type: vless
+  port: 2053
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: randomized
+  servername: DOmain2025.DpDnS.OrG
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: DOmain2025.DpDnS.OrG
+    path: /hKdEAWMK3AL72CFl?ed=2560
+- uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
+  server: domain2025.dpdns.org
+  name: 
+    8cd547635eaf4943a5c62b194aec591b_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:12.25ms`
+  type: vless
+  port: 2052
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /Lx85HksDCHd0r7iR?ed=2560
+- uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
+  server: 172.67.215.253
+  name: 
+    55cb4b93a22c4d288fab9770cbf18122_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.32ms`
+  type: vless
+  port: 2096
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: randomized
+  servername: DOMaiN2025.dPDnS.orG
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: DOMaiN2025.dPDnS.orG
+    path: /WiSJSOQ9TlxvXGqU?ed=2560
+- uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
+  server: 172.67.215.253
+  name: 
+    9ae08ee51336499697de17598a4ef93b_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.61ms`
+  type: vless
+  port: 2087
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: randomized
+  servername: DomaiN2025.dPDNs.ORg
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: DomaiN2025.dPDNs.ORg
+    path: /CMgOUQ4avbR1a1ZT?ed=2560
+- uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
+  server: domain2025.dpdns.org
+  name: 
+    c909971696114a219b29eec475dccd58_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:9.24ms`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: randomized
+  servername: domAin2025.DPdNS.ORg
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: domAin2025.DPdNS.ORg
+    path: /rollQgNRwuxlxJGe?ed=2560
+- uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
+  server: 172.67.215.253
+  name: 
+    0ed6cd7ea69a4d74b74d62c3b2bd207d_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:9.5ms`
+  type: vless
+  port: 8080
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /nH6vfYQhM3hwSJlI?ed=2560
+- uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 172.67.73.163
+  name: 
+    1e0d1ef37347464ea80f94f88496c8a6_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.11ms`
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /?ed=2560
+- uuid: 588f094b-431b-422c-b80b-007945037072
+  server: 89.23.118.93
+  name: 1e590f2721d047bb9c43d2d9d88a5da7_@_👉🆔@v2ray_configs_pool📡🇷🇺®️Russia©️St Petersburg🅿️ping:36.88ms`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: ru01.abvpn.ru
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: ru01.abvpn.ru
+    path: /websocket
+- uuid: f12977e6-d296-4d94-9aaf-d31770b70f84
+  server: 104.21.69.44
+  name: 
+    e8d1815987b54530823a2ef5c2682e5e_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.06ms`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: cr77.hedieh.dpdns.org
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: cr77.hedieh.dpdns.org
+    path: /
+- uuid: 6a412fca-44a2-4aec-8e2e-458e447d58e5
+  server: 128.140.97.5
+  name: 
+    758e03fa728a48c7906f0f41f8204580_@_👉🆔@v2ray_configs_pool📡🇩🇪®️Germany©️Nuremberg🅿️ping:33.19ms`
+  type: vless
+  port: 48109
+  network: tcp
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+- uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+  server: 84.32.9.86
+  name: 3e2898997823496186780b2811c5b9cc_@_👉🆔@v2ray_configs_pool📡🇺🇸®️United States©️Secaucus🅿️ping:20.66ms`
+  type: vless
+  port: 8880
+  network: grpc
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+- uuid: 0824b46a-651a-4df7-a47a-019805192563
+  server: zula.ir
+  name: 
+    7e709c523dc84841bd75f8f03a6eac61_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:11.29ms`
+  type: vless
+  port: 8880
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /?ed=2048
+- uuid: 2bc8b1e7-1632-48c7-80c9-2efc2135a072
+  server: fastaly.dollardoon.com
+  name: 4cd83981172e4e6ca1ac3a4a2b836933_@_👉🆔@v2ray_configs_pool📡🇺🇸®️United States©️San
+    Francisco🅿️ping:7.87ms`
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: 
+      /@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7?ed=2048
+- uuid: 627a040d-cc8f-4863-8a0c-d811e53262b2
+  server: zula.ir
+  name: 
+    2f5eb5742bcb4ac1a96076f33720e31c_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.89ms`
+  type: vless
+  port: 8443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: vip.donghi.ir
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: vip.donghi.ir
+    path: 
+      /@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7
+- uuid: 02aa01e3-7f27-4e47-82e2-27c0b41bda9a
+  server: 194.182.79.113
+  name: ba35cca755f44682895f97f9db885b66_@_[🏁]t.me/ConfigsHub`
+  type: vless
+  port: 26468
+  network: grpc
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  grpc-opts:
+    grpc-service-name: 
+      ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON?ed=2048
+- uuid: e12b7cf5-f37d-4eb6-a951-e1ba46d59a07
+  server: 194.182.79.225
+  name: 09ed7ca7b03547059bb0eb8935ccdec3_@_[🏁]t.me/ConfigsHub`
+  type: vless
+  port: 52935
+  network: grpc
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  grpc-opts:
+    grpc-service-name: 
+      ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON?ed=2048
+- uuid: 224840e7-bde6-473a-b824-20ea10b91448
+  cipher: auto
+  alterId: 0
+  server: n1737850919.ryjml.cn
+  name: c5d96c4f93e141548c873bb06b48fee9_@_👉🆔@v2ray_configs_pool📡🇭🇰®️Hong Kong©️Hong
+    Kong🅿️ping:259.85ms
+  type: vmess
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /
+- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 5.182.84.29
+  name: 
+    d71a4246e0f0455f8c3e5e4b2fc23786_@_👉🆔@v2ray_configs_pool📡🇷🇺®️Russia©️Kaliningrad🅿️ping:7.99ms`
+  type: vless
+  port: 8880
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  servername: hk.laoyoutiao.link
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3
+- uuid: 62449ebc-a377-49d8-af1a-c1f56ae5be1f
+  server: www.visa.com.sg
+  name: 
+    a82b74fcadc94bc7b721b5fbbf9a8f84_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:14.78ms`vless://15face3d-979a-40e5-fcbe-62b82a46aed4@151.101.64.155:80?path=%2Ftel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel-----WedBaZtel%3Fed%3D2048&security=none&encryption=none&host=Aparatay.com&type=ws#👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Montreal🅿️ping:7.0ms`
+  type: vless
+  port: 8880
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /?ed=2560
+- uuid: e4824193-4f54-453b-d037-88368e85ef0e
+  server: 45.82.251.185
+  name: 900a640b286b4302b2323df7ad0c4242_@_👉🆔@v2ray_configs_pool📡🇲🇽®️Mexico©️Mexico
+    City🅿️ping:104.2ms`
+  type: vless
+  port: 8880
+  network: grpc
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+- uuid: 9bfd0dde-957e-11ec-a8bf-f23c91cfbbc9
+  cipher: auto
+  alterId: 2
+  server: 92b1e00e-sv0xs0-tb224g-1h0r9.hk.p5pv.com
+  name: 6c6f807509804de7b758ea6c8a55c35c_@_👉🆔@v2ray_configs_pool📡🇭🇰®️Hong Kong©️Kwong
+    Yuen🅿️ping:263.63ms
+  type: vmess
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  servername: broadcastlv.chat.bilibili.com
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: broadcastlv.chat.bilibili.com
+    path: /
+- uuid: 46181c32-8c82-413a-b836-8375e5e513eb
+  cipher: auto
+  alterId: 0
+  server: 104.19.150.10
+  name: 06dbcc772d7d4ce790d6acce83356180_@_[🇨🇦]t.me/ConfigsHub
+  type: vmess
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560
+- uuid: c12c891e-f93d-4b2a-b757-087289679753
+  server: 194.182.79.143
+  name: 4d425857a1ba47f2a324b20416a2db42_@_[🏁]t.me/ConfigsHub`
+  type: vless
+  port: 36936
+  network: grpc
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  grpc-opts:
+    grpc-service-name: 
+      ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON?ed=2048
+- uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
+  server: 104.21.75.66
+  name: fe1f6c58ed5a4607b025ab06cee4d05a_@_[🇨🇦]t.me/ConfigsHub`
+  type: vless
+  port: 8443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: randomized
+  servername: Domain2025.DpDnS.ORG
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: Domain2025.DpDnS.ORG
+    path: /HXxwtQqb0o7QsNUH?ed=2560
+- uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
+  server: 172.67.215.253
+  name: cf37154b45c443779d6e932b854c71e7_@_[🇨🇦]t.me/ConfigsHub`
+  type: vless
+  port: 2086
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /5iOpl6glcE8I64UV?ed=2560
+- uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  cipher: auto
+  alterId: 0
+  server: 57.129.64.238
+  name: b8bc6f857e1a4b28ba79eee33e501bf1_@_[🇩🇪]t.me/ConfigsHub
+  type: vmess
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: kapelleng.com
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: kapelleng.com
+    path: /linkvws
+- uuid: d4769aab-99d9-4491-a3e3-a58867915bdf
+  server: 104.18.26.94
+  name: 
+    67d145b515dc4126a48cfa98fdba3ecc_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:9.87ms`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: randomized
+  servername: esetsecuritylicense.cfmglpqb.workers.dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: esetsecuritylicense.cfmglpqb.workers.dev
+    path: /Telegram@V2ray_Alpha/?ed=2560
+- uuid: f055d270-0e76-4a41-a53f-871bbb51b003
+  server: 190.93.247.172
+  name: f4c732b213f24fcb884b4a40380c2be8_@_👉🆔@v2ray_configs_pool📡🇨🇷®️Costa Rica©️Pozos🅿️ping:8.63ms`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: what.zhonghuoxing.top
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: what.zhonghuoxing.top
+    path: /
+- uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  server: 198.41.214.20
+  name: 
+    0c633fa9605b4b158afdc77ed785ad54_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.77ms`
+  type: vless
+  port: 8880
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /?ed
+- uuid: 31eb2788-d61f-4843-8947-88861346076f
+  server: farsidutch.nl
+  name: 92b214f9b1ab4e739fe116309213d05f_@_👉🆔@v2ray_configs_pool📡🇩🇪®️Germany©️Bad
+    Oeynhausen🅿️ping:28.87ms`
+  type: vless
+  port: 11698
+  network: grpc
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+- uuid: 157d0689-3f11-4937-8e48-78c09476c4f2
+  server: 194.182.79.216
+  name: 
+    9080aebf612241aaabd66a7ab9e61793_@_👉🆔@v2ray_configs_pool📡🇨🇿®️Czechia©️Prague🅿️ping:38.41ms`
+  type: vless
+  port: 52843
+  network: grpc
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  grpc-opts:
+    grpc-service-name: 
+      ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON?ed=2048
+- uuid: eb1920ff-d816-4ca1-b832-4683cddebaa6
+  server: 37.32.42.22
+  name: 5c1fe907d1e8413db167c54ec7f7627a_@_👉🆔@v2ray_configs_pool📡🇮🇷®️Iran©️Ahvāz (District
+    1)🅿️ping:109.89ms`
+  type: vless
+  port: 443
+  network: tcp
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+- uuid: d9eb0df3-3190-4447-86b6-656fe5ff1119
+  server: xs.wxtv.cc
+  name: 054a759d79fa42cba4da71af6b42f62c_@_👉🆔@v2ray_configs_pool📡🇺🇸®️United States©️Tampa
+    (Beach Park)🅿️ping:44.72ms`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: randomized
+  servername: mmdv2.pages.dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: mmdv2.pages.dev
+    path: /?ed=2048
+- uuid: de71749f-f937-45a9-8613-5b68ca4588ed
+  server: hajlab.ucdavis.edu
+  name: ca4bc4fb828f44889cc3f24c1f5c334b_@_👉🆔@v2ray_configs_pool📡🇺🇸®️United States©️San
+    Francisco🅿️ping:7.65ms`
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: 
+      /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048
+- uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  cipher: auto
+  alterId: 0
+  server: 163.5.159.231
+  name: b9fd37c0015f41ccb8183e372cc3715c_@_[🇫🇷]t.me/ConfigsHub
+  type: vmess
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: irvideo.cfd
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: irvideo.cfd
+    path: /linkws
+- uuid: e4824193-4f54-453b-d037-88368e85ef0e
+  server: 45.82.251.133
+  name: 290b1d43affe40bea82cda0c037831d5_@_👉🆔@v2ray_configs_pool📡🇲🇽®️Mexico©️Mexico
+    City🅿️ping:104.13ms`
+  type: vless
+  port: 8880
+  network: grpc
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  servername: pqh26v3.sport26tennis.shop
+  fingerprint: ''
+- uuid: 401374e6-df77-41fb-f638-dad8184f175b
+  server: 185.135.9.223
+  name: bb7e86ad4f6c446780c8225edc3c3af4_@_👉🆔@v2ray_configs_pool📡🇬🇧®️United Kingdom©️London🅿️ping:8.21ms`
+  type: vless
+  port: 443
+  network: grpc
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: pqh24v3.hiddendom.shop
+  fingerprint: ''
+- uuid: eab1e481-5b74-43da-a288-1547190925eb
+  server: 194.182.79.100
+  name: 0974fa26253d42c88a7d2b260c2a8934_@_[🏁]t.me/ConfigsHub`
+  type: vless
+  port: 42438
+  network: grpc
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  grpc-opts:
+    grpc-service-name: 
+      ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON?ed=2048
+- uuid: 4c2347c2-7751-4dda-b370-af9178cdab97
+  server: 194.182.79.216
+  name: a570a95e75824109903c248963eaac7d_@_[🏁]t.me/ConfigsHub`
+  type: vless
+  port: 52843
+  network: grpc
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  grpc-opts:
+    grpc-service-name: 
+      ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON?ed=2048
+- uuid: 2f38f848-a899-4c87-9807-207a41615e3c
+  cipher: auto
+  alterId: 0
+  server: www.wn03.cc
+  name: 
+    49008e9fcb8e4182ba4041794aa80087_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:9.27ms
+  type: vmess
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /rongseven?ed=2048
+- uuid: db69d5bc-d36c-4903-f471-74b98c5cefe5
+  cipher: auto
+  alterId: 0
+  server: hk2.lrzdx.uk
+  name: 
+    259fe497a60341699ea2ad8a0b0c07ae_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:9.32ms
+  type: vmess
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: hk2.lrzdx.uk
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: hk2.lrzdx.uk
+    path: /register
+- uuid: 9ce4526a-c500-4c66-99b0-048e4b6b5663
+  cipher: auto
+  alterId: 0
+  server: xcf029.facai2024.com
+  name: 970338b19b794c26a0f2baf102519fa1_@_👉🆔@v2ray_configs_pool📡🇺🇸®️United States©️New
+    York🅿️ping:100.74ms
+  type: vmess
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: xcf029.facai2024.com
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: xcf029.facai2024.com
+    path: /9ce4526a
 - uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
   cipher: auto
   alterId: 0
   server: 172.67.198.187
   name: 
-    1171b33184f44a25ba3b2b07cebb58ce_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.83ms
+    e943490df5d842fda4271abb8b5d16c1_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:7.88ms
   type: vmess
   port: 443
   network: ws
@@ -953,171 +1171,320 @@ proxies:
     headers:
       host: xmivideo.cfd
     path: /linkws
-- uuid: 1be972af-90f5-4ce7-88bc-188ec4122082
-  server: 151.101.64.155
-  name: 5b7d36fa117c47ea861ba3f5efd8f05c_@_[🇺🇸]t.me/ConfigsHub`
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: 
-      /-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2048
-- uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  server: 104.17.148.22
-  name: caae425442664421932715e08373df50_@_[🇨🇦]t.me/ConfigsHub`
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: randomized
-  servername: UUHuhyYgESDfgh.UyHjhgvgFCjgujhBuILbVFDXdxM.xYZ
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: UUHuhyYgESDfgh.UyHjhgvgFCjgujhBuILbVFDXdxM.xYZ
-    path: 
-      /egFIvRfmDaCdL5Uk/ODQuMjM1LjE2OS4yMzQ=?ed=2560/?@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
-- uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  server: 104.17.147.22
-  name: 90264acafe094536905e01a30b9aee0d_@_[🇨🇦]t.me/ConfigsHub`
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: randomized
-  servername: UUHuhyYgESDfgh.UyHjhgvgFCjgujhBuILbVFDXdxM.xYZ
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: UUHuhyYgESDfgh.UyHjhgvgFCjgujhBuILbVFDXdxM.xYZ
-    path: 
-      /egFIvRfmDaCdL5Uk/ODQuMjM1LjE2OS4yMzQ=?ed=2560/?@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
-- uuid: 4ea841c1-0dc1-4563-9f47-deba8407cb4e
-  server: 172.67.73.163
-  name: 50732023ed0b4c91b218d7f039cb1aa3_@_[🇨🇦]t.me/ConfigsHub`
-  type: vless
-  port: 8080
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: 
-      /?ed=2048@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
-- uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-  server: 45.159.248.125
-  name: c8db596ecfac4c0cbfba586f677135f4_@_[🇬🇧]t.me/ConfigsHub`
-  type: vless
-  port: 8880
-  network: grpc
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  server: 104.17.148.22
-  name: d8cafc4bb6e245efa797e00d5efcfda0_@_[🇨🇦]t.me/ConfigsHub`
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: randomized
-  servername: UUHuhyYgESDfgh.UyHjhgvgFCjgujhBuILbVFDXdxM.xYZ
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: UUHuhyYgESDfgh.UyHjhgvgFCjgujhBuILbVFDXdxM.xYZ
-    path: 
-      /egFIvRfmDaCdL5Uk/ODQuMjM1LjE2OS4yMzQ=?ed=2560/?@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
-- uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  server: 104.17.147.22
-  name: 529939a91bbe4a70ae6ca69d7ffbf7a7_@_[🇨🇦]t.me/ConfigsHub`
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: randomized
-  servername: UUHuhyYgESDfgh.UyHjhgvgFCjgujhBuILbVFDXdxM.xYZ
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: UUHuhyYgESDfgh.UyHjhgvgFCjgujhBuILbVFDXdxM.xYZ
-    path: 
-      /egFIvRfmDaCdL5Uk/ODQuMjM1LjE2OS4yMzQ=?ed=2560/?@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
-- uuid: 4ea841c1-0dc1-4563-9f47-deba8407cb4e
-  server: 172.67.73.163
-  name: ed633c226dee45be8b75b4f90a718597_@_[🇨🇦]t.me/ConfigsHub`
-  type: vless
-  port: 8080
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: 
-      /?ed=2048@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
-- uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-  server: 45.159.248.125
-  name: e8fc820c23ff4dcba71f67cccdda1d17_@_[🇬🇧]t.me/ConfigsHub`
-  type: vless
-  port: 8880
-  network: grpc
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: 9f30f465-e9c1-4726-87e8-6738ee3af36c
-  server: tn35.adamlinux.ir
+- uuid: 47eab0de-97f9-49be-f2f3-2e4eb17268e6
+  cipher: auto
+  alterId: 0
+  server: 104.17.137.127
   name: 
-    eaab789b2d9142709079662b6d8be08c_@_👉🆔@v2ray_configs_pool📡🇮🇷®️Iran©️Isfahan🅿️ping:113.26ms`
-  type: vless
-  port: 8087
-  network: tcp
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: 0d0782a3-2c62-4936-b893-5790188778ea
-  server: www.speedtest.net
-  name: 
-    150fa49ea2354f2a9709512c56f674f4_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:9.33ms`
-  type: vless
+    911cc012b6664eaebc1805d073574358_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.18ms
+  type: vmess
   port: 443
   network: ws
   tls: true
   udp: false
   client-fingerprint: chrome
-  servername: XbU10cS9vT.gIgA1.oRg
+  servername: hk.niskakowski.ggff.net
   fingerprint: ''
   ws-opts:
     headers:
-      host: XbU10cS9vT.gIgA1.oRg
+      host: hk.niskakowski.ggff.net
+    path: /aa
+- uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
+  cipher: auto
+  alterId: 0
+  server: 104.19.32.0
+  name: 
+    ec7d1a41cc87479ba9e879cf6e637758_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.43ms
+  type: vmess
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: xmivideo.cfd
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: xmivideo.cfd
+    path: /linkws
+- uuid: db69d5bc-d36c-4903-f471-74b98c5cefe5
+  cipher: auto
+  alterId: 0
+  server: hk2.lrzdx.uk
+  name: 
+    74248a0d49144fe7b594ccb5e23d805f_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:9.32ms
+  type: vmess
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: hk2.lrzdx.uk
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: hk2.lrzdx.uk
+    path: /register
+- uuid: d9863037-0463-4615-e972-36ba9662d1e9
+  cipher: auto
+  alterId: 0
+  server: xcf037.facai2024.com
+  name: 454a0fbbf28c46919a625cad94cb8d99_@_👉🆔@v2ray_configs_pool📡🇺🇸®️United States©️Seattle🅿️ping:164.36ms
+  type: vmess
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: xcf037.facai2024.com
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: xcf037.facai2024.com
+    path: /d9863037
+- uuid: b526926d-1474-4f41-985e-8b877cb840cd
+  cipher: auto
+  alterId: 0
+  server: time.is
+  name: 
+    995089dbd814439ab9f15246e4c479bb_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.6ms
+  type: vmess
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: time.is
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: time.is
     path: /
-- uuid: 18d32757-070c-40aa-8904-eef3a590f7c6
-  server: 147.45.73.191
+- uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  server: 104.17.148.22
   name: 
-    af0ff362ab684c69854a7fa337367ea0_@_👉🆔@v2ray_configs_pool📡🇸🇪®️Sweden©️Stockholm🅿️ping:14.36ms`
+    a30d1fb0d3804c5cace440f717c63dcc_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.27ms`
   type: vless
-  port: 29108
-  network: tcp
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: randomized
+  servername: UUHuhyYgESDfgh.UyHjhgvgFCjgujhBuILbVFDXdxM.xYZ
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: UUHuhyYgESDfgh.UyHjhgvgFCjgujhBuILbVFDXdxM.xYZ
+    path: 
+      /egFIvRfmDaCdL5Uk/ODQuMjM1LjE2OS4yMzQ=?ed=2560/?@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
+- uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  server: 104.17.147.22
+  name: 
+    e7f9bb55d73445f6a0b1ffa6768e46ad_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.32ms`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: randomized
+  servername: UUHuhyYgESDfgh.UyHjhgvgFCjgujhBuILbVFDXdxM.xYZ
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: UUHuhyYgESDfgh.UyHjhgvgFCjgujhBuILbVFDXdxM.xYZ
+    path: 
+      /egFIvRfmDaCdL5Uk/ODQuMjM1LjE2OS4yMzQ=?ed=2560/?@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
+- uuid: 4ea841c1-0dc1-4563-9f47-deba8407cb4e
+  server: 172.67.73.163
+  name: 
+    3e4d8c84831546c09f3a4b7ab4c2a1a5_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.28ms`
+  type: vless
+  port: 8080
+  network: ws
   tls: false
   udp: false
   client-fingerprint: chrome
   fingerprint: ''
+  ws-opts:
+    path: 
+      /?ed=2048@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
+- uuid: 4ea841c1-0dc1-4563-9f47-deba8407cb4e
+  server: 172.67.73.163
+  name: 
+    737984b055844328a214e34e68eb4597_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.28ms`
+  type: vless
+  port: 8080
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: 
+      /?ed=2048@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
+- uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+  server: 45.159.248.125
+  name: 4b152c9239a24c4c9b4083c3a8195820_@_👉🆔@v2ray_configs_pool📡🇬🇧®️United Kingdom©️New
+    Barnet🅿️ping:39.5ms`
+  type: vless
+  port: 8880
+  network: grpc
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+- uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  server: 198.41.214.20
+  name: 
+    2fad05ec48d5412aa5aeaeeb7e0bfa60_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.1ms`
+  type: vless
+  port: 8880
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /?ed
+- uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee
+  cipher: auto
+  alterId: 32
+  server: vc.fly.dev
+  name: f3cb572a3614413486a33c6bf5231a0b_@_👉🆔@v2ray_configs_pool📡🇳🇱®️The Netherlands©️Amsterdam🅿️ping:8.2ms
+  type: vmess
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: vc.fly.dev
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: vc.fly.dev
+    path: /vc
+- uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
+  cipher: auto
+  alterId: 0
+  server: 104.19.32.0
+  name: 
+    224d9c2aa1694032bd57c9c33ca6ffb8_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.43ms
+  type: vmess
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: xmivideo.cfd
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: xmivideo.cfd
+    path: /linkws
+- uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  server: 104.17.148.22
+  name: cc8dc1ad9d204060bdb61edc7e45f145_@_[🇨🇦]t.me/ConfigsHub`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: randomized
+  servername: UUHuhyYgESDfgh.UyHjhgvgFCjgujhBuILbVFDXdxM.xYZ
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: UUHuhyYgESDfgh.UyHjhgvgFCjgujhBuILbVFDXdxM.xYZ
+    path: 
+      /egFIvRfmDaCdL5Uk/ODQuMjM1LjE2OS4yMzQ=?ed=2560/?@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
+- uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  server: 104.17.147.22
+  name: b9d5aab1e5d04c5aae4038eaf73f10a9_@_[🇨🇦]t.me/ConfigsHub`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: randomized
+  servername: UUHuhyYgESDfgh.UyHjhgvgFCjgujhBuILbVFDXdxM.xYZ
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: UUHuhyYgESDfgh.UyHjhgvgFCjgujhBuILbVFDXdxM.xYZ
+    path: 
+      /egFIvRfmDaCdL5Uk/ODQuMjM1LjE2OS4yMzQ=?ed=2560/?@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
+- uuid: 4ea841c1-0dc1-4563-9f47-deba8407cb4e
+  server: 172.67.73.163
+  name: 667b4e2b8f014d5c91d7b44e4175909c_@_[🇨🇦]t.me/ConfigsHub`
+  type: vless
+  port: 8080
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: 
+      /?ed=2048@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
+- uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+  server: 45.159.248.125
+  name: db183663fb3747778b93244300ba6fa1_@_[🇬🇧]t.me/ConfigsHub`
+  type: vless
+  port: 8880
+  network: grpc
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+- uuid: 33428626-237f-44ce-93c3-efe007db8a7f
+  server: 172.64.32.181
+  name: 
+    50a5ce2083a448f68d3431f71528dcbf_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:7.9ms`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: qsc0wrja.yandixpartners.com
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: qsc0wrja.yandixpartners.com
+    path: /wss
+- uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
+  server: 104.21.75.66
+  name: 
+    1c43721704ad4c02a8676bd7cc8471f7_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.2ms`
+  type: vless
+  port: 8443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: randomized
+  servername: Domain2025.DpDnS.ORG
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: Domain2025.DpDnS.ORG
+    path: /HXxwtQqb0o7QsNUH?ed=2560
+- uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
+  server: 172.67.215.253
+  name: 
+    c3992cf68f5748e580abf16ab47b014d_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.18ms`
+  type: vless
+  port: 2086
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /5iOpl6glcE8I64UV?ed=2560
 - uuid: df0680ca-e43c-498d-ed86-8e196eedd012
   server: 95.164.45.85
   name: 
-    6bf47c20866a429caf9302736773e005_@_👉🆔@v2ray_configs_pool📡🇫🇷®️France©️Paris🅿️ping:63.18ms`
+    26b4cef9e318438faa772221cd650636_@_👉🆔@v2ray_configs_pool📡🇫🇷®️France©️Paris🅿️ping:41.82ms`
   type: vless
   port: 8880
   network: grpc
@@ -1125,74 +1492,158 @@ proxies:
   udp: false
   client-fingerprint: chrome
   fingerprint: ''
-- uuid: d4e52293-4a82-404c-ac29-93afc006dcbb
-  server: bitbolajepe.vip
-  name: 1602feb35a864675a40d63ba3fdef8bc_@_👉🆔@v2ray_configs_pool📡🇺🇸®️United States©️Washington
-    D.C.🅿️ping:8.82ms`
+- uuid: 6603a779-07c9-4bc9-8f61-4a09c238653a
+  server: 62.60.193.221
+  name: 
+    e8713ce8e18644c1af3b8c6f1083ae82_@_👉🆔@v2ray_configs_pool📡🇮🇷®️Iran©️Tehrān🅿️ping:109.8ms`
   type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: random
-  servername: crolindd.dearcarlotta.cloudns.org
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: crolindd.dearcarlotta.cloudns.org
-    path: /proxyip=citlali.shorekeeper.ir
-- uuid: 8c9a892c-e9d5-4fff-bfdb-8ef9c50272b1
-  server: 162.251.82.187
-  name: 67e3f079b3ab468b819dc5346d709a26_@_👉🆔@v2ray_configs_pool📡🇺🇸®️United States©️Burlington🅿️ping:8.35ms`
-  type: vless
-  port: 80
+  port: 32774
   network: ws
   tls: false
   udp: false
   client-fingerprint: chrome
   fingerprint: ''
   ws-opts:
-    path: 58834/mail-template
-- server: 217.163.76.221
-  name: 3c33a755969846119026f14ab5eaa9e2_@_👉🆔@v2ray_configs_pool📡🇬🇧®️United Kingdom©️Havant🅿️ping:8.32ms`
-  type: trojan
-  port: 443
-  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
-  client-fingerprint: chrome
-- server: 194.76.18.122
+    path: /6603a779
+- uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
+  server: 172.67.215.253
   name: 
-    e32736ee7b2a49a786abbcd2de523b3f_@_👉🆔@v2ray_configs_pool📡🇰🇿®️Kazakhstan©️Almaty🅿️ping:8.07ms`
-  type: trojan
-  port: 443
-  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+    c50da9284f3b44d089e79dcfca099a59_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:7.96ms`
+  type: vless
+  port: 2052
+  network: ws
+  tls: false
+  udp: false
   client-fingerprint: chrome
-- server: 45.67.215.196
+  fingerprint: ''
+  ws-opts:
+    path: /ahiWVFUV6Bj3gGKk?ed=2560
+- uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
+  server: 104.21.75.66
   name: 
-    aaf4ccd02b4f413ea41586dd606b393b_@_👉🆔@v2ray_configs_pool📡🇷🇺®️Russia©️Novosibirsk🅿️ping:7.84ms`
-  type: trojan
-  port: 443
-  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+    066685d9ceae432b86f54ac69819bc2f_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.59ms`
+  type: vless
+  port: 2086
+  network: ws
+  tls: false
+  udp: false
   client-fingerprint: chrome
-- server: 212.183.88.172
-  name: e9978ea395084dd48edec57f7aabf1e4_@_👉🆔@v2ray_configs_pool📡🇦🇹®️Austria©️Vienna
-    (Leopoldstadt)🅿️ping:7.99ms`
-  type: trojan
-  port: 443
-  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
-  client-fingerprint: chrome
-- server: 185.16.110.113
+  fingerprint: ''
+  ws-opts:
+    path: /s9OZ6FClZzVoeUpN?ed=2560
+- uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
+  server: 104.21.75.66
   name: 
-    fefbd6899b99400ab00900dc80215c29_@_👉🆔@v2ray_configs_pool📡🇫🇷®️France©️Paris🅿️ping:8.11ms`
-  type: trojan
-  port: 443
-  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+    b8e6e7fd33504d3da1563fd03719419f_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.3ms`
+  type: vless
+  port: 2095
+  network: ws
+  tls: false
+  udp: false
   client-fingerprint: chrome
-- uuid: 6ddb6a68-d5f5-ca30-3943-cf0c9876d50c
+  fingerprint: ''
+  ws-opts:
+    path: /RtYBGEwkOwlzf3oV?ed=2560
+- uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
+  server: www.speedtest.net
+  name: 
+    80306270ce72453989fb2b3255ca8ba6_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.82ms`
+  type: vless
+  port: 2095
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /901qf5SHefST0QYH?ed=2560
+- uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  server: 104.17.148.22
+  name: 
+    158f3dfd9f42464f9911b64d10ac97f8_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.27ms`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: randomized
+  servername: UUHuhyYgESDfgh.UyHjhgvgFCjgujhBuILbVFDXdxM.xYZ
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: UUHuhyYgESDfgh.UyHjhgvgFCjgujhBuILbVFDXdxM.xYZ
+    path: 
+      /egFIvRfmDaCdL5Uk/ODQuMjM1LjE2OS4yMzQ=?ed=2560/?@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
+- uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  server: 104.17.147.22
+  name: 
+    8a77c288c8624f6594dd84e700adb1e1_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.32ms`
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: randomized
+  servername: UUHuhyYgESDfgh.UyHjhgvgFCjgujhBuILbVFDXdxM.xYZ
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: UUHuhyYgESDfgh.UyHjhgvgFCjgujhBuILbVFDXdxM.xYZ
+    path: 
+      /egFIvRfmDaCdL5Uk/ODQuMjM1LjE2OS4yMzQ=?ed=2560/?@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
+- uuid: bc17cdee-d6e6-4da4-a9d7-a29db4edb493
+  server: yxfha9.de11.spacerwork.pro
+  name: 121fad6594dd4023934c0dd26ced698f_@_👉🆔@v2ray_configs_pool📡🇮🇷®️Iran©️Shiraz
+    (District 3)🅿️ping:99.24ms`
+  type: vless
+  port: 641
+  network: tcp
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+- uuid: a6f7535a-4aff-4175-966c-8e5f0ef7459f
+  server: a9kufe.de9.razercompany.com
+  name: 633627e91fea40b3958e10f3ffadbc21_@_👉🆔@v2ray_configs_pool📡🇮🇷®️Iran©️Shiraz
+    (District 3)🅿️ping:113.66ms`
+  type: vless
+  port: 482
+  network: tcp
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+- uuid: 4ea841c1-0dc1-4563-9f47-deba8407cb4e
+  server: 172.67.73.163
+  name: 
+    7979f9859f1044afa726c93e0263ce2b_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.28ms`
+  type: vless
+  port: 8080
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: 
+      /?ed=2048@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
+- uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+  server: 45.159.248.125
+  name: 4b9dd621337b494080a0c235db3f3925_@_👉🆔@v2ray_configs_pool📡🇬🇧®️United Kingdom©️New
+    Barnet🅿️ping:39.5ms`
+  type: vless
+  port: 8880
+  network: grpc
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+- uuid: b4e40aa2-74a1-11ed-b0b5-f23c9164ca5d
   cipher: auto
   alterId: 2
-  server: 2c655502-sv0xs0-t4qa9y-g43g.hk.p5pv.com
-  name: 5238fc31ee77454e8296688f5f61d4c6_@_👉🆔@v2ray_configs_pool📡🇭🇰®️Hong Kong©️Kwong
-    Yuen🅿️ping:261.04ms
+  server: 53484f5e-sv6hs0-swmdal-17xo8.hk.p5pv.com
+  name: adb6a34adb434689a9200fd57f5b2e29_@_👉🆔@v2ray_configs_pool📡🇭🇰®️Hong Kong©️Kwong
+    Yuen🅿️ping:254.87ms
   type: vmess
   port: 80
   network: ws
@@ -1207,8 +1658,7 @@ proxies:
     path: /
 - uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   server: 104.17.148.22
-  name: 
-    3b450d65ae8247e2b6417106d17783b9_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.29ms`
+  name: 6ef92219641c44398907970c2c8f383e_@_[🇨🇦]t.me/ConfigsHub`
   type: vless
   port: 443
   network: ws
@@ -1224,8 +1674,7 @@ proxies:
       /egFIvRfmDaCdL5Uk/ODQuMjM1LjE2OS4yMzQ=?ed=2560/?@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
 - uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   server: 104.17.147.22
-  name: 
-    32f3be2dcb9443308da57f5ddc6e973c_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.74ms`
+  name: 28271f1e63c44c1cb1f63bab2b714700_@_[🇨🇦]t.me/ConfigsHub`
   type: vless
   port: 443
   network: ws
@@ -1241,8 +1690,7 @@ proxies:
       /egFIvRfmDaCdL5Uk/ODQuMjM1LjE2OS4yMzQ=?ed=2560/?@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
 - uuid: 4ea841c1-0dc1-4563-9f47-deba8407cb4e
   server: 172.67.73.163
-  name: 
-    a4e5874019664fd2a25c1af2464377a9_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.39ms`
+  name: 9166b1fbb9d84a9184eac2040fb134af_@_[🇨🇦]t.me/ConfigsHub`
   type: vless
   port: 8080
   network: ws
@@ -1255,8 +1703,7 @@ proxies:
       /?ed=2048@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
 - uuid: df0680ca-e43c-498d-ed86-8e196eedd012
   server: 45.159.248.125
-  name: e809adcaab184d9190b5fe1040e56560_@_👉🆔@v2ray_configs_pool📡🇬🇧®️United Kingdom©️New
-    Barnet🅿️ping:54.77ms`
+  name: d974cc625a6b41eaad056e74505368f7_@_[🇬🇧]t.me/ConfigsHub`
   type: vless
   port: 8880
   network: grpc
@@ -1264,58 +1711,20 @@ proxies:
   udp: false
   client-fingerprint: chrome
   fingerprint: ''
-- uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
-  server: 104.21.75.66
+- uuid: 627a040d-cc8f-4863-8a0c-d811e53262b2
+  server: zula.ir
   name: 
-    70006b4396454639a60682d8bb2e90b5_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.47ms`
+    ca953ac6e57447f3b5c1a8d6776f2cad_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.42ms`
   type: vless
   port: 8443
   network: ws
   tls: true
   udp: false
-  client-fingerprint: randomized
-  servername: Domain2025.DpDnS.ORG
+  client-fingerprint: chrome
+  servername: vip.donghi.ir
   fingerprint: ''
   ws-opts:
     headers:
-      host: Domain2025.DpDnS.ORG
-    path: /HXxwtQqb0o7QsNUH?ed=2560
-- uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  server: www.speedtest.net
-  name: 
-    621a548aacb44813afeac3dcc4229f8c_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:9.07ms`
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /Vb2kRpQSrEqsUKCX?ed=2560/?BIA_CHANEL@JOKERRVPN
-- uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
-  server: domain2025.dpdns.org
-  name: 
-    cf663e9531e944ab9b7cfc9063dfa14f_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:9.23ms`
-  type: vless
-  port: 2086
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /5iOpl6glcE8I64UV?ed=2560
-- uuid: 7fed5bf9-a1de-41a0-ab89-694265c4895f
-  server: 172.67.215.253
-  name: 
-    9b17a214eaad43c58171ddd0035415a5_@_👉🆔@v2ray_configs_pool📡🇨🇦®️Canada©️Toronto🅿️ping:8.25ms`
-  type: vless
-  port: 2052
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /ahiWVFUV6Bj3gGKk?ed=2560
+      host: vip.donghi.ir
+    path: 
+      /@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7
