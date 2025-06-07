@@ -6,6 +6,252 @@ log-level: info
 external-controller: :9090
 
 proxies:
+  - name: 🔒 VL-TCP-RLT 🇫🇷 FR-51.195.232.222:1370
+    type: vless
+    server: 51.195.232.222
+    port: 1370
+    uuid: 00f8d77b-ba64-4807-8fc0-bb3cbe89b6e6
+    network: tcp
+    tls: true
+    servername: refersion.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
+      short-id: e1afb93bfe75a34b
+    ip-version: dual
+    udp: true
+  - name: 🔒 VL-TCP-RLT 🇬🇧 GB-51.89.225.228:1370
+    type: vless
+    server: 51.89.225.228
+    port: 1370
+    uuid: 00f8d77b-ba64-4807-8fc0-bb3cbe89b6e6
+    network: tcp
+    tls: true
+    servername: refersion.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
+      short-id: e1afb93bfe75a34b
+    ip-version: dual
+    udp: true
+  - name: 🔒 VL-TCP-RLT 🇬🇧 GB-198.244.143.248:1370
+    type: vless
+    server: 198.244.143.248
+    port: 1370
+    uuid: 00f8d77b-ba64-4807-8fc0-bb3cbe89b6e6
+    network: tcp
+    tls: true
+    servername: refersion.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
+      short-id: e1afb93bfe75a34b
+    ip-version: dual
+    udp: true
+  - name: 🔒 VL-TCP-RLT 🇬🇧 GB-51.89.227.143:1370
+    type: vless
+    server: 51.89.227.143
+    port: 1370
+    uuid: 00f8d77b-ba64-4807-8fc0-bb3cbe89b6e6
+    network: tcp
+    tls: true
+    servername: refersion.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
+      short-id: e1afb93bfe75a34b
+    ip-version: dual
+    udp: true
+  - name: 🔒 VL-TCP-RLT 🇬🇧 GB-51.89.224.206:1370
+    type: vless
+    server: 51.89.224.206
+    port: 1370
+    uuid: 00f8d77b-ba64-4807-8fc0-bb3cbe89b6e6
+    network: tcp
+    tls: true
+    servername: refersion.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
+      short-id: e1afb93bfe75a34b
+    ip-version: dual
+    udp: true
+  - name: 🔒 VL-TCP-RLT 🇬🇧 GB-51.89.225.1:1370
+    type: vless
+    server: 51.89.225.1
+    port: 1370
+    uuid: 00f8d77b-ba64-4807-8fc0-bb3cbe89b6e6
+    network: tcp
+    tls: true
+    servername: refersion.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
+      short-id: e1afb93bfe75a34b
+    ip-version: dual
+    udp: true
+  - name: 🔒 VL-TCP-RLT 🇬🇧 GB-51.89.226.14:1370
+    type: vless
+    server: 51.89.226.14
+    port: 1370
+    uuid: 00f8d77b-ba64-4807-8fc0-bb3cbe89b6e6
+    network: tcp
+    tls: true
+    servername: refersion.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
+      short-id: e1afb93bfe75a34b
+    ip-version: dual
+    udp: true
+  - name: 🔒 VL-TCP-RLT 🇫🇷 FR-51.195.232.40:1370
+    type: vless
+    server: 51.195.232.40
+    port: 1370
+    uuid: 00f8d77b-ba64-4807-8fc0-bb3cbe89b6e6
+    network: tcp
+    tls: true
+    servername: refersion.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
+      short-id: e1afb93bfe75a34b
+    ip-version: dual
+    udp: true
+  - name: 🔒 VL-TCP-RLT 🇬🇧 GB-51.89.226.3:1370
+    type: vless
+    server: 51.89.226.3
+    port: 1370
+    uuid: 00f8d77b-ba64-4807-8fc0-bb3cbe89b6e6
+    network: tcp
+    tls: true
+    servername: refersion.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
+      short-id: e1afb93bfe75a34b
+    ip-version: dual
+    udp: true
+  - name: 🔒 VL-TCP-RLT 🇫🇷 FR-57.128.166.36:1370
+    type: vless
+    server: 57.128.166.36
+    port: 1370
+    uuid: 00f8d77b-ba64-4807-8fc0-bb3cbe89b6e6
+    network: tcp
+    tls: true
+    servername: refersion.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
+      short-id: e1afb93bfe75a34b
+    ip-version: dual
+    udp: true
+  - name: 🔒 VL-TCP-RLT 🇳🇱 NL-142.93.230.37:8440
+    type: vless
+    server: 142.93.230.37
+    port: 8440
+    uuid: b357d11e-48ff-483f-969e-e72c380341f5
+    network: tcp
+    tls: true
+    servername: refersion.com
+    flow: xtls-rprx-vision
+    skip-cert-verify: true
+    client-fingerprint: firefox
+    reality-opts:
+      public-key: y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic
+    ip-version: dual
+    udp: true
+  - name: 15|GB_speednode_0022
+    type: vless
+    server: 91.193.58.69
+    port: 8880
+    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+    network: ws
+    tls: true
+    servername: cs.laoyoutiao.link
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: cs.laoyoutiao.link
+    ip-version: dual
+  - name: 🔒 VL-TCP-RLT 🇸🇨 SC-178.20.215.10:443
+    type: vless
+    server: 178.20.215.10
+    port: 443
+    uuid: a0de1607-5b63-fab8-a759-9f98706b6125
+    network: tcp
+    tls: true
+    servername: speed.cloudflare.com
+    flow: xtls-rprx-vision
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: GfTzhy59k9CXlAdF819OUVeBdrqIILaDIWa1bddjGnA
+    ip-version: dual
+    udp: true
+  - name: 🔒 VL-GRPC-RLT 🇩🇪 DE-185.235.241.208:2087
+    type: vless
+    server: 185.235.241.208
+    port: 2087
+    uuid: 4338311a-e9e6-4909-9a72-dc1b20b5c706
+    network: grpc
+    tls: true
+    servername: www.cdn77.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: WAexhAE6LEk2BSCikHVk7eSNTWel__rYPsJfq5Ud9Tc
+      short-id: 1f8912
+    grpc-opts:
+      grpc-service-name: Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs
+    ip-version: dual
+    udp: true
+  - name: 🔒 VL-WS-TLS 🇸🇪 SE-77.232.143.85:443
+    type: vless
+    server: 77.232.143.85
+    port: 443
+    uuid: 1a79d43f-b41c-496b-a241-dcbeefa81f0e
+    network: ws
+    tls: true
+    servername: 0926.qiang2000.link
+    skip-cert-verify: true
+    client-fingerprint: random
+    ws-opts:
+      path: /
+      headers:
+        host: 0926.qiang2000.link
+    ip-version: dual
+  - name: 🔒 VL-TCP-NONE 🇫🇮 FI-157.180.41.190:1517
+    type: vless
+    server: 157.180.41.190
+    port: 1517
+    uuid: 7c24ca73-193f-4873-adfc-3939a3a9b005
+    network: tcp
+    tls: false
+    client-fingerprint: random
+    ip-version: dual
+    
+  - name: TW Moon
+    password: exaxgqkKkd0TAMrCxeonWg==
+    port: 1443
+    server: twmoon1-cdn-route.couldflare-cdn.com
+    skip-cert-verify: false
+    sni: twmoon1-cdn-route.couldflare-cdn.com
+    tls: true
+    type: http
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+      
   - name: AlvinQuick-1                     
     type: hysteria
     server: 185.22.155.71
@@ -43,19 +289,6 @@ proxies:
     up: "1000 Mbps"
     down: "1000 Mbps"
 
-  - name: AlvinSingbox-1
-    type: hysteria
-    server: 195.154.200.178
-    port: 44557
-    auth_str: dongtaiwang.com
-    alpn:
-      - h3
-    tls: true
-    servername: apple.com
-    skip-cert-verify: true
-    up: "1000 Mbps"
-    down: "1000 Mbps"
-
   - name: AlvinSingbox-2
     type: hysteria
     server: 176.32.35.226
@@ -68,194 +301,24 @@ proxies:
     skip-cert-verify: true
     up: "1000 Mbps"
     down: "1000 Mbps"
-  - name: TW-HTTP-1
-    password: exaxgqkKkd0TAMrCxeonWg==
-    port: 443
-    server: tw1-cdn-route.couldflare-cdn.com
-    skip-cert-verify: false
-    sni: tw1-cdn-route.couldflare-cdn.com
-    tls: true
-    type: http
-    username: mrwdfNTD8M79LCukCieldrqZWqs=
-  - name: HK-HTTP-1
-    password: exaxgqkKkd0TAMrCxeonWg==
-    port: 443
-    server: hkre1-cdn-route.couldflare-cdn.com
-    skip-cert-verify: false
-    sni: hkre1-cdn-route.couldflare-cdn.com
-    tls: true
-    type: http
-    username: mrwdfNTD8M79LCukCieldrqZWqs=
-  - name: JP-HTTP-1
-    password: exaxgqkKkd0TAMrCxeonWg==
-    port: 443
-    server: jp104-cdn-route.couldflare-cdn.com
-    skip-cert-verify: false
-    sni: jp104-cdn-route.couldflare-cdn.com
-    tls: true
-    type: http
-    username: mrwdfNTD8M79LCukCieldrqZWqs=
-  - name: Good02
-    type: vless
-    server: 20.42.228.160
-    port: 443
-    uuid: 6f995056-7802-4a1d-bff7-61678e626c3f
-    network: ws
-    tls: true
-    servername: sdfee4.azurewebsites.net
-    alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        host: sdfee4.azurewebsites.net
-    ip-version: dual
-  - name: US-WS-1
-    port: 2082
-    server: 159.112.235.174
-    type: vless
-    network: ws
-    udp: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: workerr.schodog1.workers.dev
-    uuid: 47e9a0db-50c6-4522-8819-502c55b06dde
-    client-fingerprint: chrome
-  - name: vpnshield
-    port: 80
-    server: 162.159.250.246
-    type: vless
-    network: ws
-    udp: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: vpnshield5554.vpnvpnfree5.workers.dev
-    uuid: 63583ca2-b618-4bd8-96a1-08febe3a6730
-    client-fingerprint: chrome
-  - name: Hy-dongtaiwang
-    type: hysteria
-    server: 46.17.41.174
-    port: 10469
-    auth_str: dongtaiwang.com
-    alpn:
-    - h3
-    sni: apple.com
-    skip-cert-verify: true
-    udp: true
-    up: 1000 Mbps
-    down: 1000 Mbps
-  - name: Hy2-dongtaiwang
-    type: hysteria2
-    server: 108.181.5.133
-    port: 15544
-    password: dongtaiwang.com
-    sni: apple.com
-    fast-open: true
-    tls: true
-    udp: true
-    skip-cert-verify: true
 
-  - name: beiyong-TLS
-    server: beiyong.dynuddns.net
-    port: 12597
-    type: vless
-    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-    tls: true
-    network: tcp
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-    servername: www.nvidia.com
-    client-fingerprint: chrome
 
-  - name: csuzhou01-TLS
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    network: tcp
-    port: 13989
-    reality-opts:
-      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-    server: csuzhou01.1cooldns.com
-    servername: gateway.icloud.com
-    tls: true
-    type: vless
-    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-
-  - name: HY2-TW
-    auth: 82febca6-8856-41fe-84df-c8bda0b72c7b
-    password: 82febca6-8856-41fe-84df-c8bda0b72c7b
-    port: 2020
-    server: tw3.akebi.cc
-    skip-cert-verify: false
-    sni: ua01.akebi.cc
-    type: hysteria2
-
-  - name: GOzaRGAh-TLS
-    network: ws
-    port: 8443
-    server: 188.114.96.3
-    servername: GOzaRGAh.vALidBv7996.Ir
-    tls: true
-    type: vless
-    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-    ws-opts:
-      headers:
-          Host: GOzaRGAh.vALidBv7996.Ir
-      path: /Telegram@V2ray_Alpha/?ed=2560
-
-  - name: GuangZhou-TLS
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    network: tcp
-    port: 60677
-    reality-opts:
-      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-    server: agaungzhou01.bumbleshrimp.com
-    servername: www.nvidia.com
-    tls: true
-    type: vless
-    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-
-  - name: gozargah
-    network: ws
-    port: 80
-    server: 45.131.4.248
-    tls: false
-    type: vless
-    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
-    ws-opts:
-      headers:
-          Host: gozargah.validbv7996.ir
-      path: /
 
 proxy-groups:
-  - name: ProxyNet
+  - name: "ProxyNet"
+    include-all: true
     type: select
-    include-all: true
     proxies:
-      - Best-of-All
-      - Streamer
-      
-  - name: Best-of-All
-    type: url-test
-    include-all: true
-    interval: 120
-    test-timeout: 3
-    url: https://www.gstatic.com/generate_204
+      - DIRECT
+      - REJECT
+      - "Best-of-ALL"
 
-  - name: Streamer
+  - name: "Best-of-ALL"
+    interval: 300
     include-all: true
-    interval: 120
     test-timeout: 3
-    tolerance: 10
     type: url-test
-    url: https://hindilinks4u.horse/favicon.ico
-
+    url: https://watchomovies.yoga/favicon.ico
 
 rules:
   - DOMAIN-SUFFIX,baidu.com,DIRECT
@@ -1377,4 +1440,3 @@ rules:
   - IP-CIDR,172.16.0.0/12,DIRECT
   - IP-CIDR,127.0.0.0/8,DIRECT
   - GEOIP,CN,DIRECT
-
