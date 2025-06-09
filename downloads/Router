@@ -6,241 +6,6 @@ log-level: info
 external-controller: :9090
 
 proxies:
-  - name: 🔒 VL-TCP-RLT 🇫🇷 FR-51.195.232.222:1370
-    type: vless
-    server: 51.195.232.222
-    port: 1370
-    uuid: 00f8d77b-ba64-4807-8fc0-bb3cbe89b6e6
-    network: tcp
-    tls: true
-    servername: refersion.com
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
-      short-id: e1afb93bfe75a34b
-    ip-version: dual
-    udp: true
-  - name: 🔒 VL-TCP-RLT 🇬🇧 GB-51.89.225.228:1370
-    type: vless
-    server: 51.89.225.228
-    port: 1370
-    uuid: 00f8d77b-ba64-4807-8fc0-bb3cbe89b6e6
-    network: tcp
-    tls: true
-    servername: refersion.com
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
-      short-id: e1afb93bfe75a34b
-    ip-version: dual
-    udp: true
-  - name: 🔒 VL-TCP-RLT 🇬🇧 GB-198.244.143.248:1370
-    type: vless
-    server: 198.244.143.248
-    port: 1370
-    uuid: 00f8d77b-ba64-4807-8fc0-bb3cbe89b6e6
-    network: tcp
-    tls: true
-    servername: refersion.com
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
-      short-id: e1afb93bfe75a34b
-    ip-version: dual
-    udp: true
-  - name: 🔒 VL-TCP-RLT 🇬🇧 GB-51.89.227.143:1370
-    type: vless
-    server: 51.89.227.143
-    port: 1370
-    uuid: 00f8d77b-ba64-4807-8fc0-bb3cbe89b6e6
-    network: tcp
-    tls: true
-    servername: refersion.com
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
-      short-id: e1afb93bfe75a34b
-    ip-version: dual
-    udp: true
-  - name: 🔒 VL-TCP-RLT 🇬🇧 GB-51.89.224.206:1370
-    type: vless
-    server: 51.89.224.206
-    port: 1370
-    uuid: 00f8d77b-ba64-4807-8fc0-bb3cbe89b6e6
-    network: tcp
-    tls: true
-    servername: refersion.com
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
-      short-id: e1afb93bfe75a34b
-    ip-version: dual
-    udp: true
-  - name: 🔒 VL-TCP-RLT 🇬🇧 GB-51.89.225.1:1370
-    type: vless
-    server: 51.89.225.1
-    port: 1370
-    uuid: 00f8d77b-ba64-4807-8fc0-bb3cbe89b6e6
-    network: tcp
-    tls: true
-    servername: refersion.com
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
-      short-id: e1afb93bfe75a34b
-    ip-version: dual
-    udp: true
-  - name: 🔒 VL-TCP-RLT 🇬🇧 GB-51.89.226.14:1370
-    type: vless
-    server: 51.89.226.14
-    port: 1370
-    uuid: 00f8d77b-ba64-4807-8fc0-bb3cbe89b6e6
-    network: tcp
-    tls: true
-    servername: refersion.com
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
-      short-id: e1afb93bfe75a34b
-    ip-version: dual
-    udp: true
-  - name: 🔒 VL-TCP-RLT 🇫🇷 FR-51.195.232.40:1370
-    type: vless
-    server: 51.195.232.40
-    port: 1370
-    uuid: 00f8d77b-ba64-4807-8fc0-bb3cbe89b6e6
-    network: tcp
-    tls: true
-    servername: refersion.com
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
-      short-id: e1afb93bfe75a34b
-    ip-version: dual
-    udp: true
-  - name: 🔒 VL-TCP-RLT 🇬🇧 GB-51.89.226.3:1370
-    type: vless
-    server: 51.89.226.3
-    port: 1370
-    uuid: 00f8d77b-ba64-4807-8fc0-bb3cbe89b6e6
-    network: tcp
-    tls: true
-    servername: refersion.com
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
-      short-id: e1afb93bfe75a34b
-    ip-version: dual
-    udp: true
-  - name: 🔒 VL-TCP-RLT 🇫🇷 FR-57.128.166.36:1370
-    type: vless
-    server: 57.128.166.36
-    port: 1370
-    uuid: 00f8d77b-ba64-4807-8fc0-bb3cbe89b6e6
-    network: tcp
-    tls: true
-    servername: refersion.com
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: _N3KecwB9Ck28IIMxIck00ivkq3_ZEUvU3KXELnfvHw
-      short-id: e1afb93bfe75a34b
-    ip-version: dual
-    udp: true
-  - name: 🔒 VL-TCP-RLT 🇳🇱 NL-142.93.230.37:8440
-    type: vless
-    server: 142.93.230.37
-    port: 8440
-    uuid: b357d11e-48ff-483f-969e-e72c380341f5
-    network: tcp
-    tls: true
-    servername: refersion.com
-    flow: xtls-rprx-vision
-    skip-cert-verify: true
-    client-fingerprint: firefox
-    reality-opts:
-      public-key: y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic
-    ip-version: dual
-    udp: true
-  - name: 15|GB_speednode_0022
-    type: vless
-    server: 91.193.58.69
-    port: 8880
-    uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-    network: ws
-    tls: true
-    servername: cs.laoyoutiao.link
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: cs.laoyoutiao.link
-    ip-version: dual
-  - name: 🔒 VL-TCP-RLT 🇸🇨 SC-178.20.215.10:443
-    type: vless
-    server: 178.20.215.10
-    port: 443
-    uuid: a0de1607-5b63-fab8-a759-9f98706b6125
-    network: tcp
-    tls: true
-    servername: speed.cloudflare.com
-    flow: xtls-rprx-vision
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: GfTzhy59k9CXlAdF819OUVeBdrqIILaDIWa1bddjGnA
-    ip-version: dual
-    udp: true
-  - name: 🔒 VL-GRPC-RLT 🇩🇪 DE-185.235.241.208:2087
-    type: vless
-    server: 185.235.241.208
-    port: 2087
-    uuid: 4338311a-e9e6-4909-9a72-dc1b20b5c706
-    network: grpc
-    tls: true
-    servername: www.cdn77.com
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: WAexhAE6LEk2BSCikHVk7eSNTWel__rYPsJfq5Ud9Tc
-      short-id: 1f8912
-    grpc-opts:
-      grpc-service-name: Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs_Telegram_configMs
-    ip-version: dual
-    udp: true
-  - name: 🔒 VL-WS-TLS 🇸🇪 SE-77.232.143.85:443
-    type: vless
-    server: 77.232.143.85
-    port: 443
-    uuid: 1a79d43f-b41c-496b-a241-dcbeefa81f0e
-    network: ws
-    tls: true
-    servername: 0926.qiang2000.link
-    skip-cert-verify: true
-    client-fingerprint: random
-    ws-opts:
-      path: /
-      headers:
-        host: 0926.qiang2000.link
-    ip-version: dual
-  - name: 🔒 VL-TCP-NONE 🇫🇮 FI-157.180.41.190:1517
-    type: vless
-    server: 157.180.41.190
-    port: 1517
-    uuid: 7c24ca73-193f-4873-adfc-3939a3a9b005
-    network: tcp
-    tls: false
-    client-fingerprint: random
-    ip-version: dual
     
   - name: TW Moon
     password: exaxgqkKkd0TAMrCxeonWg==
@@ -252,7 +17,7 @@ proxies:
     type: http
     username: mrwdfNTD8M79LCukCieldrqZWqs=
       
-  - name: AlvinQuick-1                     
+  - name: AlvinQuick-1-RU                  
     type: hysteria
     server: 185.22.155.71
     port: 10803
@@ -264,7 +29,7 @@ proxies:
     up: "1000 Mbps"
     down: "1000 Mbps"
 
-  - name: AlvinQuick-2                    
+  - name: AlvinQuick-2-US                  
     type: hysteria
     server: 208.87.243.151
     port: 17549
@@ -276,7 +41,7 @@ proxies:
     up: "1000 Mbps"
     down: "1000 Mbps"
 
-  - name: AlvinQuick-3                    
+  - name: AlvinQuick-3-HK                
     type: hysteria
     server: 108.181.24.77
     port: 11512
@@ -289,7 +54,7 @@ proxies:
     up: "1000 Mbps"
     down: "1000 Mbps"
 
-  - name: AlvinSingbox-2
+  - name: AlvinSingbox-2-RU
     type: hysteria
     server: 176.32.35.226
     port: 62003
