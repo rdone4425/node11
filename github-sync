@@ -1,0 +1,38 @@
+#!/bin/sh
+#
+# GitHub 同步工具启动脚本
+# 这个脚本可以放在 /usr/local/bin/ 目录中，方便从任何地方调用
+#
+
+# 项目目录
+PROJECT_DIR="/root/github-sync"
+MAIN_SCRIPT="$PROJECT_DIR/github-sync.sh"
+
+# 检查项目目录是否存在
+if [ ! -d "$PROJECT_DIR" ]; then
+    echo "错误: 项目目录不存在: $PROJECT_DIR"
+    echo "请先运行安装程序或手动创建项目目录"
+    exit 1
+fi
+
+# 检查主脚本是否存在
+if [ ! -f "$MAIN_SCRIPT" ]; then
+    echo "错误: 主脚本不存在: $MAIN_SCRIPT"
+    echo "请先运行安装程序"
+    exit 1
+fi
+
+# 检查主脚本是否可执行
+if [ ! -x "$MAIN_SCRIPT" ]; then
+    echo "警告: 主脚本不可执行，正在修复权限..."
+    chmod +x "$MAIN_SCRIPT"
+fi
+
+# 切换到项目目录并执行主脚本
+cd "$PROJECT_DIR" || {
+    echo "错误: 无法切换到项目目录: $PROJECT_DIR"
+    exit 1
+}
+
+# 传递所有参数给主脚本
+exec "$MAIN_SCRIPT" "$@"
