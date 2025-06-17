@@ -1,463 +1,185 @@
-# GitHub 文件同步工具
+# subs-check Docker 一键部署和管理脚本
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Shell Script](https://img.shields.io/badge/Shell-Bash-green.svg)](https://www.gnu.org/software/bash/)
-[![OpenWrt Compatible](https://img.shields.io/badge/OpenWrt-Compatible-blue.svg)](https://openwrt.org/)
+这是一个用于快速部署和管理 [beck-8/subs-check](https://github.com/beck-8/subs-check) Docker 镜像的一键式脚本。本脚本可以帮助用户快速搭建和管理订阅测试服务，提供完整的部署、配置和管理功能。
 
-专为OpenWrt/Kwrt系统设计的轻量级GitHub文件同步工具，支持自动监控本地文件变化并同步到GitHub仓库。
+## 致谢
+- 感谢 [beck-8](https://github.com/beck-8) 提供的优秀项目
+- 感谢 [cmliu](https://github.com/cmliu) 提供的订阅源
+- 感谢 [rdone4425](https://github.com/rdone4425) 提供的订阅URL列表
 
-## ✨ 核心特性
+## 功能特点
 
-- � **一键安装** - 支持curl一行命令安装，自动创建专用项目目录
-- 🔄 **实时同步** - 自动监控文件变化，智能同步到GitHub
-- 📁 **多路径支持** - 支持同时监控多个文件或目录
-- 🏠 **多实例支持** - 支持为不同项目创建独立实例
-- 🎛️ **简化配置** - 统一的配置流程，无复杂模板选择
-- 📊 **智能日志** - 自动日志轮转和清理，性能优化
-- �️ **整洁组织** - 专用项目目录 `/root/github-sync/`，文件管理更清晰
-- �🛡️ **高兼容性** - 支持OpenWrt、Linux等多种系统
-- 🔒 **安全可靠** - GitHub API集成，支持个人访问令牌
-- ⚡ **便捷访问** - 全局 `github-sync` 命令，可从任何位置调用
+- 自动检测系统环境并安装 Docker
+- 自动配置所需的目录结构和配置文件
+- 从GitHub下载最新的docker-compose.yml配置
+- 支持每日自动更新订阅URL列表
+- 根据服务检查时间自动设置定时任务（提前2分钟执行）
+- 提供完整的服务管理命令（启动、停止、重启等）
+- 支持查看下次检查时间和同步定时任务
+- 支持 GitHub 代理加速
+- 自动生成随机 API 密钥（或使用现有配置）
+- 自动从docker-compose.yml中提取端口配置
 
-## 🚀 快速开始
+## 快速开始
 
-### 一键安装（推荐）
+### Linux系统:
 
+#### 方式一：一键安装（推荐）
 ```bash
-# 一键安装（使用加速镜像，适合国内用户）
-curl -fsSL https://git.910626.xyz/https://raw.githubusercontent.com/rdone4425/github11/main/github-sync.sh -o /tmp/github-sync.sh && chmod +x /tmp/github-sync.sh && /tmp/github-sync.sh install
+bash <(curl -Ls https://raw.githubusercontent.com/rdone4425/node11/main/subs-check.sh)
 ```
 
-**安装过程**：
-1. 自动创建专用项目目录 `/root/github-sync/`
-2. 复制主程序到项目目录
-3. 创建便捷启动脚本
-4. 安装到系统路径（可选）
-5. **自动启动交互式配置向导**
-
-**安装后的目录结构**：
-```
-/root/github-sync/                    # 专用项目目录
-├── github-sync.sh                    # 主程序
-├── github-sync-launcher.sh           # 便捷启动脚本
-├── github-sync-default.conf          # 配置文件
-├── github-sync-default.log           # 日志文件
-└── ...                              # 其他运行时文件
-```
-
-### 手动安装
-
+#### 方式二：手动安装
+1. 安装依赖
 ```bash
-# 创建项目目录
-mkdir -p /root/github-sync && cd /root/github-sync
+# Ubuntu/Debian系统
+sudo apt update && sudo apt install -y wget curl coreutils
 
-# 下载主程序
-curl -fsSL https://git.910626.xyz/https://raw.githubusercontent.com/rdone4425/github11/main/github-sync.sh -o github-sync.sh
-
-# 设置权限并运行安装
-chmod +x github-sync.sh
-./github-sync.sh install
+# CentOS/RHEL系统
+sudo yum install -y wget curl coreutils
 ```
 
-### 使用方法
-
-安装完成后，可以通过以下方式使用：
-
+2. 下载脚本
 ```bash
-# 方法1: 使用全局命令（推荐）
-github-sync                           # 启动交互式菜单
-github-sync config                    # 配置向导
-github-sync start                     # 启动服务
-github-sync status                    # 查看状态
-
-# 方法2: 直接运行主程序
-/root/github-sync/github-sync.sh
-
-# 方法3: 在项目目录中运行
-cd /root/github-sync
-./github-sync.sh
+wget https://raw.githubusercontent.com/rdone4425/node11/main/subs-check.sh
 ```
 
-### 首次配置
-
+3. 设置权限并运行
 ```bash
-# 启动配置向导
-github-sync config
+chmod +x subs-check.sh
+./subs-check.sh
 ```
 
-**简化的配置流程**：
-1. **GitHub凭据**: 输入用户名和个人访问令牌
-2. **基本配置**: 设置仓库名称和本地路径
-3. **自动完成**: 使用合理的默认设置
+### Windows系统:
+1. 下载脚本:
+   - 在浏览器中打开 https://raw.githubusercontent.com/rdone4425/node11/main/subs-check.sh
+   - 右键点击页面,选择"另存为"
+   - 保存文件到本地(例如: D:\subs-check.sh)
 
-### 服务管理
-```bash
-# 测试配置
-github-sync test
+2. 运行脚本:
+   - 安装 [Git Bash](https://git-scm.com/downloads)
+   - 打开 Git Bash
+   - 进入脚本所在目录: `cd /d/`
+   - 运行脚本: `bash subs-check.sh`
 
-# 启动同步服务
-github-sync start
+## 配置说明
 
-# 查看状态
-github-sync status
-
-# 停止服务
-github-sync stop
+脚本会自动创建以下目录结构：
+```
+~/subs-check/
+├── config/           # 配置文件目录
+├── output/           # 输出文件目录
+├── docker-compose.yml # 从GitHub下载的配置文件
+└── subs-check.sh     # 服务管理脚本
 ```
 
-## 📋 命令说明
+默认订阅URL配置从 [node11](https://github.com/rdone4425/node11/blob/main/raw_urls.txt) 仓库获取，并每天自动更新。
 
-```bash
-github-sync [命令] [选项]
-```
+docker-compose.yml 文件从 [node11](https://github.com/rdone4425/node11/blob/main/docker-compose.yml) 仓库下载，确保使用最新的配置。
 
-### 基本命令
-- `start` - 启动同步服务
-- `stop` - 停止同步服务
-- `restart` - 重启同步服务
-- `status` - 显示服务状态
-- `config` - 启动配置向导
-- `test` - 测试配置和GitHub连接
-- `logs` - 显示日志
-- `cleanup` - 清理日志文件
-- `install` - 安装/重新安装工具
-- `help` - 显示帮助信息
+### 端口配置
 
-### 多实例支持
-```bash
-# 为不同项目创建独立实例
-github-sync -i project1 config
-github-sync -i project1 start
+端口配置从 docker-compose.yml 文件中读取，默认为：
+- Web 面板: 8199
+- Sub-Store 服务: 8299
 
-github-sync -i project2 config
-github-sync -i project2 start
-
-# 查看所有实例
-github-sync list
-```
-
-### 交互式菜单
-```bash
-# 启动交互式菜单（无参数运行）
-github-sync
-```
-提供友好的图形化菜单界面，包括：
-- 服务管理（启动/停止/重启）
-- 配置管理（编辑/测试/示例）
-- 同步操作（手动同步/查看日志）
-- 系统管理（安装/向导/帮助）
-
-## ⚙️ 配置示例
-
-### 单文件同步
-```bash
-# 同步单个配置文件
-本地路径: /etc/config/network
-GitHub仓库: username/openwrt-config
-分支: main
-目标路径: config/network
-```
-
-### 目录同步
-```bash
-# 同步整个脚本目录
-本地路径: /root/scripts
-GitHub仓库: username/my-scripts
-分支: main
-目标路径: scripts
-```
-
-### 多路径配置
-可以在一个实例中配置多个同步路径，每个路径可以指向不同的GitHub仓库。
-
-## 📊 日志管理
-
-### 自动日志管理
-- **自动轮转**: 文件大小超过1MB时自动轮转
-- **自动清理**: 每天凌晨2-6点清理过期日志
-- **保留策略**: 默认保留7天，最多10个文件
-
-### 手动日志管理
-```bash
-# 查看日志
-./github-sync.sh logs
-
-# 清理日志
-./github-sync.sh cleanup
-```
-
-## 🔧 高级配置
-
-### 配置文件位置
-- 默认实例: `/root/github-sync/github-sync-default.conf`
-- 命名实例: `/root/github-sync/github-sync-<实例名>.conf`
-
-### 主要配置项
-```bash
-# GitHub配置
-GITHUB_USERNAME="your-username"
-GITHUB_TOKEN="ghp_your-token"
-
-# 监控配置
-POLL_INTERVAL=30          # 轮询间隔（秒）
-LOG_LEVEL="INFO"          # 日志级别
-
-# 同步路径（格式：本地路径|仓库|分支|目标路径）
-SYNC_PATHS="/path/to/file|username/repo|main|target/path"
-
-# 日志管理
-LOG_MAX_SIZE=1048576      # 日志文件最大大小
-LOG_KEEP_DAYS=7           # 保留日志天数
-LOG_MAX_FILES=10          # 最多保留日志文件数
-```
-
-## 🛠️ 故障排除
-
-### 常见问题
-
-1. **路径不存在错误**
-   ```bash
-   # 检查文件是否存在
-   ls -la /path/to/your/file
-
-   # 重新配置路径
-   ./github-sync.sh config
-   ```
-
-2. **GitHub连接失败**
-   ```bash
-   # 测试连接
-   ./github-sync.sh test
-
-   # 检查令牌权限（需要repo权限）
-   ```
-
-3. **服务无法启动**
-   ```bash
-   # 查看详细日志
-   ./github-sync.sh logs
-
-   # 检查配置
-   ./github-sync.sh config
-   ```
-
-### 日志位置
-- 默认实例: `/root/github-sync/github-sync-default.log`
-- 命名实例: `/root/github-sync/github-sync-<实例名>.log`
-
-## � 项目目录结构
-
-安装后的完整目录结构：
-
-```
-/root/github-sync/                    # 专用项目目录
-├── github-sync.sh                    # 主程序脚本
-├── github-sync-launcher.sh           # 便捷启动脚本
-├── github-sync-default.conf          # 默认实例配置文件
-├── github-sync-default.log           # 默认实例日志文件
-├── github-sync-default.pid           # 默认实例进程ID文件
-├── github-sync-default.lock          # 默认实例锁文件
-├── .state_*                          # 文件状态缓存
-├── .cleanup_stats_*                  # 日志清理临时文件
-└── .last_log_cleanup_*               # 日志清理标记文件
-```
-
-**多实例支持**：
-```
-/root/github-sync/
-├── github-sync-project1.conf         # project1实例配置
-├── github-sync-project1.log          # project1实例日志
-├── github-sync-project2.conf         # project2实例配置
-├── github-sync-project2.log          # project2实例日志
-└── ...
-```
-
-## �📝 注意事项
-
-1. **GitHub令牌权限**: 确保令牌有repo权限
-2. **文件大小限制**: 默认限制1MB，可在配置中调整
-3. **网络连接**: 需要稳定的网络连接到GitHub
-4. **文件权限**: 确保有读取监控文件的权限
-5. **项目目录**: 所有文件统一存储在 `/root/github-sync/` 目录中
-
-## 🔗 GitHub令牌创建
-
-1. 登录GitHub，进入 Settings > Developer settings > Personal access tokens
-2. 点击 "Generate new token"
-3. 选择权限：至少需要 `repo` 权限
-4. 复制生成的令牌（只显示一次）
-
-## 📄 许可证
-
-MIT License
-
-## 🤝 贡献
-
-欢迎提交Issue和Pull Request！
-
-## � 系统要求
-
-- OpenWrt/Kwrt系统（推荐）或其他Linux系统
-- curl工具（用于GitHub API调用）
-- base64工具（用于文件编码）
-- 稳定的网络连接
-
-> 💡 **提示**: 一键安装脚本会自动检测系统并安装所需依赖，无需手动准备。
-
-## ⚙️ 详细配置
-
-### GitHub令牌设置
-
-1. 访问 [GitHub Settings > Personal Access Tokens](https://github.com/settings/tokens)
-2. 点击 "Generate new token (classic)"
-3. 选择以下权限：
-   - `repo`: 完整的仓库访问权限
-4. 复制生成的令牌到配置文件
-
-### 同步路径配置
-
-同步路径格式：`本地路径|GitHub仓库|分支|目标路径`
-
-```bash
-SYNC_PATHS="
-/etc/config|username/openwrt-config|main|config
-/root/scripts|username/scripts|main|
-/etc/firewall.user|username/openwrt-config|main|firewall.user
-"
-```
-
-### 文件过滤
-
-```bash
-# 排除不需要同步的文件
-EXCLUDE_PATTERNS="*.tmp *.log *.pid *.lock .git *.swp"
-```
-
-
+您可以直接修改 docker-compose.yml 文件中的端口映射，脚本会自动识别并使用您设置的端口。
 
 ## 服务管理
 
-### OpenWrt系统
+使用 subs-check.sh 脚本进行服务管理：
 
 ```bash
-# 使用procd服务管理
-/etc/init.d/github-sync start
-/etc/init.d/github-sync stop
-/etc/init.d/github-sync restart
-/etc/init.d/github-sync enable   # 开机自启
+cd ~/subs-check
+./subs-check.sh [命令]
 ```
 
-### 手动管理
+可用命令：
+- `deploy`: 部署服务（默认命令）
+- `start`: 启动服务
+- `stop`: 停止服务
+- `restart`: 重启服务
+- `status`: 查看服务状态
+- `logs`: 查看日志
+- `update`: 更新镜像
+- `update-urls`: 更新订阅URL列表
+- `next-check`: 查看下次检查时间
+- `sync-cron`: 同步定时任务与下次检查时间
+- `help`: 显示帮助信息
 
-```bash
-# 后台运行
-nohup ./github-sync.sh daemon > /dev/null 2>&1 &
+## 配置文件说明
 
-# 查看进程
-ps | grep github-sync
-```
+配置文件位于 `config/config.yaml`，会在首次运行时自动生成。主要配置项包括：
 
-## 故障排除
+- `api-key`: API访问密钥（自动生成或从docker-compose.yml中获取）
+- `sub-urls`: 订阅地址列表（自动从GitHub获取并每日更新）
+- `github-proxy`: GitHub代理地址（默认：https://git.910626.xyz/）
 
-### 常见问题
+您可以通过 `./subs-check.sh update-urls` 命令随时手动更新订阅列表。系统也会根据服务的检查时间，自动设置定时任务在每天检查前2分钟更新订阅列表。
 
-1. **GitHub连接失败**
+## 注意事项
+
+1. 首次运行时会自动生成随机 API 密钥，或使用docker-compose.yml中已有的密钥
+2. 配置文件会在首次运行时自动生成
+3. docker-compose.yml文件从GitHub下载，确保使用最新配置
+4. 端口配置从docker-compose.yml文件中读取，无需手动设置
+5. 定时任务会根据服务的检查时间自动设置，提前2分钟执行
+6. GitHub 代理默认使用 `https://git.910626.xyz/`
+7. 非 root 用户运行时某些操作可能需要 sudo 权限
+8. 脚本会自动将自身复制到安装目录，方便后续管理
+
+## 支持的系统
+
+- Ubuntu
+- Debian
+- Raspbian
+- CentOS
+- RHEL
+- Fedora
+
+## 访问服务
+
+部署完成后，脚本会显示访问服务的具体地址和端口。默认情况下，可通过以下地址访问服务：
+
+- Web 管理界面: `http://<服务器IP>:<WEB_PORT>/admin`
+- Sub-Store 服务: `http://<服务器IP>:<SUB_STORE_PORT>`
+
+订阅链接：
+- Clash/Mihomo: `http://<服务器IP>:<WEB_PORT>/sub/mihomo.yaml`
+- 仅节点: `http://<服务器IP>:<WEB_PORT>/sub/all.yaml`
+- Base64: `http://<服务器IP>:<WEB_PORT>/sub/base64.txt`
+
+其中 `<WEB_PORT>` 和 `<SUB_STORE_PORT>` 是从 docker-compose.yml 文件中读取的端口配置，默认分别为 8199 和 8299。
+
+## 自动更新和定时任务
+
+脚本提供了自动更新订阅URL的功能，具体特点如下：
+
+1. **自动设置定时任务**：
+   - 脚本会从服务日志中获取下次检查时间
+   - 根据检查时间自动设置定时任务，提前2分钟执行
+   - 如果无法获取检查时间，则使用默认的凌晨3点
+
+2. **查看下次检查时间**：
    ```bash
-   # 检查网络连接
-   curl -I https://api.github.com
-
-   # 验证令牌
-   curl -H "Authorization: token YOUR_TOKEN" https://api.github.com/user
+   ./subs-check.sh next-check
    ```
+   此命令会显示服务的下次检查时间，帮助您了解服务状态。
 
-2. **文件同步失败**
+3. **同步定时任务**：
    ```bash
-   # 查看详细日志
-   ./github-sync.sh logs
-
-   # 检查文件权限
-   ls -la /path/to/file
+   ./subs-check.sh sync-cron
    ```
+   此命令会根据最新的下次检查时间，更新定时任务的执行时间。
 
-3. **服务启动失败**
+4. **手动更新订阅**：
    ```bash
-   # 检查配置
-   ./github-sync.sh test
-
-   # 手动运行测试
-   ./github-sync.sh sync
+   ./subs-check.sh update-urls
    ```
+   此命令会立即从GitHub下载最新的订阅URL列表并更新配置。
 
-### 日志分析
+定时任务会在crontab中设置，您可以通过 `crontab -l` 命令查看当前的定时任务配置。
 
-日志文件位置：`/root/github-sync/github-sync-default.log`
+## License
 
-```bash
-# 实时查看日志
-tail -f /root/github-sync/github-sync-default.log
-
-# 查看错误日志
-grep ERROR /root/github-sync/github-sync-default.log
-
-# 使用便捷命令
-github-sync logs
-```
-
-## 高级配置
-
-### 网络代理
-
-```bash
-# 在配置文件中设置代理
-HTTP_PROXY="http://proxy.example.com:8080"
-HTTPS_PROXY="http://proxy.example.com:8080"
-```
-
-### 自定义提交消息
-
-```bash
-# 自定义提交消息模板
-COMMIT_MESSAGE_TEMPLATE="[OpenWrt] Update %s from $(hostname)"
-```
-
-### 性能优化
-
-```bash
-# 调整轮询间隔
-POLL_INTERVAL=60  # 60秒检查一次
-
-# 限制文件大小
-MAX_FILE_SIZE=2097152  # 2MB
-```
-
-## 安全建议
-
-1. **令牌安全**
-   - 定期轮换GitHub令牌
-   - 使用最小权限原则
-   - 不要在公共场所暴露令牌
-
-2. **文件安全**
-   - 避免同步包含密码的文件
-   - 使用私有仓库存储敏感配置
-   - 定期检查同步的文件内容
-
-3. **网络安全**
-   - 确保HTTPS连接
-   - 在不安全网络中使用VPN
-
-## 贡献
-
-欢迎提交Issue和Pull Request来改进这个工具。
-
-## 许可证
-
-MIT License
-
-## 更新日志
-
-### v1.0.0
-- 初始版本发布
-- 支持基本的文件同步功能
-- 集成procd服务管理
-- 完善的日志和错误处理
+[MIT License](LICENSE)
