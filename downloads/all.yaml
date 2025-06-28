@@ -1,1603 +1,7 @@
 proxies:
-- uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-  server: 35.177.19.203
-  name: 300d294675f7479ca73ff8a5897f666a_@_@Hope_Net-join-us-on-Telegram
-  type: vless
-  port: 22222
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: telegram-channel-vlessconfig.sohala.uk
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: telegram-channel-vlessconfig.sohala.uk
-    path: /telegram-channel-vlessconfig-ws
-- uuid: ad3d0eb7-24a6-403b-9225-feeacb8219b9
-  cipher: auto
-  alterId: 0
-  server: 104.31.16.9
-  name: aa6eac21fdac49038fc7bf40e66edc5c_@_@Hope_Net-join-us-on-Telegram
-  type: vmess
-  port: 2053
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 199.181.197.63
-  name: 266057e1e138464e81a3bebc7e135315_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: jp.laoyoutiao.link
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: jp.laoyoutiao.link
-    path: /Telegram🇨🇳
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 91.193.58.75
-  name: e280fcea08884555934a6fd8050f159f_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: sk.laoyoutiao.link
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: sk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3
-- uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
-  server: 45.131.4.154
-  name: dc92bba4df584eafa14d1c89bc695e25_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: Telegram🇨🇳@WangCai2/?ed=2560
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 141.193.213.135
-  name: 31bf6de9936a4102bf29e7f74d5c44f4_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: us.laoyoutiao.link
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: us.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3
-- uuid: c92794ee-7c70-4faa-8f07-e7cec2cb14c9
-  server: blog.zanbori.ir
-  name: 645762d833af47cd83e5ad3b79d7c42c_@_🇫🇮[openproxylist.com] vless-FI```
-  type: vless
-  port: 24989
-  network: tcp
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 91.193.58.2
-  name: eccfec290f4749b8a3ad755a8d2930a1_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /
-- server: 172.67.155.140
-  name: 5551b2c5ea164843bfe117239e7618fb_@_🇺🇸[openproxylist.com] trojan-US```
-  type: trojan
-  port: 443
-  password: 4b33b482-25bc-49e4-b866-878c914d945a
-  client-fingerprint: chrome
-- uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-  server: 95.164.45.70
-  name: 4f822292f6c54cf8ae0a3fa2f97df85d_@_🇫🇷[openproxylist.com] vless-FR```
-  type: vless
-  port: 8880
-  network: grpc
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
-  server: 45.159.217.254
-  name: cb775ac8581d4f23a9828a96b6c84056_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: Telegram-channel-WangCai2
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /Telegram🇨🇳
-- uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-  server: 94.247.142.251
-  name: d1aac8676b9c4be6a5ce552b4128779e_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560fp=chrome
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 141.193.213.184
-  name: 0de247c0b25b4c5bae291899e8f66d3f_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: cs.laoyoutiao.link
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: cs.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3
-- server: 104.21.75.75
-  name: e02c57a75b2a44efb00f533e3a53aaa2_@_🇺🇸[openproxylist.com] trojan-US```
-  type: trojan
-  port: 443
-  password: 11fbdd36-f418-4894-b2ed-50426a01ebcb
-  client-fingerprint: chrome
-- uuid: b55ec078-3b17-4ed1-a697-71f464cdcaaa
-  server: 172.67.14.59
-  name: 663ddc48b95742f7ab47d5480436a20d_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: random
-  servername: kssepa.sabzipolobamahi.dpdns.org
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: kssepa.sabzipolobamahi.dpdns.org
-    path: /?ed=2560
-- uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  server: 104.18.20.69
-  name: 6a824e14eccd490994b388f2238dc8a0_@_@Hope_Net-join-us-on-Telegram
-  type: vless
-  port: 2095
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /
-- server: 162.159.153.7
-  name: e1679f2ba6644baa913fc7cd0e122598_@_@Hope_Net-join-us-on-Telegram`
-  type: trojan
-  port: 443
-  password: 71ed6628-5870-4d19-8a52-f2a3ba3d4898
-  client-fingerprint: chrome
-- uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  cipher: auto
-  alterId: 64
-  server: 38.14.107.226
-  name: 12ab961e01c748dbbc9f90e766295c09_@_@Hope_Net-join-us-on-Telegram
-  type: vmess
-  port: 38003
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /path/340434130032
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 141.193.213.78
-  name: aed4ae0f0b724f3b98b882e88a51accb_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: cs.laoyoutiao.link
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: cs.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 188.42.89.63
-  name: 3061a3004b254ed9bd74b3a0c95a15a9_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: jp.laoyoutiao.link
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: jp.laoyoutiao.link
-    path: /Telegram🇨🇳
-- uuid: 30f2d443-af46-4dd6-83c9-b5e17299ebd2
-  server: 104.21.11.173
-  name: 971d1132ad0b4c30809fad89d273d927_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: randomized
-  servername: carlotta.shoorekeeper.cloudns.org
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: carlotta.shoorekeeper.cloudns.org
-    path: /proxyip=zani.yaemiko.ggff.net
-- server: 172.67.204.75
-  name: 6c17b8dbd2be4990a6cdc5c27a3ba294_@_🇺🇸[openproxylist.com] trojan-US```
-  type: trojan
-  port: 443
-  password: 9486ff17-2481-40c7-a5c4-d0d307de2509
-  client-fingerprint: chrome
-- uuid: 77371595-b7aa-472a-9d61-e9731861af07
-  server: 217.60.236.215
-  name: b19d8786e8164eb2ba8216e59ad5ea35_@_🇳🇱[openproxylist.com] vless-NL```
-  type: vless
-  port: 8443
-  network: tcp
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 91.193.58.184
-  name: 0c30955edb6c4a45bc0b6036b5057a2b_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /
-- uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-  server: 185.162.228.251
-  name: 4f62ff2908144dd7938b6ca7739e93fc_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: Telegram-channel-WangCai2
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /Telegram🇨🇳
-- uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-  server: 108.162.193.251
-  name: aca105a173c34b81b1586312122eb501_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560fp=chrome
-- uuid: 6f690965-3be3-43bb-9331-3ead6efb20aa
-  server: 172.67.62.141
-  name: b1634893a98c4a00b26d5fcde58e1d25_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /BaRAyeIran?ed=2560
-- server: 172.67.205.131
-  name: 7ebcee8c9f2a4b029f406d52394f872e_@_🇺🇸[openproxylist.com] trojan-US```
-  type: trojan
-  port: 443
-  password: f898ffcb-6417-4373-9640-0b66091e8206
-  client-fingerprint: chrome
-- server: 172.67.220.140
-  name: aa5d6c9e474444969a9890b836cd0808_@_🇺🇸[openproxylist.com] trojan-US```
-  type: trojan
-  port: 443
-  password: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
-  client-fingerprint: chrome
-- uuid: 03e92910-34b1-4245-ac63-04a865f43cd5
-  server: 172.67.199.104
-  name: a5bc7c7209d045c78643d2e72e012218_@_🇺🇸[openproxylist.com] vless-US```
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: 3eRt.4444916.xyz
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: 3eRt.4444916.xyz
-    path: /f7vKDX2UecxmlPhIJoo2wcE6Q
-- uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-  server: 103.169.142.251
-  name: 87deb332e7154f088bea4dfe9f77b14c_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- uuid: a739ad80-0aab-40b2-9b0e-8192c74287ef
-  server: 104.21.95.156
-  name: 5c234bae36e94d13b7ebf5c7940be0f7_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 2096
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: random
-  servername: faruzan.changli.ddns-ip.net
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: faruzan.changli.ddns-ip.net
-    path: /proxyip=navia.shorekeeper.ir
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 91.193.58.83
-  name: 68a36128d4354d6d90d8ab7dcfa39e59_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: us.laoyoutiao.link
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: us.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3
-- uuid: 4527ff0c-8ac2-452a-95cb-c2d29e5a8421
-  server: 104.16.143.139
-  name: 967fe78e336c4bbd80747f9a88b06c07_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 2096
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: ghh.wsthh.site
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: ghh.wsthh.site
-    path: /
-- uuid: 4e4768df-0fbb-4cc1-8fd3-7c6fea95742a
-  server: 104.25.81.220
-  name: e57bd83d8a904c02bf67ad9bf618f9dd_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: rayan-08.parastoo.dpdns.org
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: rayan-08.parastoo.dpdns.org
-    path: /@Rayan_Config
-- uuid: bbd2882a-c158-4ae6-b53a-5ae6be8dbcb0
-  server: 104.16.99.37
-  name: acbf0e912e194144a24f8bec1e7f6644_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: random
-  servername: barayeiran.nastaranh.dpdns.org
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: barayeiran.nastaranh.dpdns.org
-    path: /?ed=2560
-- server: 104.21.6.179
-  name: e9bc3dc3131a40c990e67a61eae6a15e_@_🇺🇸[openproxylist.com] trojan-US```
-  type: trojan
-  port: 443
-  password: 6757b7d6-fa32-4708-b5d1-30e3cf928b51
-  client-fingerprint: chrome
-- uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-  server: 13.48.164.56
-  name: 0ce8176e6e4a4e7f8cc16507010a05c3_@_@Hope_Net-join-us-on-Telegram
-  type: vless
-  port: 22222
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: telegram-channel-vlessconfig.sohala.uk
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: telegram-channel-vlessconfig.sohala.uk
-    path: /telegram-channel-vlessconfig-ws
-- uuid: 780161d1-a345-45d4-96fb-c2c4b88bf151
-  server: 185.238.228.33
-  name: 9acc376125c54851a4b43251d803f16d_@_@Hope_Net-join-us-on-Telegram`
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: dd.gevom47953.workers.dev
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: dd.gevom47953.workers.dev
-    path: /
-- uuid: 148709e4-402b-48dd-8892-ed39b55ea45c
-  server: 172.67.56.112
-  name: 312bb3ddb5ea48cab40954168a6be783_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: random
-  servername: entezar.loseyourself.dpdns.org
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: entezar.loseyourself.dpdns.org
-    path: /BaRAyeIran?ed=2560
-- server: 104.21.58.135
-  name: 29c9478a31e3404cb1a8142b379cb3ed_@_🇺🇸[openproxylist.com] trojan-US```
-  type: trojan
-  port: 443
-  password: 9486ff17-2481-40c7-a5c4-d0d307de2509
-  client-fingerprint: chrome
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 205.233.181.29
-  name: 671a074cceb74000af82051a25926aa2_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: hk.laoyoutiao.link
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: hk.laoyoutiao.link
-    path: /
-- server: 104.21.30.37
-  name: ea9c22080de8436fa320970fb82bd989_@_🇺🇸[openproxylist.com] trojan-US```
-  type: trojan
-  port: 443
-  password: cdec9d57-661d-456a-bbf2-b4c38e9c6711
-  client-fingerprint: chrome
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 102.177.189.29
-  name: b3c5a3ad258444ffb58f233120be53d3_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3
-- uuid: 142dd8b5-0b9e-4018-a961-2370d50cc435
-  server: 185.215.228.90
-  name: 5059e6216cd840cea6998fb669e49034_@_🇩🇪[openproxylist.com] vless-DE```
-  type: vless
-  port: 20118
-  network: tcp
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: 7a80a8d9-92f9-4f0a-8352-9005a8215ab8
-  server: 104.19.174.68
-  name: 960b1ed4ba1442aabc75adb727aa8e0d_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: rayan-08.leila.dpdns.org
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: rayan-08.leila.dpdns.org
-    path: /@Rayan_Config
-- uuid: 84ec1676-022d-40b1-a307-f293092527e0
-  server: 104.21.80.1
-  name: bea38da13a624f3092b3cf8e2fa99e9b_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 2053
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: randomized
-  servername: frEEBIRD.CoEngLIsHOP.stORe
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: frEEBIRD.CoEngLIsHOP.stORe
-    path: /1EFhmS6XJXWW166H/c2hpcmVuLnlhZW1pa28uZ2dmZi5uZXQ=
-- uuid: 401374e6-df77-41fb-f638-dad8184f175b
-  server: 45.205.0.170
-  name: ea1673f4a89f49329d9f6356dbc203b3_@_🇺🇸[openproxylist.com] vless-US```
-  type: vless
-  port: 443
-  network: grpc
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: pqh24v3.hiddendom.shop
-  fingerprint: ''
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 45.159.216.63
-  name: 651b035f8c864900a548d4a68c1b50b5_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: jp.laoyoutiao.link
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: jp.laoyoutiao.link
-    path: /Telegram🇨🇳
-- uuid: 9d6315f7-f272-4806-97c8-5fdaafad391e
-  server: 104.18.30.65
-  name: 8277564c772c450ca364f73cb37a6f85_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /?ed=2560
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 45.192.223.29
-  name: 9190a396ba5e4e79babdae5f599898e5_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /Telegram@V2ray_Alpha/?ed=2560
-- uuid: a739ad80-0aab-40b2-9b0e-8192c74287ef
-  server: 104.21.54.114
-  name: 5573b1d3fe974074823014f7b286a04a_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: randomized
-  servername: faruzan.changli.ddns-ip.net
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: faruzan.changli.ddns-ip.net
-    path: /proxyip=navia.shorekeeper.ir
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 141.193.213.160
-  name: aeed3cdfc8a44b71b27775b02491cf65_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: cs.laoyoutiao.link
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: cs.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 89.116.250.63
-  name: 0feb70dbd23a40e3b16d0fc2a9539ef4_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: sg.laoyoutiao.link
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: sg.laoyoutiao.link
-    path: /Telegram🇨🇳
-- uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
-  server: 194.36.55.254
-  name: 94bd2991d3c9407292f469d27f8e0a1b_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: Telegram-channel-WangCai2
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /Telegram🇨🇳
-- uuid: da08534a-bfca-4ac0-bd2a-2e3846bfcbc0
-  server: 104.26.13.8
-  name: d1bf9949d3cd4752ab8d9295438cbdd2_@_🇫🇮[openproxylist.com] vless-FI```
-  type: vless
-  port: 2052
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /
-- uuid: 84177428-a0a1-4993-8565-1097262698ae
-  server: 213.176.94.9
-  name: 85bd37904d764251a232067d7925339c_@_🇦🇹[openproxylist.com] vless-AT```
-  type: vless
-  port: 27860
-  network: tcp
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: 8df60790-c903-4661-b85d-64c0009378e5
-  server: 172.67.218.254
-  name: b3322e341e5a4d7da6d2ea953702f1d5_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: F1.paRsa.fiLegEar-Sg.Me
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: F1.paRsa.fiLegEar-Sg.Me
-    path: /?ed=2560
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 156.238.18.156
-  name: f4306bfdbb9c4992890a78603d9a00c0_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: TelegramрЯЗ
-- uuid: ec7a6b6d-94b6-45df-9d62-491f53a508be
-  server: 172.67.145.189
-  name: 78caca37a5ff4cc4a06ebba007df0a0e_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 2083
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: randomized
-  servername: FrEEdoM.pAnOtOSU.sTORe
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: FrEEdoM.pAnOtOSU.sTORe
-    path: /6fqYRq6DD1shcFIO/c2hpcmVuLnlhZW1pa28uZ2dmZi5uZXQ=?ed=2560
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 66.225.252.63
-  name: 531a3fdbd69d4efca18b39f73d2ec80b_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: jp.laoyoutiao.link
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: jp.laoyoutiao.link
-    path: /Telegram🇨🇳
-- uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
-  server: 213.109.205.247
-  name: 8515227828d648fc82fc5e1577bd70cd_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: ex.sue.x10.mx
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: ex.sue.x10.mx
-    path: /Telegram🇨🇳
-- server: 104.17.148.22
-  name: d510b43349df46b08fe1dc2673905484_@_🇸🇬[openproxylist.com] trojan-SG```
-  type: trojan
-  port: 2053
-  password: c4f42f64-a7cb-4bcb-874e-5088eac28576
-  client-fingerprint: chrome
-- uuid: 401374e6-df77-41fb-f638-dad8184f175b
-  server: 156.238.19.95
-  name: 7e35eb583176451081f8dab1c244e4a0_@_🇺🇸[openproxylist.com] vless-US```
-  type: vless
-  port: 443
-  network: grpc
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: pqh24v3.hiddendom.shop
-  fingerprint: ''
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 45.150.115.29
-  name: 0a09345ece524fe896b43796f3c94d91_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: hk.laoyoutiao.link
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3
-- uuid: b55ec078-3b17-4ed1-a697-71f464cdcaaa
-  server: 172.67.9.145
-  name: 37107408bedd49b2b8356337237a7d93_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: random
-  servername: kssepa.sabzipolobamahi.dpdns.org
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: kssepa.sabzipolobamahi.dpdns.org
-    path: /?ed=2560
-- uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
-  server: 193.33.87.247
-  name: c4d7fae7c0c14ac297940c46ea53e520_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: ex.sue.x10.mx
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: ex.sue.x10.mx
-    path: /Telegram@V2ray_Alpha
-- uuid: 74bcfbf9-2596-4243-8c0f-1042e4725ae7
-  server: 15.235.186.127
-  name: 919896aed944469c9f39a7ffd66cedaa_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /ws1
-- server: 172.67.160.119
-  name: df727014b6814c16ba4b02721dedc0f4_@_🇺🇸[openproxylist.com] trojan-US```
-  type: trojan
-  port: 443
-  password: a96cb093-b164-4bc6-bd27-deb0e385de07
-  client-fingerprint: chrome
-- uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  server: 162.159.152.2
-  name: dbdefd838aa445c987d3a9cb274ea3b0_@_@Hope_Net-join-us-on-Telegram
-  type: vless
-  port: 2095
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /?ed=2560
-- uuid: b27f4d97-2562-4867-ae20-45e625eec5f5
-  server: 151.101.66.228
-  name: 6d5b9cb5f1a847e79dece054f8b11942_@_@Hope_Net-join-us-on-Telegram`
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /
-- uuid: e8a78312-5989-4b00-bf4f-75eef7819168
-  server: 37.32.5.234
-  name: baa0fb169eda4f13ae7f21cbe946a16c_@_@meli_proxyy
-  type: vless
-  port: 2025
-  network: grpc
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  grpc-opts:
-    grpc-service-name: vless
-- uuid: fba210d7-09e4-41b0-a6b2-947eec8f6e41
-  server: 151.101.242.172
-  name: 
-    0d677726612f412bb931005cc03ff60b_@_@meli_proxyy`trojan://Aimer@108.165.152.113:443?sni=agept.ambercc.filegear-sg.me#@Hope_Net-join-us-on-Telegramvmess://eyJ2IjoiMiIsImFkZCI6IjE1NC4yNi4xNTMuMTYxIiwicG9ydCI6MjE3NTksImlkIjoiZTVmMTZmYWQtZjljMy00NTJiLThlNzEtYmM5NTA0ZTI5ZmM5Iiwic2N5IjoiYXV0byIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwidGxzIjoibm9uZSIsInNraXAtY2VydC12ZXJpZnkiOnRydWUsInBzIjoiXHVkODNjXHVkZGU2XHVkODNjXHVkZGZhW29wZW5wcm94eWxpc3QuY29tXSB2bWVzcy1BVSJ9```
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: WEDBAZ?ed=2048
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 14.102.229.29
-  name: fccc00e1544143c08db82a6387d02613_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: hk.laoyoutiao.link
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 176.124.223.29
-  name: 170d428701114a1cb8649d395b8ceec7_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /
-- uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  server: 45.8.211.239
-  name: 1107e1a2513d41c5acfc6bb840e35a9b_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI/?ed=2560
-- uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
-  server: 154.198.173.247
-  name: a39a3b475d944d79a74f5360716bf745_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: ex.sue.x10.mx
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: ex.sue.x10.mx
-    path: /Telegram🇨🇳
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 141.193.213.142
-  name: f2164f70f8d84dcbbcf43119a3fb8c47_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: cs.laoyoutiao.link
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: cs.laoyoutiao.link
-    path: /Telegram
-- uuid: e927c61f-8a00-45a5-9d43-06ac4f1b8b0e
-  server: 188.114.96.3
-  name: dc2a8d38253749a08fab22a86e38f009_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /QyAbjEiGvmffRF36?ed=2560
-- uuid: 89b64978-6244-4bf3-bf64-67ade4ce5c8f
-  server: 172.67.153.74
-  name: 65b981b6a17a471f8345a266baa41c0b_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 2087
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: node.vauth.workers.dev
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: node.vauth.workers.dev
-    path: /?ed=2048
-- uuid: 2457d72e-4178-4c2b-885d-a01a333dcc4f
-  server: 162.159.48.84
-  name: 85adfb274f1c4d35af83ca2b88da693c_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: 
-    vilcfhsmlsnafvjgkuwqmempbhgpmoi7yasq53negfgyflapzm9brh4v0pttdvu.32vva.workers.Dev
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: 
-        vilcfhsmlsnafvjgkuwqmempbhgpmoi7yasq53negfgyflapzm9brh4v0pttdvu.32vva.workers.Dev
-    path: /
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 156.243.83.63
-  name: 95d3f562ba21402a97e3de26722e9951_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: jp.laoyoutiao.link
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: jp.laoyoutiao.link
-    path: /Telegram🇨🇳
-- uuid: 54f6e78c-b497-4db7-ba48-38c4cf81d5ef
-  server: 188.114.99.16
-  name: 693b8769cd024d2596c7df94a01d0a4c_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 2053
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: 019309B7.XyZ0.PaGeS.dEV
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: 019309B7.XyZ0.PaGeS.dEV
-    path: /yzejftqqvmhtztle?ed=2560
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 91.193.58.9
-  name: ee864e053c024d44843f4116732b91d5_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: sk.laoyoutiao.link
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: sk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3
-- uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
-  server: 199.34.229.254
-  name: 1ad4e22a99324d24ac339fa95453f3d4_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: Telegram-channel-WangCai2
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /Telegram🇨🇳
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 156.238.18.142
-  name: 876ebf61b0da4112aed169072e959d76_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: Telegram@WangCai2/?ed=2560
-- uuid: a739ad80-0aab-40b2-9b0e-8192c74287ef
-  server: 172.67.145.177
-  name: 02ff632957754f318c5117607d4e6a66_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: random
-  servername: faruzan.changli.ddns-ip.net
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: faruzan.changli.ddns-ip.net
-    path: /proxyip=navia.shorekeeper.ir
-- uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
-  server: 25.129.196.254
-  name: c781d4ea3c0141f6ae0329f96da99f5f_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /Telegram🇨🇳
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 102.177.176.213
-  name: 5e6774bab7874e33b826a35b015aac22_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /
-- uuid: 26bc13af-e442-4956-afd4-b8f85744d26f
-  server: 172.66.208.89
-  name: 17a439dcf9d64362a8da83f2139d79e3_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /?ed=2560
-- uuid: f366e744-abcd-4b5b-bd5e-2bd97b6443bf
-  server: 45.131.5.58
-  name: 42bb8430daff4dc0a0c1ca787e9dee94_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 2086
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: 
-      /@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1?ed=2560
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 156.238.18.197
-  name: 021c409f703f4a3c87b854b87ab25420_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: yd.laoyoutiao.link
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: yd.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed
-- uuid: 4fe84736-3189-4843-a5a1-3c0a7effc425
-  server: 104.21.22.159
-  name: 1a1e3ee899d047b5a7332e797230996b_@_🇺🇸[openproxylist.com] vless-US```
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: dddvfggghj.11890604.xyz
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: dddvfggghj.11890604.xyz
-    path: /7iU7HTRWfha9VdzfVlCE1GSA
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 162.159.243.19
-  name: 96100f693e5446199b28220bd7a5d0e2_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: hk.laoyoutiao.link
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: hk.laoyoutiao.link
-    path: 
-      /---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net/
-- uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-  server: 14.102.228.251
-  name: 995e402d6a644655bb4e82d8af6e99a5_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560fp=chrome
-- uuid: b97b8288-82fb-4a90-b4a1-1e36ab9988c7
-  server: 172.67.86.123
-  name: 88f608a7e58143e585c08fd2adc4303a_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: random
-  servername: divine-surf-b984.princess310.workers.dev
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: divine-surf-b984.princess310.workers.dev
-    path: /?ed=2560
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 162.159.138.19
-  name: 681c752797f04870a9a8bf514252a31f_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: hk.laoyoutiao.link
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: hk.laoyoutiao.link
-    path: /Telegram🇨🇳
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 160.153.137.63
-  name: bf212a6bbddb46659f6d0c1e3506a00d_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: jp.laoyoutiao.link
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: jp.laoyoutiao.link
-    path: /Telegram🇨🇳
-- uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
-  server: 213.182.199.254
-  name: 5d25b10fc67b4555a238f1e343e93940_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: Telegram-channel-WangCai2
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /Telegram🇨🇳
-- uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
-  server: 156.243.246.247
-  name: 4ddf7e66b52f47159ea5a6063ccff123_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: ex.sue.x10.mx
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: ex.sue.x10.mx
-    path: /Telegram🇨🇳
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 91.193.58.248
-  name: 50b3c7e76aac4244a06a11534d615f22_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: 
-      /TelegramU0001F1E8U0001F1F3?ed=2048@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 141.193.213.92
-  name: eb346a9ab35e429d8adf487c3db9dc2b_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: TelegramрЯЗ®рЯЗ≥
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 91.193.58.142
-  name: 91d8e1077f884f9191d41c5e5d29587f_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: sk.laoyoutiao.link
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: sk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 141.193.213.168
-  name: f355fccb20374c8ea0f3fd493f4a0d1f_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: us.laoyoutiao.link
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: us.laoyoutiao.link
-    path: Telegram🇨🇳@WangCai2/?ed
-- uuid: 9d6315f7-f272-4806-97c8-5fdaafad391e
-  server: 104.24.31.150
-  name: 1f269747b09c429f85dd31481f260856_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /?ed=2570
-- uuid: f78ce1bb-0fa6-4ef4-b4c9-b91014a7055d
-  server: 104.24.135.83
-  name: 41daf0651f4341b38602ddbb30c10341_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: random
-  servername: delam.ahaysiahzangi.dpdns.org
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: delam.ahaysiahzangi.dpdns.org
-    path: /?ed=2560
-- uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-  server: 92.53.189.251
-  name: 6a1bf6622f274e1db1ef722f82f984dd_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 91.193.58.242
-  name: 5dc193065c8a4e198b8f5be1a191555b_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: sk.laoyoutiao.link
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: sk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 104.239.72.63
-  name: 63ae243ad9454124b4e9ebb670131a8d_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: jp.laoyoutiao.link
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: jp.laoyoutiao.link
-    path: /Telegram🇨🇳
-- uuid: 4b33b482-25bc-49e4-b866-878c914d945a
-  server: 172.67.155.140
-  name: f08af407b4d34848b9c96695f86a1c8d_@_🇺🇸[openproxylist.com] vless-US```
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: iIiiIiiIiIIO.HuanGsHaNg.dpDns.ORG
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: iIiiIiiIiIIO.HuanGsHaNg.dpDns.ORG
-    path: /CpMgWdnDWahQyyQCjn8kmnN0ehd
-- uuid: 401374e6-df77-41fb-f638-dad8184f175b
-  server: 45.85.118.141
-  name: d12aa9a22c664155a250bfe6a05e1c35_@_🇺🇸[openproxylist.com] vless-US```
-  type: vless
-  port: 443
-  network: grpc
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: pqh44v2.hiddendom.shop
-  fingerprint: ''
-- uuid: f78ce1bb-0fa6-4ef4-b4c9-b91014a7055d
-  server: 172.67.194.241
-  name: ebf5becfd0454a53954b1a6b6d6cfdf5_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: random
-  servername: delam.ahaysiahzangi.dpdns.org
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: delam.ahaysiahzangi.dpdns.org
-    path: /
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 141.193.213.154
-  name: 6f8519f9d7f2476d85dc2fb759d3972e_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: TelegramрЯЗ®рЯЗ≥
-- uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
-  server: 77.74.228.247
-  name: b8714f42bae14b3da160f3e6a13c8baa_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: ex.sue.x10.mx
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: ex.sue.x10.mx
-    path: /Telegram🇨🇳
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 141.193.213.89
-  name: 6a26881fdc20447bbdb1b46e1873e9c1_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: cs.laoyoutiao.link
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: cs.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 104.129.164.63
-  name: d271fd35328d4a1f812db6d13cd25bbe_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: jp.laoyoutiao.link
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: jp.laoyoutiao.link
-    path: /Telegram🇨🇳
-- uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  server: 104.21.7.193
-  name: b70f1de1fd8c4054b443c6e31cdfbe05_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 2095
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: randomized
-  fingerprint: ''
-  ws-opts:
-    path: /?ed=2560
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 45.194.53.29
-  name: df7f9e9f557840cab18acdaff510e12a_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: hk.laoyoutiao.link
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 161.145.150.29
-  name: f3b458780b9a4b729efcbc0343878f24_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /
-- uuid: 3058e698-61fd-4d12-95bc-f1fe4c071713
-  server: 104.17.148.22
-  name: ac1da0bed0a54672b437dc9538b87d7d_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: randomized
-  servername: hOZori.iR
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: hOZori.iR
-    path: /Telegram@V2ray_Alpha
-- uuid: 9486ff17-2481-40c7-a5c4-d0d307de2509
-  server: 172.67.175.139
-  name: 21b9220a10914aa4afe206cbd00b0f51_@_🇺🇸[openproxylist.com] vless-US```
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: wwwwwwwwwwwww.859886.xyz
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: wwwwwwwwwwwww.859886.xyz
-    path: /xkqDvmTtFTfJdU239ar
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 45.205.0.213
-  name: 30e56425476a4f32a61c84e838f0a2ce_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: jp.laoyoutiao.link
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: jp.laoyoutiao.link
-    path: /Telegram@V2ray_Alpha/?ed=2048
 - uuid: ce921385-2b31-45fe-84c5-1843e8ae845b
   server: 172.67.149.202
-  name: 3bd6bbed470d4f04a203347aa7ad344f_@_🇺🇸[openproxylist.com] vless-US```
+  name: db763c57eed3459db47f9e40c2cfc90a_@_🇺🇸[openproxylist.com] vless-US```
   type: vless
   port: 443
   network: ws
@@ -1612,7 +16,7 @@ proxies:
     path: /1xrOld7e5RpK3I98dxLkez
 - uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
   server: 185.148.105.247
-  name: aa7835bb43c24f0b88815b5b509378e0_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 90ebeb726ce04158bbb2d1a5803ba4e2_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -1627,7 +31,7 @@ proxies:
     path: /Telegram🇨🇳
 - uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
   server: 89.116.250.251
-  name: 44fd00f5909c4ef283526bbe064fd17b_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 97687218a1da4f9584de5989d9237f2e_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -1639,7 +43,7 @@ proxies:
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - uuid: df0680ca-e43c-498d-ed86-8e196eedd012
   server: 45.159.248.125
-  name: 060fb61f44fd401a9688fcd0c14dea1c_@_🇬🇧[openproxylist.com] vless-GB```
+  name: af0fa49da53e4b9cb340e485c9aca0a7_@_🇬🇧[openproxylist.com] vless-GB```
   type: vless
   port: 8880
   network: grpc
@@ -1649,7 +53,7 @@ proxies:
   fingerprint: ''
 - uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   server: 156.238.18.122
-  name: 97c50e7c322d44a88979ab718e02e2bf_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 006b44a28dbb47fbaece08231f9ae864_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -1661,7 +65,7 @@ proxies:
     path: Telegram@WangCai2/?ed=2048
 - uuid: 2c79b667-b103-4d22-86d0-5ef23f303c06
   server: 103.116.7.198
-  name: 755b2dfbc9004a11a47cf1b1f8d89987_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 904f908d46bf4a978369a1845d472b8e_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 80
   network: ws
@@ -1676,7 +80,7 @@ proxies:
     path: Telegram@WangCai2/?ed
 - uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   server: 156.238.18.96
-  name: 530d3b9848f64e41aeed227d5451148e_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 04000dc42dc14572b39dde8362892e4a_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -1691,7 +95,7 @@ proxies:
     path: /Telegram
 - uuid: 8250d638-45df-41fa-b06f-160d1cb1de0c
   server: 172.67.187.114
-  name: fc0e49e696f6416eb9db344d20d217d2_@_🇺🇸[openproxylist.com] vless-US```
+  name: 97fd7db33dff4e318ecc41d24366897b_@_🇺🇸[openproxylist.com] vless-US```
   type: vless
   port: 443
   network: ws
@@ -1706,7 +110,7 @@ proxies:
     path: /YnqGMcAt/
 - uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
   server: 154.211.8.247
-  name: 865eb8a749b3411890afe6702ed99db8_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 1e07e52476f1498eaad42c734aa90a59_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -1721,7 +125,7 @@ proxies:
     path: /Telegram🇨🇳
 - uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   server: 91.193.58.94
-  name: e5e4fb38ef9a49b8bdb21173b70a3312_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 978eb0dbba5e459bb745d3f32c4f4725_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -1736,7 +140,7 @@ proxies:
     path: /TelegramU0001F1E8U0001F1F3
 - uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
   server: 170.114.46.251
-  name: 478778e70d7341319eb7dce598583a4f_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 79c2a41a42f9406a8576dc24f9c08f1e_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -1748,7 +152,7 @@ proxies:
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560fp=chrome
 - uuid: f78ce1bb-0fa6-4ef4-b4c9-b91014a7055d
   server: 104.16.1.106
-  name: 23d2b5d87b234650834ed60e89fd45c0_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 53139365d99448e7a2914ce110fe9fd3_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 80
   network: ws
@@ -1763,7 +167,7 @@ proxies:
     path: /?ed=2560
 - uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
   server: 5.182.34.254
-  name: 5345e8621b3843979577c173ed1e32d1_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 543584e957c4418a877844c37e9e592d_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -1778,7 +182,7 @@ proxies:
     path: /Telegram🇨🇳
 - uuid: f366e744-abcd-4b5b-bd5e-2bd97b6443bf
   server: 185.135.9.193
-  name: 5a744e175cf343cba69a45cfdf5bca15_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 3b7ea6bd0052443eabfca1126224bc39_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 2086
   network: ws
@@ -1790,7 +194,7 @@ proxies:
     path: /
 - uuid: 4e4768df-0fbb-4cc1-8fd3-7c6fea95742a
   server: 162.159.19.5
-  name: 6a70973beecd4fb9a7f827af4c228c65_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 3b5285bd121646918c45f67a2211d297_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 443
   network: ws
@@ -1805,7 +209,7 @@ proxies:
     path: /@Rayan_Config
 - uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
   server: 192.200.160.254
-  name: c6f8027818c04991a01666e2f1b596f8_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 919fe3cbc2a440b7a61a3c61fc9d1b85_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -1820,7 +224,7 @@ proxies:
     path: /Telegram🇨🇳
 - uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
   server: 154.194.12.254
-  name: 8dad103a11d34287b0f2d54f5f27d40f_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 6aedd43d9f814a1da8daf6a3e8b3aaa9_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -1832,7 +236,7 @@ proxies:
     path: /Telegram🇨🇳
 - uuid: c94d74f3-2bf3-40eb-8dfd-c9159e520bf9
   server: 185.125.103.101
-  name: 3fb100cab5d34f6d8a95ee0ab80de61f_@_🇷🇺[openproxylist.com] vless-RU```
+  name: 45d4cc5f2b574ba0a07b6fbff8cea81d_@_🇷🇺[openproxylist.com] vless-RU```
   type: vless
   port: 4790
   network: tcp
@@ -1842,7 +246,7 @@ proxies:
   fingerprint: ''
 - uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
   server: 185.135.9.247
-  name: f5852dc52f3d435f94a7d593413164e3_@_🇸🇬[openproxylist.com] vless-SG```
+  name: fce3406fcdb64443984e033878b4ac5c_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -1857,7 +261,7 @@ proxies:
     path: /Telegram🇨🇳
 - uuid: 57d127e9-38da-494b-afeb-494de5ff1a91
   server: 185.43.211.99
-  name: 31c22e74a94e4c79b8f16e3bea003244_@_🇬🇧[openproxylist.com] vless-GB```
+  name: 574563d86c6d4b91be654cf9fe06418e_@_🇬🇧[openproxylist.com] vless-GB```
   type: vless
   port: 42536
   network: tcp
@@ -1867,7 +271,7 @@ proxies:
   fingerprint: ''
 - uuid: 401374e6-df77-41fb-f638-dad8184f175b
   server: 103.160.204.145
-  name: de6ad9bebdb94a86b680d80e8d6db15c_@_🇺🇸[openproxylist.com] vless-US```
+  name: 4bff51756c424adb8a5ff988be853ba9_@_🇺🇸[openproxylist.com] vless-US```
   type: vless
   port: 443
   network: grpc
@@ -1878,7 +282,7 @@ proxies:
   fingerprint: ''
 - uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   server: 156.238.18.179
-  name: 2bae6fb3c4f64d3e8145dcad9dd5b023_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 2d7bc561276b4728a105fbad406ed643_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -1890,7 +294,7 @@ proxies:
     path: Telegram@节点狂魔2/?ed=2048
 - uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
   server: 185.207.199.254
-  name: 51d4366694294040940a401083b6d7c3_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 6fa6decdc1bc422aa940ed79db59d816_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -1905,7 +309,7 @@ proxies:
     path: /Telegram🇨🇳
 - uuid: 767dfba2-ac34-4507-913d-a70703f81a36
   server: 104.21.95.172
-  name: af99ad010be04920914240b6f4ffd73a_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 05e70cd5708041248894a1ce946791fa_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 443
   network: ws
@@ -1920,7 +324,7 @@ proxies:
     path: /?ed=2048
 - uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   server: 141.193.213.227
-  name: 5f4ea51033394ae5a2487f460bd4884e_@_🇸🇬[openproxylist.com] vless-SG```
+  name: d7b5caffa42844dda9cee380b7ae0023_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 80
   network: ws
@@ -1935,7 +339,7 @@ proxies:
     path: /Telegram🇨🇳
 - uuid: df0680ca-e43c-498d-ed86-8e196eedd012
   server: 95.164.45.90
-  name: 6de717433cbf494fb99ec64d990e7f90_@_🇫🇷[openproxylist.com] 
+  name: 4a0f80e3f3484f6eba88600c407acc4f_@_🇫🇷[openproxylist.com] 
     vless-FR```vless://34c01e61-f4f3-4afb-a83b-406caf8caa33@199.34.230.254:8880?sni=Telegram-channel-WangCai2&type=ws&host=yg.bantony199.top&path=/Telegram🇨🇳&allowInsecure=0#🇸🇬[openproxylist.com]
     vless-SG```vless://d60fc3c5-9f07-4cdb-b81f-70af27936bdc@194.76.18.247:8880?sni=ex.sue.x10.mx&type=ws&host=ex.sue.x10.mx&path=/Telegram🇨🇳&allowInsecure=0#🇸🇬[openproxylist.com]
     vless-SG```
@@ -1948,7 +352,7 @@ proxies:
   fingerprint: ''
 - uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   server: 156.238.18.17
-  name: 14bab0d70b774cc3a42fde53f5e4a76c_@_🇸🇬[openproxylist.com] vless-SG```
+  name: f520bf8ef25948dba35cd09f5a200899_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -1960,7 +364,7 @@ proxies:
     path: Telegram@V2ray_Alpha
 - uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
   server: 104.17.147.22
-  name: ca7624a5b442403ea9791e5df0f8add3_@_🇸🇬[openproxylist.com] vless-SG```
+  name: e4c6dc28dab0479e82f15789a5ef3334_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 80
   network: ws
@@ -1972,7 +376,7 @@ proxies:
     path: /?ed=2560
 - uuid: ef3f6f19-f286-4615-ba0b-63c7f9692a30
   server: zone.iq.f2hub.ir
-  name: 55547ef030434df48d70c79108110034_@_@meli_proxyy
+  name: c707b77bd2e64e5483163f69f0de8c8c_@_@meli_proxyy
   type: vless
   port: 53403
   network: tcp
@@ -1982,7 +386,7 @@ proxies:
   fingerprint: ''
 - uuid: 80f506d1-aae5-4c31-b408-a27a98f39589
   server: rezashakor.uniquenonstop.space
-  name: f45b1555288448829c47c8790a8186b1_@_@meli_proxyy
+  name: f484d2bcb8ce4a2c86fdc7e6753bbfb3_@_@meli_proxyy
   type: vless
   port: 22921
   network: tcp
@@ -1992,7 +396,7 @@ proxies:
   fingerprint: ''
 - uuid: d245c70e-053d-48c5-817b-973c9ca7bf17
   server: rezashakor.uniquenonstop.space
-  name: d351eb51f5d945afbb1c1dd85653ae3d_@_@meli_proxyy
+  name: 9ae6264f2331497abb8d4b78bb64ed68_@_@meli_proxyy
   type: vless
   port: 22921
   network: tcp
@@ -2002,7 +406,7 @@ proxies:
   fingerprint: ''
 - uuid: c0e04f74-d566-4472-9faf-9879847ba8c7
   server: rezashakor.uniquenonstop.space
-  name: e2e41a030d5f4460bd008dedd19184e1_@_@meli_proxyy
+  name: e67ef0a40cdb4d8c9656a35cadcc3b72_@_@meli_proxyy
   type: vless
   port: 22921
   network: tcp
@@ -2012,7 +416,7 @@ proxies:
   fingerprint: ''
 - uuid: fb85dd7a-f159-49f2-98bf-8c190be49102
   server: rezashakor.uniquenonstop.space
-  name: 6e3deba9bc164db48a9b77b83102186b_@_@meli_proxyy
+  name: 1fd86787251948ea95cb810288f4949c_@_@meli_proxyy
   type: vless
   port: 22921
   network: tcp
@@ -2022,7 +426,7 @@ proxies:
   fingerprint: ''
 - uuid: f61f3543-5321-4a74-adfc-d716e23d1b57
   server: fun.120v.ac
-  name: 2b3404fce4ec4ad3b0208b9975486075_@_@meli_proxyy`
+  name: 32c09f2f14e6425bb7ee80931a534eb3_@_@meli_proxyy`
   type: vless
   port: 2059
   network: tcp
@@ -2032,7 +436,7 @@ proxies:
   fingerprint: ''
 - uuid: 2eaef053-5fd6-4def-b234-d760690355ff
   server: 91.99.198.191
-  name: f372f03ccad047639059f3805f56e06f_@_@meli_proxyy
+  name: b0d96210949b47bd8a66eeb36c073aaf_@_@meli_proxyy
   type: vless
   port: 443
   network: tcp
@@ -2042,7 +446,7 @@ proxies:
   fingerprint: ''
 - uuid: 2eaef053-5fd6-4def-b234-d760690355ff
   server: 91.99.207.14
-  name: a0b25c0d4bee4171ba1bbdf71673bb34_@_@meli_proxyy
+  name: 716461b48f734b0186039e3e61d32fcb_@_@meli_proxyy
   type: vless
   port: 51615
   network: tcp
@@ -2052,7 +456,7 @@ proxies:
   fingerprint: ''
 - uuid: 2eaef053-5fd6-4def-b234-d760690355ff
   server: 91.99.207.47
-  name: 60f58cfce3df48e489a64f02251953cb_@_@meli_proxyy
+  name: 5fce01b3ecb04711ac514d0bae5f38b6_@_@meli_proxyy
   type: vless
   port: 443
   network: tcp
@@ -2062,7 +466,7 @@ proxies:
   fingerprint: ''
 - uuid: 2eaef053-5fd6-4def-b234-d760690355ff
   server: 91.99.162.239
-  name: fa5b28504ca14c10940ddd2bc5d85607_@_@meli_proxyy
+  name: f7524b994b1645b580bd24935dadb451_@_@meli_proxyy
   type: vless
   port: 443
   network: tcp
@@ -2072,7 +476,7 @@ proxies:
   fingerprint: ''
 - uuid: 2eaef053-5fd6-4def-b234-d760690355ff
   server: 91.99.202.155
-  name: 0ce06c7fe8984a4684319ea7f5ef7647_@_@meli_proxyy
+  name: ec2aeafc196944f4a8e5cae6e5cffb5b_@_@meli_proxyy
   type: vless
   port: 443
   network: tcp
@@ -2082,7 +486,7 @@ proxies:
   fingerprint: ''
 - uuid: 153ee04c-dcc1-4ef8-a146-8fb31cec1f48
   server: 91.99.192.155
-  name: 6f066eca355d4e6f9c59a6dda3d98e36_@_@meli_proxyy
+  name: 71d9b47fc84a40a4b66dae33ac271097_@_@meli_proxyy
   type: vless
   port: 443
   network: tcp
@@ -2092,7 +496,7 @@ proxies:
   fingerprint: ''
 - uuid: 153ee04c-dcc1-4ef8-a146-8fb31cec1f48
   server: 91.99.206.230
-  name: 194aba1641eb49d98875fa1ffc457377_@_@meli_proxyy
+  name: 2746fd5e8e2b4ad3bd38ccfed7c74129_@_@meli_proxyy
   type: vless
   port: 443
   network: tcp
@@ -2102,7 +506,7 @@ proxies:
   fingerprint: ''
 - uuid: 153ee04c-dcc1-4ef8-a146-8fb31cec1f48
   server: 91.99.193.96
-  name: edbcddb0b40d438885bd7171f188e45d_@_@meli_proxyy
+  name: b5712394b41c4ea981218c707260dda1_@_@meli_proxyy
   type: vless
   port: 443
   network: tcp
@@ -2112,7 +516,7 @@ proxies:
   fingerprint: ''
 - uuid: 2eaef053-5fd6-4def-b234-d760690355ff
   server: 91.99.181.193
-  name: 573b75e8f18a466a8a0a5db4d4046f94_@_@meli_proxyy
+  name: 25712740c41c443da78151d1464914be_@_@meli_proxyy
   type: vless
   port: 51615
   network: tcp
@@ -2122,7 +526,7 @@ proxies:
   fingerprint: ''
 - uuid: 2eaef053-5fd6-4def-b234-d760690355ff
   server: 91.99.159.125
-  name: 961d5a924d674720a81e0065a578aa98_@_@meli_proxyy
+  name: 03249a2f717b4a1bbf484464f79da3c6_@_@meli_proxyy
   type: vless
   port: 443
   network: tcp
@@ -2132,7 +536,7 @@ proxies:
   fingerprint: ''
 - uuid: 2eaef053-5fd6-4def-b234-d760690355ff
   server: 91.99.207.230
-  name: 8ba7ad9adca942e5a18c3b8c539c1240_@_@meli_proxyy
+  name: 7e88a051b5bc499ebba2910319dab0ff_@_@meli_proxyy
   type: vless
   port: 51615
   network: tcp
@@ -2142,7 +546,7 @@ proxies:
   fingerprint: ''
 - uuid: 2eaef053-5fd6-4def-b234-d760690355ff
   server: 91.99.190.38
-  name: fe73e16f3e904e44b38823dd99f86f95_@_@meli_proxyy
+  name: 2b863b5f6da4479e8bc89c5e66eaab3f_@_@meli_proxyy
   type: vless
   port: 51615
   network: tcp
@@ -2152,7 +556,7 @@ proxies:
   fingerprint: ''
 - uuid: 2eaef053-5fd6-4def-b234-d760690355ff
   server: 91.99.150.74
-  name: b6ddde64ef2b4c53a80a3ee3303ac85d_@_@meli_proxyy
+  name: dd5e245106934695a5a5e6bd0ee73c28_@_@meli_proxyy
   type: vless
   port: 51615
   network: tcp
@@ -2162,7 +566,7 @@ proxies:
   fingerprint: ''
 - uuid: 2eaef053-5fd6-4def-b234-d760690355ff
   server: 91.99.122.47
-  name: 583f38f7718d468e9e00678f086d4fc1_@_@meli_proxyy
+  name: f42bdc07f00b4aa78c7aa4b8bb3c5b53_@_@meli_proxyy
   type: vless
   port: 443
   network: tcp
@@ -2172,7 +576,7 @@ proxies:
   fingerprint: ''
 - uuid: 2eaef053-5fd6-4def-b234-d760690355ff
   server: 91.99.170.56
-  name: 0c8578d5f9a84ce58fa3a61927e84de0_@_@meli_proxyy
+  name: 47c0505e8c8b4a538e7bd4e33d051a80_@_@meli_proxyy
   type: vless
   port: 51615
   network: tcp
@@ -2182,7 +586,7 @@ proxies:
   fingerprint: ''
 - uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   server: 114.129.43.29
-  name: fc93b33b63e1495d91ac04d6af97c3d2_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 62fdee277f454cb496a82de95116ecfc_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -2197,7 +601,7 @@ proxies:
     path: /TelegramU0001F1E8U0001F1F3
 - uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   server: 173.245.58.63
-  name: 15304a8aeb814a1386b16c6ac8cbd980_@_🇸🇬[openproxylist.com] vless-SG```
+  name: d34f4a0f7fa240eca394cec392fbab44_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -2212,7 +616,7 @@ proxies:
     path: /Telegram🇨🇳
 - uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   server: 159.246.55.63
-  name: 8d4775c1e55341ea899d194768329ad5_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 23dd24abcd7b4e459100b2d929a48c6c_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -2227,7 +631,7 @@ proxies:
     path: /Telegram🇨🇳
 - uuid: 357b1bba-6400-4944-baff-1b933311ff28
   server: 172.67.200.11
-  name: f068ab989b70465d99c6a14810c3cd02_@_🇺🇸[openproxylist.com] vless-US```
+  name: 46d42a208b4c48ca8e8f6cb14e96d1c4_@_🇺🇸[openproxylist.com] vless-US```
   type: vless
   port: 443
   network: ws
@@ -2242,7 +646,7 @@ proxies:
     path: /kSIHD28dr9nkaMBYIsgt
 - uuid: e4824193-4f54-453b-d037-88368e85ef0e
   server: 45.82.251.176
-  name: ba897b01e42b4fd990684c7aa3574369_@_🇺🇸[openproxylist.com] vless-US```
+  name: 9bc2664344dc48acb549358da517f850_@_🇺🇸[openproxylist.com] vless-US```
   type: vless
   port: 8880
   network: grpc
@@ -2253,7 +657,7 @@ proxies:
   fingerprint: ''
 - uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
   server: 77.232.140.251
-  name: b4200d1f5a434a1299ff1a7547f06824_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 4c4d06ac730e426d99f97ca440a9e12f_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -2265,7 +669,7 @@ proxies:
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   server: 198.202.211.29
-  name: 20ee45060a40497ca1933c6c409ac215_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 9a19235396834f32978f31180e33be62_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -2277,7 +681,7 @@ proxies:
     path: /Telegram🇨🇳
 - uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   server: 156.238.18.106
-  name: 6809a508924b46a486b9454574540176_@_🇸🇬[openproxylist.com] vless-SG```
+  name: ea04bbc0340049df9d24236c2309eefa_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -2289,7 +693,7 @@ proxies:
     path: /Telegram🇨🇳
 - uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   server: 141.193.213.108
-  name: 58853321da6647fbb8d051330b7fb62c_@_🇸🇬[openproxylist.com] vless-SG```
+  name: e0ac43ddb6e240068f68147ddde264b4_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 80
   network: ws
@@ -2301,7 +705,7 @@ proxies:
     path: TelegramрЯЗ
 - uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
   server: 176.124.223.247
-  name: 7c6dfe21306a44c3a6c6db70cab44c4a_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 9190d8c44f2645c6bf4722d14db9c1ff_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -2316,7 +720,7 @@ proxies:
     path: /Telegram🇨🇳
 - uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
   server: 135.84.75.254
-  name: 05d941aade30422d81bd36bc7759c0eb_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 5ba46050a3ca44bea17cbe8f80580b74_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -2331,7 +735,7 @@ proxies:
     path: /Telegram🇨🇳
 - uuid: 376734bc-4db8-4317-b451-af0262cb01c7
   server: 104.21.95.229
-  name: b484e8417f7948a2b5f3740b7c7b89bf_@_🇸🇬[openproxylist.com] vless-SG```
+  name: e8c47ea76a024f05a89cfe54394e8818_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 2087
   network: ws
@@ -2346,7 +750,7 @@ proxies:
     path: /FnxOCItzWpgMrgmD/NzguNDYuNTYuNDI=?ed=2560
 - uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   server: 185.238.228.63
-  name: fffe880b95e94505803975efb7dd5692_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 84b8369b34524700ac0968b74c450fb1_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -2361,7 +765,7 @@ proxies:
     path: /Telegram🇨🇳
 - uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   server: 104.254.140.63
-  name: e4dbfee4512744f6a315cb918c838cb9_@_🇸🇬[openproxylist.com] vless-SG```
+  name: ec302312e83b4fe78c0907f4b47802ff_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -2376,7 +780,7 @@ proxies:
     path: /Telegram🇨🇳
 - uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
   server: 14.102.228.247
-  name: 93554e32054c47caad547148385f2b15_@_🇸🇬[openproxylist.com] vless-SG```
+  name: bf4fc791c5774aabba00e9a7fc67b1bc_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -2391,7 +795,7 @@ proxies:
     path: /Telegram🇨🇳
 - uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   server: 45.142.120.63
-  name: 19f7d2658db44b1f87ced2e0506b02ea_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 34a9e573e8f34fda8ca2d0c1c95aa7ac_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -2406,7 +810,7 @@ proxies:
     path: /Telegram🇨🇳
 - uuid: 9f70a4c0-f727-47fb-ba7d-d604dba9669c
   server: 172.67.152.111
-  name: 61ec936622d34c3fb1dd6d7ea8529bfc_@_🇸🇬[openproxylist.com] vless-SG```
+  name: f4f8b0e60741484a8efc9a9b18839db3_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 443
   network: ws
@@ -2421,7 +825,7 @@ proxies:
     path: /TELEGRAM-MARAMBASHI/?ed=2048
 - uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
   server: 46.254.92.247
-  name: b34bc3eced924e2ba7a418d62e785b6d_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 6fea08c9703743849578aca7567395a0_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -2436,7 +840,7 @@ proxies:
     path: /Telegram🇨🇳
 - uuid: fa050497-fc2a-45ee-89c0-96670c4ecb65
   server: 172.67.218.209
-  name: 0853f9a365f847918415c85fa6ded2b6_@_🇺🇸[openproxylist.com] vless-US```
+  name: 8a7b6da475b042679210a6fce627bbf6_@_🇺🇸[openproxylist.com] vless-US```
   type: vless
   port: 443
   network: ws
@@ -2451,7 +855,7 @@ proxies:
     path: /0USILhLWoWgQPuXTwt
 - uuid: e4824193-4f54-453b-d037-88368e85ef0e
   server: 45.82.251.147
-  name: 9b04939ab4e8432088a7337c86541e54_@_🇺🇸[openproxylist.com] vless-US```
+  name: 257243a29e334b6e99dae505b29f3eae_@_🇺🇸[openproxylist.com] vless-US```
   type: vless
   port: 8880
   network: grpc
@@ -2461,7 +865,7 @@ proxies:
   fingerprint: ''
 - uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
   server: 168.100.6.254
-  name: 7409e0cb2c5a40869bc6eb2e1b308002_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 24504e3ec6784436a8ec7809ed20c9fa_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -2476,7 +880,7 @@ proxies:
     path: /Telegram🇨🇳
 - uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   server: 45.80.110.29
-  name: cf9e9914a0654042b0edb31943286fab_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 4c8fd7a0eeb14c9a8a94d764278d45cd_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -2491,7 +895,7 @@ proxies:
     path: /TelegramU0001F1E8U0001F1F3
 - uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   server: 91.193.58.28
-  name: 6b2738a02cf44ea7bba7f5f55e4619d7_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 13b39389ecf34eeb86477a63fa1a03bd_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -2506,7 +910,7 @@ proxies:
     path: /TelegramU0001F1E8U0001F1F3
 - uuid: 9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c
   server: 104.22.24.195
-  name: 8879eacbb5a04fb582a671a60222247b_@_@Hope_Net-join-us-on-Telegram
+  name: 87facadd0daf41a282bc1df530e3cb64_@_@Hope_Net-join-us-on-Telegram
   type: vless
   port: 443
   network: ws
@@ -2523,7 +927,7 @@ proxies:
   cipher: auto
   alterId: 0
   server: s2.db-link01.top
-  name: 5ebd94a01d594b4a8046717d7ea4a79c_@_@Hope_Net-join-us-on-Telegram
+  name: 13497423fd2840eb959a83bc45cc93ef_@_@Hope_Net-join-us-on-Telegram
   type: vmess
   port: 2052
   network: ws
@@ -2535,7 +939,7 @@ proxies:
     path: /dabai.in104.24.227.22
 - uuid: 9da21010-6025-430a-9ce9-6096673d86d1
   server: 91.99.183.196
-  name: c534bbca818a4bf188d4827ae1be0f94_@_@meli_proxyy
+  name: ad5980d71f654900bcb9f28dd00b332e_@_@meli_proxyy
   type: vless
   port: 1360
   network: tcp
@@ -2545,7 +949,7 @@ proxies:
   fingerprint: ''
 - uuid: 9da21010-6025-430a-9ce9-6096673d86d1
   server: 91.99.201.171
-  name: 6d47b1434b7e475f989d1772774c3e63_@_@meli_proxyy
+  name: 033ea09b3f6244479188f51add3db17e_@_@meli_proxyy
   type: vless
   port: 1360
   network: tcp
@@ -2555,7 +959,7 @@ proxies:
   fingerprint: ''
 - uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   server: 45.80.111.55
-  name: bb568f504f5440efbccd02f8a5ba465b_@_@meli_proxyy
+  name: b977b7c9210543968e41855b34dc5088_@_@meli_proxyy
   type: vless
   port: 80
   network: ws
@@ -2567,7 +971,7 @@ proxies:
     path: Telegram:@V2ray_Alpha/?ed=2560
 - uuid: 39baadce-3e0b-4322-8de1-797bf7f25b8a
   server: 167.71.40.79
-  name: 6735e430353848b2b053064069394fd6_@_@meli_proxyy`
+  name: a9b86b147d7d452b8a05e595f926965d_@_@meli_proxyy`
   type: vless
   port: 2087
   network: tcp
@@ -2577,7 +981,7 @@ proxies:
   fingerprint: ''
 - uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
   server: 35.179.98.57
-  name: dfcb625ffa2d4883b3afd8502d25dd85_@_@Hope_Net-join-us-on-Telegram
+  name: 323c6dc04d6a4693b3ca0e18165e9325_@_@Hope_Net-join-us-on-Telegram
   type: vless
   port: 22222
   network: ws
@@ -2592,7 +996,7 @@ proxies:
     path: /telegram-channel-vlessconfig-ws
 - uuid: 9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c
   server: 104.16.213.195
-  name: 2f675464023640e9bfef09d338b6c76a_@_@Hope_Net-join-us-on-Telegram
+  name: 85f2922ca21d4b64bd80336e1df2673f_@_@Hope_Net-join-us-on-Telegram
   type: vless
   port: 443
   network: ws
@@ -2607,7 +1011,7 @@ proxies:
     path: /?ed=2560
 - uuid: 9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c
   server: 104.19.245.206
-  name: 4890a173e5454f8e9f32a644c9e86c4d_@_@Hope_Net-join-us-on-Telegram
+  name: e3452b9e071c435ebeebebe6606eb6fd_@_@Hope_Net-join-us-on-Telegram
   type: vless
   port: 443
   network: ws
@@ -2622,7 +1026,7 @@ proxies:
     path: /?ed=2560
 - uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
   server: 52.214.123.197
-  name: af3b844c8026416eb7dfd9d68c41c1c2_@_@Hope_Net-join-us-on-Telegram`
+  name: 8a22599234a442c3af29a8dfdb2d7ec2_@_@Hope_Net-join-us-on-Telegram`
   type: vless
   port: 22222
   network: ws
@@ -2637,7 +1041,7 @@ proxies:
     path: /telegram-channel-vlessconfig-ws
 - uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51
   server: 162.19.228.119
-  name: 24b2545982aa4cb0b5fc7e078a300738_@_@Hope_Net-join-us-on-Telegram`
+  name: 9b9d1eb69ffd41179043bde9bdac8df4_@_@Hope_Net-join-us-on-Telegram`
   type: vless
   port: 80
   network: ws
@@ -2651,7 +1055,7 @@ proxies:
   cipher: auto
   alterId: 0
   server: 134.195.198.147
-  name: dce5e924ed3740bba0b151592c1364a3_@_@Hope_Net-join-us-on-Telegram
+  name: 167ebc56e2534465a70ea4dfe8d78e3a_@_@Hope_Net-join-us-on-Telegram
   type: vmess
   port: 443
   network: ws
@@ -2663,7 +1067,7 @@ proxies:
     path: /linkvws
 - uuid: 401374e6-df77-41fb-f638-dad8184f175b
   server: 167.68.42.168
-  name: b074e5b7b04e4d1685eac8f7acd38a68_@_🇺🇸[openproxylist.com] vless-US```
+  name: c66bb2c0dd4e41f2aeae4c0a3b3f871f_@_🇺🇸[openproxylist.com] vless-US```
   type: vless
   port: 443
   network: grpc
@@ -2674,7 +1078,7 @@ proxies:
   fingerprint: ''
 - uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   server: 156.225.72.63
-  name: fac19a670d484a40a25ad62d33d2de21_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 05f5da005c074814829756e03079ea9b_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -2689,7 +1093,7 @@ proxies:
     path: /Telegram🇨🇳
 - uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
   server: 103.160.204.50
-  name: 543b7ff3cd5547189bb6635b18d5afec_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 5e5e7bbf7ff9470088f69b539fc5e314_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 443
   network: ws
@@ -2704,7 +1108,7 @@ proxies:
     path: /?ed=2560
 - uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   server: 156.238.18.246
-  name: 3dff1cf292a942cabe3feca64c744612_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 94f041ee7f02485bbf161491e03f3ffc_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -2719,7 +1123,7 @@ proxies:
     path: /TelegramU0001F1E8U0001F1F3
 - uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   server: 193.227.99.63
-  name: 0e0c7b35fbdd49e0aba26059d970aec5_@_🇸🇬[openproxylist.com] vless-SG```
+  name: ec4ceead239e4f42959c34d3de6f9c08_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -2734,7 +1138,7 @@ proxies:
     path: /Telegram🇨🇳
 - uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   server: 31.43.179.107
-  name: c83b4d0cc7ae47cca16069f411ca565b_@_🇸🇬[openproxylist.com] vless-SG```
+  name: aa63e8037e1a4fe5bf9f68bee50e19b2_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 80
   network: ws
@@ -2746,7 +1150,7 @@ proxies:
     path: /Telegram:@ShadowProxy66/?ed=2560
 - uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
   server: 170.114.45.247
-  name: e693d34b5069487c889d79a2dd4294a3_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 1803e505959a47c98842b4901e804849_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -2761,7 +1165,7 @@ proxies:
     path: /Telegram🇨🇳
 - uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   server: 104.129.166.29
-  name: ac6bc13814da483f8ff2cb46089392aa_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 5a68db1975304a2899b3f95cb30e0e9a_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -2773,7 +1177,7 @@ proxies:
     path: /
 - uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   server: 170.114.46.20
-  name: d72457c367cc49e3bb2e5d60a83d82c3_@_🇸🇬[openproxylist.com] vless-SG```
+  name: e90a90ce1fa240b4a50029a89a00cb06_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -2788,7 +1192,7 @@ proxies:
     path: /TelegramU0001F1E8U0001F1F3
 - uuid: 23d240b9-c5ec-43d1-ec3d-5066556537f4
   server: 104.21.52.16
-  name: 257e5c419e5b4442bc36b78ab8e8e775_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 47a58536182b41618b128cf5e148c9b9_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8080
   network: ws
@@ -2800,7 +1204,7 @@ proxies:
     path: /search
 - uuid: 3f266d25-21aa-4498-bb1a-ce6d1d327aaf
   server: 104.21.21.137
-  name: 0f32701a8155457e80fa651ae396e82a_@_🇸🇬[openproxylist.com] vless-SG```
+  name: dad7a8fd2a6f4061bd2236f2cc0c439b_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 443
   network: ws
@@ -2815,7 +1219,7 @@ proxies:
     path: /
 - uuid: 3058e698-61fd-4d12-95bc-f1fe4c071713
   server: 104.17.147.22
-  name: dccd2ce2398e4de2b202c93be3cd18fe_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 876d74970d644d67bb41d726e20118fb_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 443
   network: ws
@@ -2830,7 +1234,7 @@ proxies:
     path: /RklUHeautH5uvnSB/NTQuMTY5LjIyOS4xODg
 - uuid: 0f7070cd-c91d-4532-a51f-56da4f0e94be
   server: 172.67.188.188
-  name: 8ab73fe2112d4810b1762ef5630054e5_@_🇺🇸[openproxylist.com] vless-US```
+  name: 1c548c279e754a41bcf764541a7c6588_@_🇺🇸[openproxylist.com] vless-US```
   type: vless
   port: 443
   network: ws
@@ -2845,7 +1249,7 @@ proxies:
     path: /nSABZLQbEUSLppj7jCmY
 - uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   server: 156.238.18.94
-  name: e25339f9f6a142d59582e367305e4c19_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 4b24a0dfe2c54fa48a4ed3ca4bd5abca_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -2857,7 +1261,7 @@ proxies:
     path: Telegram@WangCai2/?ed=2048
 - uuid: e794da45-0d8d-4b7a-9ae9-b0b84528b360
   server: 172.67.128.212
-  name: e7255c8637bc46519f93519b5342b754_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 1cebef8ef1664a16ac84d54b6ebcb1e4_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 443
   network: ws
@@ -2872,7 +1276,7 @@ proxies:
     path: /
 - uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   server: 46.254.92.29
-  name: a6171547ab9548749c5d06a7f64e1ef8_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 1d40253d70414ae49379ee9f7b685e6f_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -2884,7 +1288,7 @@ proxies:
     path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
 - uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   server: 91.193.58.246
-  name: fddb3b84caab4c3bae47555fb831371e_@_🇸🇬[openproxylist.com] 
+  name: 3ea4f8ff069a441c8c50dde4c148c91e_@_🇸🇬[openproxylist.com] 
     vless-SG```vless://fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf@45.142.255.63:8880?sni=sg.laoyoutiao.link&type=ws&host=sg.laoyoutiao.link&path=/Telegram🇨🇳&allowInsecure=0#🇸🇬[openproxylist.com]
     vless-SG```
   type: vless
@@ -2901,7 +1305,7 @@ proxies:
     path: /Telegram
 - uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
   server: 94.140.0.247
-  name: 6d87bf8993014745b9055e67a8cc9408_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 28268d9b19524593b31bf9be7de52567_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -2916,7 +1320,7 @@ proxies:
     path: /Telegram🇨🇳
 - uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
   server: 154.83.2.254
-  name: 0ce617fe1562412ba85da3856e031fae_@_🇸🇬[openproxylist.com] vless-SG```
+  name: a941cb63b44544adb689fe0efef18907_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -2931,7 +1335,7 @@ proxies:
     path: /Telegram🇨🇳
 - uuid: bbfeab42-afd8-4c8c-f4f5-d1d36599831f
   server: 151.101.66.228
-  name: 47c422fc1e7f49c2a4c30327e77d492c_@_@Hope_Net-join-us-on-Telegram`
+  name: d9e2d6e1ce6b47fda936c7f7c5ffd056_@_@Hope_Net-join-us-on-Telegram`
   type: vless
   port: 443
   network: ws
@@ -2946,7 +1350,7 @@ proxies:
     path: /olem/ws?ed=4096
 - uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
   server: 88.216.67.20
-  name: a250cbce8f0e427e8921819ab4f71c37_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 801caaa18d794205bfd8b01a122b7849_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -2961,7 +1365,7 @@ proxies:
     path: /TelegramU0001F1E8U0001F1F3
 - uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
   server: 154.197.108.254
-  name: 9a399fe56c894611b8382a80bcc54f50_@_🇸🇬[openproxylist.com] vless-SG```
+  name: df542571aefa416db58981264ff6b27e_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -2976,7 +1380,7 @@ proxies:
     path: /Telegram🇨🇳
 - uuid: cba0b35b-8943-4c70-a864-9f78145b7897
   server: 104.16.136.210
-  name: 02b4ace3534448c2999bec5faa472a39_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 4565cf89c40d467e9e09d49865e4ed27_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 80
   network: ws
@@ -2988,7 +1392,7 @@ proxies:
     path: /?ed=2560
 - uuid: d1237c01-58b5-48f9-8a27-8a396b7f5422
   server: 104.16.240.122
-  name: 10c8fc1e1b53488fb2b4b49cf404bef5_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 4c32d5651f5642bc8943fee3a27a4bbc_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 80
   network: ws
@@ -3003,7 +1407,7 @@ proxies:
     path: /?ed=2560
 - uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
   server: 154.194.0.247
-  name: 13404b449aa54ba09de20d30542950f7_@_🇸🇬[openproxylist.com] vless-SG```
+  name: f03ca716198f49fbb009922fe8a52e9b_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -3018,7 +1422,7 @@ proxies:
     path: /Telegram🇨🇳
 - uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
   server: 141.101.122.251
-  name: e0a6893785404f17bc1bf480a19725db_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 103168b0b1b143d7825eca7a8a2103c1_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -3030,7 +1434,7 @@ proxies:
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - uuid: 00026cc2-d2a5-41b2-86a0-2c5fb2e5018d
   server: 104.17.242.183
-  name: 33149fc711744c399cf7fc907b7b34af_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 663e4979b34b4c54837ef62e4ef10156_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 443
   network: ws
@@ -3045,7 +1449,7 @@ proxies:
     path: /00026cc2
 - uuid: c3708323-48fe-49c2-aaef-84d0a4cd12ff
   server: 170.114.45.159
-  name: 3abe4a7488514d7b95d57ad74bf8e2e7_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 3fac54ce822d4502bf2e67c357d41f7e_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 443
   network: ws
@@ -3060,7 +1464,7 @@ proxies:
     path: /
 - uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
   server: 192.200.160.247
-  name: e8d8d3c70f744c38b3fe76bc0ea29885_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 03edb4ae8da34ad194b107934651bb7e_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -3075,7 +1479,7 @@ proxies:
     path: /Telegram🇨🇳
 - uuid: 4fe84736-3189-4843-a5a1-3c0a7effc425
   server: 172.67.157.254
-  name: 1503d706a3fe485a81d9e3bd798462cb_@_🇺🇸[openproxylist.com] vless-US```
+  name: e5258021012c43dd82176d4fad771a83_@_🇺🇸[openproxylist.com] vless-US```
   type: vless
   port: 443
   network: ws
@@ -3090,7 +1494,7 @@ proxies:
     path: /7iU7HTRWfha9VdzfVlCE1GSA
 - uuid: bfe995f7-72dd-4e50-8211-e66d466a9c75
   server: 194.120.116.106
-  name: e5e035c080e64c178c68e530399fe952_@_🇳🇱[openproxylist.com] vless-NL```
+  name: 14a0671c10374651818f2bf7721f5f21_@_🇳🇱[openproxylist.com] vless-NL```
   type: vless
   port: 8880
   network: tcp
@@ -3100,7 +1504,7 @@ proxies:
   fingerprint: ''
 - uuid: e4824193-4f54-453b-d037-88368e85ef0e
   server: 45.82.251.166
-  name: de3abdbf458147b8a11b339a388f497e_@_🇺🇸[openproxylist.com] vless-US```
+  name: f01d330343fd4502ac562ec9bf2dfbea_@_🇺🇸[openproxylist.com] vless-US```
   type: vless
   port: 8880
   network: grpc
@@ -3110,7 +1514,7 @@ proxies:
   fingerprint: ''
 - uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
   server: 45.153.7.254
-  name: 4fe79b4849c6491e9d957ce452c5ee6b_@_🇸🇬[openproxylist.com] vless-SG```
+  name: ccc0fce715f947f8a95fc482933791e1_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -3125,7 +1529,7 @@ proxies:
     path: /Telegram🇨🇳
 - uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
   server: 188.164.248.251
-  name: acdea71ea6d84d60a23845554115f366_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 7b080a2276f1414db6e2514ae8a7ff60_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -3137,7 +1541,7 @@ proxies:
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
   server: 172.67.153.156
-  name: e64a5644c1e74b72b77cd0435a576055_@_🇫🇷[openproxylist.com] vless-FR```
+  name: d5a5f4ace1ba47c2bcb1c81e405643da_@_🇫🇷[openproxylist.com] vless-FR```
   type: vless
   port: 8443
   network: ws
@@ -3152,7 +1556,9 @@ proxies:
     path: /57ba2ab1
 - uuid: a739ad80-0aab-40b2-9b0e-8192c74287ef
   server: 104.21.16.5
-  name: 9babde85d67c40238de688b3d2f5d290_@_🇸🇬[openproxylist.com] vless-SG```
+  name: 439918dcf1034a53a04f8cf0f2ab54d9_@_🇸🇬[openproxylist.com] 
+    vless-SG```vless://51fda508-20aa-419e-b4c3-3a6202411412@172.67.73.163:8080?security=none&type=ws&host=18.6na7PY43IT.zuLaiR.Org.&path=/#🇩🇪[openproxylist.com]
+    vless-DE```
   type: vless
   port: 443
   network: ws
@@ -3166,8 +1572,156 @@ proxies:
       host: faruzan.changli.ddns-ip.net
     path: /proxyip=navia.shorekeeper.ir
 - uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 194.152.44.63
-  name: 5bb9f05c9e9b4373b908c915dcf30bac_@_🇸🇬[openproxylist.com] vless-SG```
+  server: 156.238.18.85
+  name: 24ddce7f424d4ad78f013012b0a96733_@_🇸🇬[openproxylist.com] vless-SG```
+  type: vless
+  port: 8880
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: Telegram@WangCai2/?ed=2048
+- uuid: be976fd2-e487-45b6-8f83-8d095c300fd8
+  server: 104.16.42.209
+  name: c131f74edc284545926578d17a5833b6_@_🇸🇬[openproxylist.com] vless-SG```
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /?ed=2560
+- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 141.193.213.223
+  name: f8dcd22f6e19423ebbb931d7a4d93b6a_@_🇸🇬[openproxylist.com] vless-SG```
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  servername: cs.laoyoutiao.link
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: cs.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3
+- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 141.193.213.128
+  name: c11a5540d97c41b191d9502355fef1b8_@_🇸🇬[openproxylist.com] vless-SG```
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: TelegramрЯЗ
+- uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  server: 45.142.120.251
+  name: e52f18772a0641f29164fe143e415152_@_🇸🇬[openproxylist.com] vless-SG```
+  type: vless
+  port: 8880
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  servername: Telegram-channel-WangCai2
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: Telegram-channel-WangCai2
+    path: /Telegram🇨🇳
+- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 159.242.242.63
+  name: f7f493ae67e845cd8bd83eb22af65af3_@_🇸🇬[openproxylist.com] vless-SG```
+  type: vless
+  port: 8880
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  servername: jp.laoyoutiao.link
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: jp.laoyoutiao.link
+    path: 
+      /---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net/
+- uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  server: 188.42.89.251
+  name: 15dfc3425174497cb0cfdccb4fef96ae_@_🇸🇬[openproxylist.com] vless-SG```
+  type: vless
+  port: 8880
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560fp=chrome
+- uuid: 8ad321e9-7f47-4706-a101-11aefa88723b
+  server: 104.19.173.68
+  name: 7ed9120892ef4e41bf6ff3d77e8e1692_@_🇸🇬[openproxylist.com] vless-SG```
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: rayan-sun.parsa.dpdns.org
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: rayan-sun.parsa.dpdns.org
+    path: /?ed=2560
+- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 156.238.18.162
+  name: c4725d0ab6f34a019219b454bf2efadf_@_🇸🇬[openproxylist.com] vless-SG```
+  type: vless
+  port: 8880
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  servername: yd.laoyoutiao.link
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: yd.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3
+- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 156.238.18.169
+  name: a807fbe96d734a368e9ca9036e06b0eb_@_🇸🇬[openproxylist.com] vless-SG```
+  type: vless
+  port: 8880
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: Telegram@V2ray_Alpha/?ed=2048
+- uuid: 583ceab3-4022-4553-9158-9bedc625ad4e
+  server: 104.129.164.39
+  name: c174f576273544d79929e0606ff8d233_@_🇸🇬[openproxylist.com] vless-SG```
+  type: vless
+  port: 8880
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /Telegram🇮🇷@ShadowProxy66 /?ed=2560
+- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 140.99.233.63
+  name: 182a9a3a73974a1fa3f89e5eabdc3f53_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -3181,35 +1735,38 @@ proxies:
       host: jp.laoyoutiao.link
     path: /Telegram🇨🇳
 - uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 91.193.58.176
-  name: 23941192993f490fba07cd0696e7d557_@_🇸🇬[openproxylist.com] vless-SG```
+  server: 156.238.18.241
+  name: bd500b85d9224e4dae2301a093b78474_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
   tls: false
   udp: false
   client-fingerprint: chrome
-  servername: sk.laoyoutiao.link
+  servername: us.laoyoutiao.link
   fingerprint: ''
   ws-opts:
     headers:
-      host: sk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3
-- uuid: b55ec078-3b17-4ed1-a697-71f464cdcaaa
-  server: 104.24.34.94
-  name: 6e383635d6684c7288940bc4da28afe3_@_🇸🇬[openproxylist.com] vless-SG```
+      host: us.laoyoutiao.link
+    path: /Telegram
+- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 160.153.138.63
+  name: fba4d5a959524a76ba188148e4e5e089_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
-  port: 80
+  port: 8880
   network: ws
   tls: false
   udp: false
   client-fingerprint: chrome
+  servername: jp.laoyoutiao.link
   fingerprint: ''
   ws-opts:
-    path: /?ed=2570
+    headers:
+      host: jp.laoyoutiao.link
+    path: /Telegram🇨🇳
 - uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
-  server: 5.10.245.247
-  name: 9fa610145e4e475896e38fc8959b2ec9_@_🇸🇬[openproxylist.com] vless-SG```
+  server: 5.182.85.247
+  name: 61a833fb8c67430aaa4c058df862c3b9_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -3223,8 +1780,38 @@ proxies:
       host: ex.sue.x10.mx
     path: /Telegram🇨🇳
 - uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 91.193.58.168
-  name: 81fe2ed224544d52a636e05c3d7b20c1_@_🇸🇬[openproxylist.com] vless-SG```
+  server: 155.46.213.20
+  name: c5355d17737242559e5b7a74827d3872_@_🇸🇬[openproxylist.com] vless-SG```
+  type: vless
+  port: 8880
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  servername: us.laoyoutiao.link
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: us.laoyoutiao.link
+    path: /
+- uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
+  server: 194.76.18.254
+  name: 35768494b9fa4a52ae32b497e14e29d1_@_🇸🇬[openproxylist.com] vless-SG```
+  type: vless
+  port: 8880
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  servername: Telegram-channel-WangCai2
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: Telegram-channel-WangCai2
+    path: /Telegram🇨🇳
+- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 91.193.58.241
+  name: d5621b35ce1a40dcb0e870c1b1b6bacd_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -3236,22 +1823,40 @@ proxies:
   ws-opts:
     headers:
       host: sk.laoyoutiao.link
-    path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 156.238.18.156
-  name: 54c4c5388f04406bb6681a8b2dc41291_@_🇸🇬[openproxylist.com] vless-SG```
+    path: /Telegram
+- uuid: 4e4768df-0fbb-4cc1-8fd3-7c6fea95742a
+  server: 104.21.109.177
+  name: 14f15e56157947e88837b181c979b1b5_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
-  port: 8880
+  port: 443
   network: ws
-  tls: false
+  tls: true
   udp: false
   client-fingerprint: chrome
+  servername: rayan-07.parastoo.dpdns.org
   fingerprint: ''
   ws-opts:
-    path: TelegramрЯЗ
+    headers:
+      host: rayan-07.parastoo.dpdns.org
+    path: /@Rayan_Config
+- uuid: 662e38ba-8427-4955-94aa-76f5347a0ce8
+  server: 172.67.161.129
+  name: cb9324264bff4ed5b1ea221194b7cf1e_@_🇺🇸[openproxylist.com] vless-US```
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: eeEEEeR.666470.xYZ
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: eeEEEeR.666470.xYZ
+    path: /6DuxYMYmrGrnGKRtF5UvWyyVQu
 - uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 45.135.235.63
-  name: 0b1f049ddc7943108befe5917361de0a_@_🇸🇬[openproxylist.com] vless-SG```
+  server: 185.221.160.63
+  name: 685f6fc177b34fcf980bf455e175cf6e_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -3264,9 +1869,208 @@ proxies:
     headers:
       host: jp.laoyoutiao.link
     path: /Telegram🇨🇳
+- uuid: e4824193-4f54-453b-d037-88368e85ef0e
+  server: 45.82.251.139
+  name: e2a0ce531e754093bef729c00b7bed85_@_🇺🇸[openproxylist.com] vless-US```
+  type: vless
+  port: 8880
+  network: grpc
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+- uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
+  server: 108.162.198.247
+  name: b0a2d8d6abd342329245b3d6a8ebb227_@_🇺🇸[openproxylist.com] vless-US```
+  type: vless
+  port: 8880
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  servername: ex.sue.x10.mx
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: ex.sue.x10.mx
+    path: /Telegram🇨🇳
+- uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
+  server: 35.181.206.161
+  name: f077e9dacf8c49ea8449f931752e533f_@_@VlessConfig 🇨🇵
+  type: vless
+  port: 22224
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: trojan.burgerip.co.uk
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: trojan.burgerip.co.uk
+    path: /telegram-channel-vlessconfig
+- uuid: 941d092e-8313-452a-ba21-c9995dcba79d
+  server: 104.16.110.49
+  name: d8268e9bebab4e338761a50dee6a73db_@_🇸🇬[openproxylist.com] vless-SG```
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /?ed=2570
+- uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  server: 31.43.179.228
+  name: 5d8102698cc24b25894836b9886ca123_@_🇸🇬[openproxylist.com] vless-SG```
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: Telegram:@ShadowProxy66/?ed=2560
+- uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
+  server: 195.13.44.254
+  name: 3410f5f16dc94217965511dfab22e5f6_@_🇸🇬[openproxylist.com] vless-SG```
+  type: vless
+  port: 8880
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  servername: Telegram-channel-WangCai2
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: Telegram-channel-WangCai2
+    path: /Telegram🇨🇳
 - uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 91.193.58.182
-  name: 965b6868cd1a4e3ebc038b19062de51e_@_🇸🇬[openproxylist.com] vless-SG```
+  server: 141.193.213.64
+  name: e3c10c359014431cbfcbc79e454d64f2_@_🇸🇬[openproxylist.com] vless-SG```
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  servername: cs.laoyoutiao.link
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: cs.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3
+- uuid: 753fa8e8-a3e8-442e-abf7-875ed776eacb
+  server: 198.41.209.70
+  name: a62b7daddfb44abdbd4f414d413fb51b_@_🇬🇧[openproxylist.com] vless-GB```
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: is.oldcloud.online
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: is.oldcloud.online
+    path: /
+- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 199.181.197.29
+  name: 8b3151ecbeca4309a9fd92bb4028c23b_@_🇸🇬[openproxylist.com] vless-SG```
+  type: vless
+  port: 8880
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /Telegram🇨🇳 @MxlShare @WangCai2 /?ed=2560
+- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 141.193.213.147
+  name: 5f37684b0b8b41dfbd205cf3ae2061a8_@_🇸🇬[openproxylist.com] vless-SG```
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  servername: cs.laoyoutiao.link
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: cs.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3
+- uuid: c8eac4b7-95ba-4ce0-920d-c3279eb3b391
+  server: 104.21.23.210
+  name: cb27245c839e441aab6fe5fca0e34359_@_🇺🇸[openproxylist.com] vless-US```
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: OOO0987654.932.pp.uA
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: OOO0987654.932.pp.uA
+    path: /6r23FpdcA4KNAXX
+- uuid: 2642c002-1f66-46fd-8e4c-a25bba373c98
+  server: 162.159.129.11
+  name: b12883684033422caa131cfc121fe844_@_🇸🇬[openproxylist.com] vless-SG```
+  type: vless
+  port: 2096
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: randomized
+  servername: cantarella.yaechan.ip-ddns.com
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: cantarella.yaechan.ip-ddns.com
+    path: /proxyip=navia.shorekeeper.ir
+- server: 104.26.15.85
+  name: 92165819421740acbce9bae301e6f362_@_@Hope_Net-join-us-on-Telegram
+  type: trojan
+  port: 443
+  password: 936c6853-6bbf-4e24-8667-ec5b2fc275b3
+  client-fingerprint: chrome
+- uuid: 695ac0a3-406a-41d7-83c5-5af8c39d3bec
+  cipher: auto
+  alterId: 5
+  server: ny1.bulkcash.top
+  name: c25dc2a7eb9a49fc936f9a6d6f09f29d_@_@Hope_Net-join-us-on-Telegram
+  type: vmess
+  port: 41507
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /
+- uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+  cipher: auto
+  alterId: 0
+  server: 172.64.32.217
+  name: 752e71d08c7c47cda3d3e184d593b392_@_@Hope_Net-join-us-on-Telegram
+  type: vmess
+  port: 2087
+  network: grpc
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: dd21146ygfdSNA9191281280kdm22kas2123Aawdsd1234bb155138161148.meratnet.ir
+  fingerprint: ''
+- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 91.193.58.91
+  name: 5b4e2ed1b1e14108832ee537b655a5be_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -3278,10 +2082,252 @@ proxies:
   ws-opts:
     headers:
       host: sk.laoyoutiao.link
-    path: /Telegram馃嚚馃嚦
+    path: /TelegramU0001F1E8U0001F1F3
 - uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 193.227.99.63
-  name: e28d057fb25e45b783957bc6fe2fce48_@_🇸🇬[openproxylist.com] vless-SG```
+  server: 141.193.213.155
+  name: 7a87f1b36a3e42cc9df8b485639368b5_@_🇸🇬[openproxylist.com] vless-SG```
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  servername: cs.laoyoutiao.link
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: cs.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3
+- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 91.193.58.145
+  name: 075520a9111b4a5c8cc71e85a50912ac_@_🇸🇬[openproxylist.com] vless-SG```
+  type: vless
+  port: 8880
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  servername: sk.laoyoutiao.link
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: sk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3
+- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 45.194.53.63
+  name: 8547de5160d0472789ee602b80d62a22_@_🇸🇬[openproxylist.com] vless-SG```
+  type: vless
+  port: 8880
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  servername: jp.laoyoutiao.link
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: jp.laoyoutiao.link
+    path: /Telegram🇨🇳
+- uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  server: 45.153.7.251
+  name: 95caae8b82a0426ba6f7061face76fd2_@_🇸🇬[openproxylist.com] vless-SG```
+  type: vless
+  port: 8880
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 185.176.26.63
+  name: a0d890fc5d7d4b5caa4b8939dc8e55da_@_🇸🇬[openproxylist.com] vless-SG```
+  type: vless
+  port: 8880
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  servername: jp.laoyoutiao.link
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: jp.laoyoutiao.link
+    path: /Telegram🇨🇳
+- uuid: c8eac4b7-95ba-4ce0-920d-c3279eb3b391
+  server: 104.21.78.243
+  name: 3984c11c1baa46a5820c033e0d8f4636_@_🇺🇸[openproxylist.com] vless-US```
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: 19U.7282728.xyz
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: 19U.7282728.xyz
+    path: /6r23FpdcA4KNAXX
+- uuid: c4587bda-09fc-4b3b-8221-4450fccc33d1
+  server: 104.26.8.156
+  name: 0e419b0d77f24602bc2bf09127bbbecc_@_🇸🇬[openproxylist.com] vless-SG```
+  type: vless
+  port: 443
+  network: ws
+  tls: true
+  udp: false
+  client-fingerprint: random
+  servername: yx.yushan.dpdns.org
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: yx.yushan.dpdns.org
+    path: /?ed=2560
+- uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
+  server: 199.34.229.247
+  name: a62b704874284917b3af89e56fc75795_@_🇸🇬[openproxylist.com] vless-SG```
+  type: vless
+  port: 8880
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  servername: ex.sue.x10.mx
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: ex.sue.x10.mx
+    path: /Telegram🇨🇳
+- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 194.59.5.63
+  name: 350c7cd50c5d411ab6b6f91da6b90b19_@_🇸🇬[openproxylist.com] vless-SG```
+  type: vless
+  port: 8880
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  servername: jp.laoyoutiao.link
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: jp.laoyoutiao.link
+    path: /Telegram🇨🇳
+- uuid: 690ab90e-3f21-422b-8cb1-bc9845c7af1e
+  server: 104.26.15.85
+  name: 054c6e074a8c4a3d9a73b8c10bef52f8_@_🇫🇷[openproxylist.com] vless-FR```
+  type: vless
+  port: 8080
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /
+- uuid: b28eb861-1748-4200-ba72-278669edc33b
+  server: 172.66.139.172
+  name: 8c4f94c363fb46df81c410339d159a03_@_🇸🇬[openproxylist.com] vless-SG```
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: random
+  servername: coco.mahmoodchitooz.dpdns.org
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: coco.mahmoodchitooz.dpdns.org
+    path: /Telegram@V2ray_Alpha/?ed=2560
+- uuid: 401374e6-df77-41fb-f638-dad8184f175b
+  server: 45.8.211.71
+  name: d54d93a7c72d4240a08cc32d8c0ef64e_@_🇺🇸[openproxylist.com] vless-US```
+  type: vless
+  port: 443
+  network: grpc
+  tls: true
+  udp: false
+  client-fingerprint: chrome
+  servername: pqh24v3.hiddendom.shop
+  fingerprint: ''
+- uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
+  server: 102.177.189.254
+  name: ca5374bf6b464171b36d722b2340d729_@_🇸🇬[openproxylist.com] vless-SG```
+  type: vless
+  port: 8880
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  servername: Telegram-channel-WangCai2
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: Telegram-channel-WangCai2
+    path: /Telegram🇨🇳
+- uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
+  server: 192.200.160.251
+  name: ce84128d7fa54d1b80e1676eb7bcee0b_@_🇸🇬[openproxylist.com] vless-SG```
+  type: vless
+  port: 8880
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  fingerprint: ''
+  ws-opts:
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560fp=chrome
+- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 102.132.188.63
+  name: 53f31b69bdbb46678d7db0f8e3d2cc9a_@_🇸🇬[openproxylist.com] vless-SG```
+  type: vless
+  port: 8880
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  servername: jp.laoyoutiao.link
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: jp.laoyoutiao.link
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560fp=chrome
+- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 141.193.213.36
+  name: 866d63836a004f1390a8674bc2cb8d7e_@_🇸🇬[openproxylist.com] vless-SG```
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  servername: cs.laoyoutiao.link
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: cs.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3
+- uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049
+  server: 45.131.4.145
+  name: 8fc815ef1bff491fba9292340808f393_@_🇸🇬[openproxylist.com] vless-SG```
+  type: vless
+  port: 80
+  network: ws
+  tls: false
+  udp: false
+  client-fingerprint: chrome
+  servername: redfree8.pooriashop.ir
+  fingerprint: ''
+  ws-opts:
+    headers:
+      host: redfree8.pooriashop.ir
+    path: Telegram@WangCai2/?ed
+- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  server: 104.31.16.63
+  name: 7aa86cfaa9ca488e99b72e41eefe5672_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -3295,391 +2341,85 @@ proxies:
       host: sg.laoyoutiao.link
     path: /Telegram🇨🇳
 - uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 91.193.58.126
-  name: fdb0ec59145d4b3e881e6c9c0f75a702_@_🇸🇬[openproxylist.com] vless-SG```
+  server: 216.24.57.20
+  name: 3f1f7561621f46398a6812d100c70917_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
   tls: false
   udp: false
   client-fingerprint: chrome
-  servername: sk.laoyoutiao.link
+  servername: us.laoyoutiao.link
   fingerprint: ''
   ws-opts:
     headers:
-      host: sk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 25.25.25.19
-  name: 15e04689c9064cb4970a02a3224bb082_@_🇸🇬[openproxylist.com] vless-SG```
+      host: us.laoyoutiao.link
+    path: Telegram@WangCai2/?ed
+- uuid: 148709e4-402b-48dd-8892-ed39b55ea45c
+  server: 104.16.100.188
+  name: f561c6a00a1c4f01a343da963b1c2aa7_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
-  port: 8880
+  port: 80
   network: ws
   tls: false
   udp: false
-  client-fingerprint: chrome
-  servername: hk.laoyoutiao.link
+  client-fingerprint: random
+  servername: entezar.loseyourself.dpdns.org
   fingerprint: ''
   ws-opts:
     headers:
-      host: hk.laoyoutiao.link
-    path: telegram🇨🇳 @pgkj666 /?ed=2560
-- uuid: 6ec52bc7-fcd7-4841-ab69-70d6e03a6eda
-  server: 104.17.148.22
-  name: 4a0074d182304ba4bc802a253bc9c053_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI/?ed=2560
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 25.26.27.63
-  name: eb17f530ad2541e68e10bbf2d72e0adf_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: jp.laoyoutiao.link
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: jp.laoyoutiao.link
-    path: /Telegram🇨🇳
-- uuid: 45c3ceef-af58-45ba-83e9-6fad74dbb663
-  server: 104.21.33.210
-  name: 138d8e11ddc24dafb614fb1609674be9_@_🇸🇬[openproxylist.com] vless-SG```
+      host: entezar.loseyourself.dpdns.org
+    path: /?ed=2560
+- uuid: 0343e230-5132-4e98-844e-b42ad1a6a273
+  server: 104.22.14.132
+  name: aae842ae4e8948cb898b37396ea30de9_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8443
   network: ws
   tls: true
   udp: false
   client-fingerprint: chrome
-  servername: iVZ693Ye8O0lmp70bD7vr407bwM2ib8r.kiCIgE4119.WORkeRS.deV
+  servername: nptian.xiaotianvpn.sbs
   fingerprint: ''
   ws-opts:
     headers:
-      host: iVZ693Ye8O0lmp70bD7vr407bwM2ib8r.kiCIgE4119.WORkeRS.deV
-    path: /ExjL1zO3udKC9ygB
-- uuid: 275c1c05-9b08-499d-94e1-cd51c16adefe
-  server: 94.182.134.121
-  name: 4a71718125b34a3199dfbc39d98e27e8_@_🇫🇷[openproxylist.com] vless-FR```
-  type: vless
-  port: 2083
-  network: tcp
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 91.193.58.94
-  name: 72e959bb97e04575bea0fc2aa28da843_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: sk.laoyoutiao.link
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: sk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 91.193.58.73
-  name: e0735517a48d4f74a49cca6c01e47838_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: sk.laoyoutiao.link
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: sk.laoyoutiao.link
-    path: /Telegram
-- uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-  server: 195.13.45.251
-  name: 2ae7bf1cacd64896a1d485406f30cefe_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 91.193.58.33
-  name: 32e9b99ea7be4b2eb4f83d35b5f12ef4_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: sk.laoyoutiao.link
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: sk.laoyoutiao.link
-    path: Telegram@WangCai2/?ed
-- uuid: 9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c
-  server: 104.22.49.112
-  name: 4e6d1bbb591240adbbc2c2639715d470_@_@Hope_Net-join-us-on-Telegram
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: random
-  servername: kawaiifreevpn-7ds.pages.dev
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: kawaiifreevpn-7ds.pages.dev
+      host: nptian.xiaotianvpn.sbs
     path: /?ed=2560
-- uuid: 9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c
-  server: 104.19.252.87
-  name: c79e5c3de65d4a78853b084e51c70a46_@_@Hope_Net-join-us-on-Telegram
+- uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
+  server: 199.181.197.254
+  name: b727ca1285d44454a374144e907ce067_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
-  port: 443
+  port: 8880
   network: ws
-  tls: true
+  tls: false
   udp: false
-  client-fingerprint: random
-  servername: kawaiifreevpn-7ds.pages.dev
+  client-fingerprint: chrome
+  servername: Telegram-channel-WangCai2
   fingerprint: ''
   ws-opts:
     headers:
-      host: kawaiifreevpn-7ds.pages.dev
-    path: /?ed=2560
-- uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  cipher: auto
-  alterId: 64
-  server: 38.14.107.225
-  name: 5e86a46b5ead4d5791c790a80f93761f_@_@Hope_Net-join-us-on-Telegram
-  type: vmess
-  port: 38003
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /path/181721272114
-- uuid: 301fad67-1288-47a9-b3ca-22b823e4e789
+      host: Telegram-channel-WangCai2
+    path: /Telegram🇨🇳
+- uuid: d3d8b781-f30d-4902-8eb0-58b1ca936bec
   cipher: auto
   alterId: 0
-  server: 31.186.86.47
-  name: 3757baf364da434a98f44d8d25d4be22_@_@Hope_Net-join-us-on-Telegram
+  server: 220.123.48.124
+  name: dcd24bab65a3475e892ed55c87cbbc2c_@_@Hope_Net-join-us-on-Telegram
   type: vmess
-  port: 2033
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /vmess-argo?ed=2048
-- uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
-  server: 45.80.108.247
-  name: b1ff868af548447ba80f014209687e67_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: ex.sue.x10.mx
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: ex.sue.x10.mx
-    path: /Telegram🇨🇳
-- uuid: 68b48eeb-5770-4eb3-9b77-deeb77a41ccf
-  server: 104.18.42.254
-  name: 5b0ab9ecc3004b8dbdf0220cc3b6ea25_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: random
-  servername: varzesh3.varzesh.dpdns.org
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: varzesh3.varzesh.dpdns.org
-    path: /?ed=2560
-- uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
-  server: 66.81.247.254
-  name: 674b1a09bfff486ea36710157311686e_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: Telegram-channel-WangCai2
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /Telegram🇨🇳
-- uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-  server: 94.247.142.251
-  name: 0efc5c1f96c44628a24592607ce3b084_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560fp=chrome
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 141.193.213.76
-  name: 894c33b39b7a4c0b8b711b5cb1b3b51a_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: cs.laoyoutiao.link
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: cs.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3
-- uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
-  server: 31.43.179.254
-  name: 83fc1366b94147a085d18ec01f2b2912_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: Telegram-channel-WangCai2
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /Telegram🇨🇳
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 80.93.202.29
-  name: 979b16dee36f4e3d9d9649feb2f16932_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
-  server: 63.141.128.254
-  name: ef574ab723ba477ca5e75fc3998369cb_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /Telegram🇨🇳
-- uuid: 80764883-7f6b-4c46-8ecd-887cdf541c07
-  server: 172.66.47.82
-  name: 892b316bc24a459488dc7fa9fd3d7241_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 2053
+  port: 30002
   network: ws
   tls: true
   udp: false
-  client-fingerprint: randomized
-  servername: edC32e3B.bpb-PaNel-EN-87s.PAGes.dEv
+  client-fingerprint: chrome
+  servername: cc2.1808.site
   fingerprint: ''
   ws-opts:
     headers:
-      host: edC32e3B.bpb-PaNel-EN-87s.PAGes.dEv
-    path: /oqLIXWAi6lzpnumQ
+      host: cc2.1808.site
+    path: /hgqqvws
 - uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 91.193.58.84
-  name: 4ef2298439eb4b44a8c8f1362cb19886_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: us.laoyoutiao.link
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: us.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 91.193.58.58
-  name: 5060f11ab6184edaad9afe65a826a8f2_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: us.laoyoutiao.link
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: us.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3
-- uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-  server: 160.153.138.251
-  name: aee25282049c4a43811979aa026225f2_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: Telegram-channel-WangCai2
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /Telegram🇨🇳
-- uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
-  server: 91.209.253.247
-  name: 27c7d64f350f42838262f84dbe0c0d09_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: ex.sue.x10.mx
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: ex.sue.x10.mx
-    path: /Telegram🇨🇳
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 156.238.18.195
-  name: 00428a4b7a2f462fb3bbdc6985e3e95a_@_🇸🇬[openproxylist.com] vless-SG```
+  server: 156.238.18.160
+  name: b069a97ae49e4e85bae2a2a234c12676_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -3692,165 +2432,9 @@ proxies:
     headers:
       host: yd.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3
-- uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
-  server: 140.99.233.254
-  name: 2705225d92c545188389135f77802022_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: Telegram-channel-WangCai2
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /Telegram🇨🇳
-- uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-  server: 185.162.228.251
-  name: dee3cbf732eb48b9b28e95953f8b74f7_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: Telegram-channel-WangCai2
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /Telegram🇨🇳
 - uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 91.193.58.245
-  name: 4408130d4c854142a91199be89af4eff_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: us.laoyoutiao.link
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: us.laoyoutiao.link
-    path: /
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 141.193.213.6
-  name: 88681bf269684d06af542d13432dcbc2_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: TelegramрЯЗ®рЯЗ≥
-- uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
-  server: 104.18.2.26
-  name: 1d837dc070d845268b88b7565f65b699_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 2083
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: ex.sue.x10.mx
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: ex.sue.x10.mx
-    path: /?ed=2560
-- uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
-  server: 92.60.74.247
-  name: e4b6f161cafc49f7bb96a189adb5614f_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: ex.sue.x10.mx
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: ex.sue.x10.mx
-    path: /Telegram🇨🇳
-- uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  server: 45.8.211.167
-  name: fa3b976f49884e7093f075fd72fe03f7_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: Telegram@Telegram@V2ray_Alpha/?ed=2560
-- uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
-  server: 45.80.111.247
-  name: bb77c8cd7c2043578a65cf716ecc6f2b_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: ex.sue.x10.mx
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: ex.sue.x10.mx
-    path: /TelegramU0001F1E8U0001F1F3
-- uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-  server: 104.129.165.251
-  name: 22a8ff1072f04805a67d54db4ebf04a9_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: Telegram-channel-WangCai2
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /Telegram🇨🇳
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 156.238.18.11
-  name: e705affa7a904a69a60327048009bc02_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: Telegram@WangCai2/?ed=2048
-- uuid: c1601a96-febd-4baa-8fe3-17ca8f4121bd
-  server: 104.17.186.58
-  name: 920597ab7ee6413da306e8af87e55fb6_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: randomized
-  servername: frieren.albedo.ddns-ip.net
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: frieren.albedo.ddns-ip.net
-    path: /proxyip=ayaka.shorekeeper.ir
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 45.81.58.29
-  name: 44afa4406aa143e390daa3369f64b900_@_🇸🇬[openproxylist.com] vless-SG```
+  server: 193.9.49.29
+  name: b534cf65da9a45cebf26803a396b4c35_@_🇸🇬[openproxylist.com] vless-SG```
   type: vless
   port: 8880
   network: ws
@@ -3863,231 +2447,3 @@ proxies:
     headers:
       host: hk.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3
-- uuid: 30602b6d-5d5c-4f56-9b65-9ae2fd9348cb
-  server: 172.67.131.76
-  name: 7c69b5fefda74c68b9c8cbf160fbf372_@_🇺🇸[openproxylist.com] vless-US```
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: chrome
-  servername: xxxcvfbghy7.222767.xyz
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: xxxcvfbghy7.222767.xyz
-    path: /mSLSBJw67FGVHqPd73hl
-- uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-  server: 154.197.75.251
-  name: 83551570f32c49a7b9a7ac197e18f8ae_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: Telegram-channel-WangCai2
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /Telegram🇨🇳
-- uuid: 4179c595-08ca-45cd-b555-91b6f1faeadc
-  server: 172.67.128.105
-  name: 5c9772094e064c4784bc90a116a30979_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /?ed=2560
-- uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
-  server: 185.207.197.254
-  name: c2f5a1bedf6b4c43b591045f4d3082ef_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: Telegram-channel-WangCai2
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /Telegram🇨🇳
-- uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-  server: 192.0.54.251
-  name: 795e5a7fa37c46319244dd5adcd578fa_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-  server: 46.202.30.251
-  name: 2d7deff0ec1b406eaa626d0cbda80ebf_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: Telegram-channel-WangCai2
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /Telegram🇨🇳
-- uuid: 376734bc-4db8-4317-b451-af0262cb01c7
-  server: 104.21.95.229
-  name: 0879c2bfcf854b878cae9a77f30c501c_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 2087
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: randomized
-  servername: invINCIBLE.FAfa20.SHOp
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: invINCIBLE.FAfa20.SHOp
-    path: /FnxOCItzWpgMrgmD/NzguNDYuNTYuNDI=?ed=2560
-- uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33
-  server: 103.116.7.254
-  name: 577316c1a46c4bfd85de8ef2b7ce38e4_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /Telegram🇨🇳
-- uuid: d60fc3c5-9f07-4cdb-b81f-70af27936bdc
-  server: 199.34.230.247
-  name: 83bd9808d62743b09f38ce9a8bd23387_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: ex.sue.x10.mx
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: ex.sue.x10.mx
-    path: /Telegram🇨🇳
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 154.194.0.63
-  name: 476df008e07044108ec71ec47e1a7c55_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: jp.laoyoutiao.link
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: jp.laoyoutiao.link
-    path: /Telegram🇨🇳
-- uuid: 0132166f-e702-48ed-a9e7-b07af768faf8
-  server: 31.43.179.251
-  name: e245806d3c8a438ebf951f9031e95821_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: Telegram-channel-WangCai2
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: Telegram-channel-WangCai2
-    path: /Telegram🇨🇳
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 167.68.4.63
-  name: f76bfdb76f7e40658453597164f608d4_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: jp.laoyoutiao.link
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: jp.laoyoutiao.link
-    path: /Telegram@V2ray_Alpha/?ed=2048
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 91.193.58.65
-  name: 0ddab46a306d4727805f2ec67d0a8450_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  fingerprint: ''
-  ws-opts:
-    path: /
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 141.193.213.171
-  name: 1cde92fec75a4488811f386d299412b5_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 80
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: cs.laoyoutiao.link
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: cs.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3
-- uuid: 2642c002-1f66-46fd-8e4c-a25bba373c98
-  server: 162.159.130.11
-  name: ca9c4b39f81c4a8ea66921ba5f5f1d43_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 443
-  network: ws
-  tls: true
-  udp: false
-  client-fingerprint: randomized
-  servername: cantarella.yaechan.ip-ddns.com
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: cantarella.yaechan.ip-ddns.com
-    path: /proxyip=navia.shorekeeper.ir
-- uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  server: 45.67.214.63
-  name: 998ffcff791142b28c3f60413d0619e7_@_🇸🇬[openproxylist.com] vless-SG```
-  type: vless
-  port: 8880
-  network: ws
-  tls: false
-  udp: false
-  client-fingerprint: chrome
-  servername: jp.laoyoutiao.link
-  fingerprint: ''
-  ws-opts:
-    headers:
-      host: jp.laoyoutiao.link
-    path: /Telegram🇨🇳
