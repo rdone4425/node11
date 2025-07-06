@@ -5,106 +5,106 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇦🇪 阿联酋 | ARE, server: sg.xn--2vxn29amga.com, port: 21137, type: hysteria2, password: 82f85fde-11ef-47e3-a52c-2673971c5111, auth: 82f85fde-11ef-47e3-a52c-2673971c5111, skip-cert-verify: false, udp: true}
-  - {name: 🇦🇪 阿联酋 | ARE 2, server: zz.xn--2vxn29amga.com, port: 8094, type: ss, cipher: 2022-blake3-aes-128-gcm, password: ODI0ZTkxZDkxM2E0Y2UwMQ==:MGMzYzcwMjQtMjA5MC00NA==, udp: true}
-  - {name: 🇦🇪 阿联酋 | ARE 3, server: sg.xn--2vxn29amga.com, port: 21198, type: hysteria2, password: 82f85fde-11ef-47e3-a52c-2673971c5111, auth: 82f85fde-11ef-47e3-a52c-2673971c5111, skip-cert-verify: false, udp: true}
-  - {name: 🇦🇪 阿联酋 | ARE 4, server: sg.xn--2vxn29amga.com, port: 21111, type: hysteria2, password: d7328c89-21b3-47bc-8726-36ecf7c8ac85, auth: d7328c89-21b3-47bc-8726-36ecf7c8ac85, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇦 加拿大 | CAN, server: 172.67.175.139, port: 443, type: trojan, password: 288124da-0d68-42f4-9f48-70dc4dcc55a6, sni: cvFbghYU.859886.XYZ, skip-cert-verify: false, network: ws, ws-opts: {path: /raChT39pjLFYRA5HdHEIupMZeK, headers: {Host: cvFbghYU.859886.XYZ}}, udp: true}
-  - {name: 🇨🇳 台湾 | TWN, server: tw.xiao666666.site, port: 26900, type: hysteria2, password: f7f39a47-9276-4c6b-b190-7c83def23e8b, auth: f7f39a47-9276-4c6b-b190-7c83def23e8b, sni: tw.xiao666666.site, up: 300, down: 300, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾 | TWN 2, server: tw.xiao666666.site, port: 26900, type: hysteria2, password: d548cb04-36b2-4547-a7a5-f6021fa88a4c, auth: d548cb04-36b2-4547-a7a5-f6021fa88a4c, sni: tw.xiao666666.site, up: 300, down: 300, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾 | TWN 3, server: tw.xiao666666.site, port: 26900, type: hysteria2, password: d2315271-102d-4b10-b7ae-bc79aee42b3a, auth: d2315271-102d-4b10-b7ae-bc79aee42b3a, sni: tw.xiao666666.site, up: 300, down: 300, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 德国 | DEU, server: bless.network, port: 443, type: vless, uuid: 5de46b0d-10fd-4162-8997-5003f9da30e0, tls: true, alpn: [h3%2Ch2%2Chttp%2F1.1], servername: mmd-p9k.PagEs.Dev, client-fingerprint: chrome, network: ws, ws-opts: {path: "/hzsdfG0i3fmrWYFh/bW1kLXA5ay5wYWdlcy5kZXY=?ed=2560", headers: {Host: mmd-p9k.PagEs.Dev}}, udp: true}
-  - {name: 🇫🇷 法国 | FRA, server: 91.99.72.144, port: 2182, type: vless, uuid: 4ee1809a-4a35-4601-99b3-51ce05fb4585, tls: true, servername: oty.myto.ip-ddns.com, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: oty.myto.ip-ddns.com}}, udp: true}
-  - {name: 🇬🇧 英国 | GBR, server: 185.139.7.179, port: 7000, type: vless, uuid: 4ee1809a-4a35-4601-99b3-51ce05fb4585, tls: true, servername: oty.myto.ip-ddns.com, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: oty.myto.ip-ddns.com}}, udp: true}
-  - {name: 🇭🇰 香港 | HKG, server: yjjdxg.yunjijd.xyz, port: 26323, type: hysteria2, password: 6ef3f8b2-b6c8-40c3-b606-c8d9a8e4b0eb, auth: 6ef3f8b2-b6c8-40c3-b606-c8d9a8e4b0eb, sni: yjjdxg.yunjijd.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 | HKG 2, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15010, type: ss, cipher: aes-256-gcm, password: 3GRQZE8N8O5GUOZ2, udp: true}
-  - {name: 🇭🇰 香港 | HKG 3, server: ti3hyra4.slashdevslashnetslashtun.net, port: 15011, type: ss, cipher: aes-256-gcm, password: QLXD8LWUCY8O9WTZ, udp: true}
-  - {name: 🇭🇰 香港 | HKG 4, server: ali.xiao666666.site, port: 50000, type: hysteria2, password: af9d4168-5dfd-41a6-bc74-e3c5b437dd28, auth: af9d4168-5dfd-41a6-bc74-e3c5b437dd28, sni: ali.xiao666666.site, up: 120, down: 120, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 | HKG 5, server: hk.xn--mes91t7ofgnw.com, port: 20214, type: hysteria2, password: 52081488-1967-4675-b012-dfdee6e8201f, auth: 52081488-1967-4675-b012-dfdee6e8201f, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 | HKG 6, server: hk.xn--mes91t7ofgnw.com, port: 20236, type: hysteria2, password: 52081488-1967-4675-b012-dfdee6e8201f, auth: 52081488-1967-4675-b012-dfdee6e8201f, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 | HKG 7, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 15013, type: ss, cipher: aes-256-gcm, password: Y84CP6CCSKXBAYIP, udp: true}
-  - {name: 🇭🇰 香港 | HKG 8, server: w72tapyb.slashdevslashnetslashtun.net, port: 15012, type: ss, cipher: aes-256-gcm, password: VPRRSEN5JWRNABKN, udp: true}
-  - {name: 🇭🇰 香港 | HKG 9, server: zz.xn--2vxn29amga.com, port: 8092, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YWJlYzEwNTJmNjBiM2E1Mw==:NjEzZGNmZmYtY2M0Ni00Mg==, udp: true}
-  - {name: 🇭🇰 香港 | HKG 10, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: 2020c050-4b76-46d3-b77b-727e824164da, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港 | HKG 11, server: ali.xiao666666.site, port: 50000, type: hysteria2, password: b4c10020-a87f-4808-b8f4-9a25b651ce56, auth: b4c10020-a87f-4808-b8f4-9a25b651ce56, sni: ali.xiao666666.site, up: 120, down: 120, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 | JPN, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: 2020c050-4b76-46d3-b77b-727e824164da, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇯🇵 日本 | JPN 2, server: 13.230.138.127, port: 15367, type: hysteria2, password: bP5RKAVP3HgdH75IjnILnyaGHU, auth: bP5RKAVP3HgdH75IjnILnyaGHU, sni: bing.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 | JPN 3, server: jp.xn--mes91t7ofgnw.com, port: 20244, type: hysteria2, password: 66f85c66-8e55-4b81-93c3-bddfffa53c9b, auth: 66f85c66-8e55-4b81-93c3-bddfffa53c9b, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 | JPN 4, server: 57.180.172.178, port: 30000, type: vless, uuid: 4ee1809a-4a35-4601-99b3-51ce05fb4585, tls: true, servername: oty.myto.ip-ddns.com, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: oty.myto.ip-ddns.com}}, udp: true}
-  - {name: 🇯🇵 日本 | JPN 5, server: jp.xn--2vxn29amga.com, port: 21114, type: hysteria2, password: 0c3c7024-2090-44ff-90ab-96b20ca647ff, auth: 0c3c7024-2090-44ff-90ab-96b20ca647ff, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 | JPN 6, server: 3.link-hub.click, port: 40254, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com, udp: true}
-  - {name: 🇯🇵 日本 | JPN 7, server: 2.linkhub.support, port: 40218, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com, udp: true}
-  - {name: 🇯🇵 日本 | JPN 8, server: yjjdrb.yunjijd.xyz, port: 26423, type: hysteria2, password: be81e21d-02d8-4a60-a07e-c2202a50a549, auth: be81e21d-02d8-4a60-a07e-c2202a50a549, sni: yjjdrb.yunjijd.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 | JPN 9, server: 18.183.135.74, port: 30673, type: hysteria2, password: THySbYJ9A198OxWz2HLK6Kpaw, auth: THySbYJ9A198OxWz2HLK6Kpaw, sni: bing.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 | JPN 10, server: jp.xn--mes91t7ofgnw.com, port: 20240, type: hysteria2, password: f52aed75-efba-4ec0-a381-5f763a735134, auth: f52aed75-efba-4ec0-a381-5f763a735134, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 | JPN 11, server: jp.xn--mes91t7ofgnw.com, port: 20273, type: hysteria2, password: 52081488-1967-4675-b012-dfdee6e8201f, auth: 52081488-1967-4675-b012-dfdee6e8201f, skip-cert-verify: false, udp: true}
-  - {name: 🇳🇱 荷兰 | NLD, server: 45.147.7.209, port: 20000, type: vless, uuid: badbc35d-a86b-412d-ac05-29ab54643c80, tls: true, servername: mot.majusti.dpdns.org, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mot.majusti.dpdns.org}}, udp: true}
-  - {name: 🇳🇱 荷兰 | NLD 2, server: yjjdhl.yunjijd.xyz, port: 26923, type: hysteria2, password: c949519c-a076-4a8d-b3bf-b677657af20b, auth: c949519c-a076-4a8d-b3bf-b677657af20b, sni: yjjdhl.yunjijd.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇵🇱 波兰 | POL, server: 31.207.45.75, port: 49959, type: vless, uuid: 4ee1809a-4a35-4601-99b3-51ce05fb4585, tls: true, servername: oty.myto.ip-ddns.com, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: oty.myto.ip-ddns.com}}, udp: true}
-  - {name: 🇷🇺 俄罗斯 | RUS, server: 46.29.163.177, port: 22075, type: vmess, uuid: b763ca51-c877-4d49-b9e2-89e97f6fcac6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇷🇺 俄罗斯 | RUS 2, server: 46.29.163.177, port: 31008, type: hysteria2, password: 90e40828-ef4f-415d-a9d9-e1b50da77c00, auth: 90e40828-ef4f-415d-a9d9-e1b50da77c00, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇷🇺 俄罗斯 | RUS 3, server: 46.29.163.177, port: 23116, type: vmess, uuid: 10ef313f-2540-4d54-8d2f-b798272957e3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇷🇺 俄罗斯 | RUS 4, server: 46.29.163.177, port: 23116, type: vmess, uuid: 4ab3b0c8-f09d-4ca9-b57d-c4103f71bca8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇷🇺 俄罗斯 | RUS 5, server: 46.29.163.177, port: 33079, type: hysteria2, password: 8b9cd742-e21c-4047-b684-543b5516698b, auth: 8b9cd742-e21c-4047-b684-543b5516698b, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇷🇺 俄罗斯 | RUS 6, server: 46.29.163.177, port: 23116, type: vmess, uuid: a03a525c-51a1-4ab6-9b86-4fad25ac7d77, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇷🇺 俄罗斯 | RUS 7, server: 46.29.163.177, port: 23116, type: vmess, uuid: 8e77ef27-3e39-4398-8dbf-8b0265a76d8b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇷🇺 俄罗斯 | RUS 8, server: 46.29.163.177, port: 31008, type: hysteria2, password: 8e77ef27-3e39-4398-8dbf-8b0265a76d8b, auth: 8e77ef27-3e39-4398-8dbf-8b0265a76d8b, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇷🇺 俄罗斯 | RUS 9, server: 46.29.163.177, port: 30076, type: hysteria2, password: 93409170-f05a-4f32-ae83-464ca06bc7dc, auth: 93409170-f05a-4f32-ae83-464ca06bc7dc, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇷🇺 俄罗斯 | RUS 10, server: 46.29.163.177, port: 31008, type: hysteria2, password: ec1a122d-d9be-497e-998b-fad9eb8e5bf9, auth: ec1a122d-d9be-497e-998b-fad9eb8e5bf9, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇷🇺 俄罗斯 | RUS 11, server: 46.29.163.177, port: 23116, type: vmess, uuid: 31f53746-fecb-4c2e-8897-a9f4fbbfd472, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇷🇺 俄罗斯 | RUS 12, server: 46.29.163.177, port: 33079, type: hysteria2, password: 01423d28-feb7-4f8b-8eee-d4ac23d07e78, auth: 01423d28-feb7-4f8b-8eee-d4ac23d07e78, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇷🇺 俄罗斯 | RUS 13, server: 46.29.163.177, port: 30076, type: hysteria2, password: 6643f9c7-0d65-42e7-a6d0-cb1aec4a6d1e, auth: 6643f9c7-0d65-42e7-a6d0-cb1aec4a6d1e, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
-  - {name: 🇸🇬 新加坡 | SGP, server: ti3hyra4.slashdevslashnetslashtun.net, port: 16015, type: ss, cipher: aes-256-gcm, password: I8MV8GXTIATLVNSN, udp: true}
-  - {name: 🇸🇬 新加坡 | SGP 2, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 16014, type: ss, cipher: aes-256-gcm, password: R3H7F95G3JPS0KOZ, udp: true}
-  - {name: 🇸🇬 新加坡 | SGP 3, server: ti3hyra4.slashdevslashnetslashtun.net, port: 16011, type: ss, cipher: aes-256-gcm, password: Y0K45A99LLXS9PW6, udp: true}
-  - {name: 🇹🇷 土耳其 | TUR, server: 194.26.192.125, port: 1701, type: vless, uuid: 4ee1809a-4a35-4601-99b3-51ce05fb4585, tls: true, servername: oty.myto.ip-ddns.com, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: oty.myto.ip-ddns.com}}, udp: true}
-  - {name: 🇺🇸 美国 | USA, server: yjjdmg.yunjijd.xyz, port: 26223, type: hysteria2, password: e82955ad-407a-40ba-8e7b-25d021da930c, auth: e82955ad-407a-40ba-8e7b-25d021da930c, sni: yjjdmg.yunjijd.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 | USA 2, server: 154.83.2.61, port: 8443, type: trojan, password: d6b8011a-c725-435a-9fec-bf6d3530392c, sni: vle.amclubdns.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560&PROT_TYPE=trojan", headers: {Host: vle.amclubdns.dpdns.org}}, udp: true}
-  - {name: 🇺🇸 美国 | USA 3, server: 143.14.220.111, port: 25888, type: vless, uuid: 0e982760-0b37-46de-a6cd-0012e411d036, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: eHaAkgZIfsYhrH_0HCj07-Vbd7nrMHnnAa663_969DA, short-id: "be1be5fc" }, servername: www.samsung.com, client-fingerprint: ios, network: tcp, udp: true}
-  - {name: 🇺🇸 美国 | USA 4, server: 103.21.244.95, port: 443, type: vless, uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33, tls: true, servername: yg.bantony199.top, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: yg.bantony199.top}}, udp: true}
-  - {name: 🇺🇸 美国 | USA 5, server: 154.17.12.30, port: 7000, type: vless, uuid: badbc35d-a86b-412d-ac05-29ab54643c80, tls: true, servername: mot.majusti.dpdns.org, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: mot.majusti.dpdns.org}}, udp: true}
-  - {name: 🇺🇸 美国 | USA 6, server: bf02224f-sz1ds0-tc61cs-1tja8.hy2.gotochinatown.net, port: 8443, type: hysteria2, password: d2f0bee2-02f1-11f0-8eb0-f23c9164ca5d, auth: d2f0bee2-02f1-11f0-8eb0-f23c9164ca5d, udp: true}
-  - {name: 🇺🇸 美国 | USA 7, server: by.xiaoqi666.xyz, port: 443, type: hysteria2, password: d2315271-102d-4b10-b7ae-bc79aee42b3a, auth: d2315271-102d-4b10-b7ae-bc79aee42b3a, sni: by.xiaoqi666.xyz, up: 250, down: 250, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 | USA 8, server: 92.53.188.77, port: 8880, type: vless, uuid: 40c708ca-42e4-4224-a12d-1dbd7ef1e0b7, tls: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: free.cfdns.online}}, udp: true}
-  - {name: 🇺🇸 美国 | USA 9, server: aus.pagate.top, port: 10086, type: hysteria2, password: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1, auth: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1, sni: aus.pagate.top, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 | USA 10, server: 143.14.220.111, port: 25888, type: vless, uuid: 4136ca27-3dea-4106-80a9-fac6029f5f61, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: eHaAkgZIfsYhrH_0HCj07-Vbd7nrMHnnAa663_969DA, short-id: "be1be5fc" }, servername: www.samsung.com, client-fingerprint: safari, network: tcp, udp: true}
-  - {name: 🇺🇸 美国 | USA 11, server: yjjdmg.yunjijd.xyz, port: 26223, type: hysteria2, password: d79ac9ae-ddaf-45e4-a30a-d7b0b154300c, auth: d79ac9ae-ddaf-45e4-a30a-d7b0b154300c, sni: yjjdmg.yunjijd.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 | USA 12, server: 154.219.5.77, port: 8880, type: vless, uuid: 40c708ca-42e4-4224-a12d-1dbd7ef1e0b7, tls: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: free.cfdns.online}}, udp: true}
-  - {name: 🇺🇸 美国 | USA 13, server: 143.14.220.111, port: 25888, type: vless, uuid: c57c2184-94f0-4761-b1ee-19c2abcf569f, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: eHaAkgZIfsYhrH_0HCj07-Vbd7nrMHnnAa663_969DA, short-id: "be1be5fc" }, servername: www.samsung.com, client-fingerprint: firefox, network: tcp, udp: true}
-  - {name: 🇺🇸 美国 | USA 14, server: by.xiaoqi666.xyz, port: 443, type: hysteria2, password: f34c5ebf-1af1-4786-ab71-2e96ee67aabd, auth: f34c5ebf-1af1-4786-ab71-2e96ee67aabd, sni: by.xiaoqi666.xyz, up: 250, down: 250, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 | USA 15, server: 66.81.247.88, port: 2083, type: vless, uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2, tls: true, servername: edmz.ambercc.filegear-sg.me, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&proxyip=ts.hpc.tw", headers: {Host: edmz.ambercc.filegear-sg.me}}, udp: true}
-  - {name: 🇺🇸 美国 | USA 16, server: us.xn--2vxn29amga.com, port: 21194, type: hysteria2, password: 613dcfff-cc46-42f3-b012-3ff4fe3bfe12, auth: 613dcfff-cc46-42f3-b012-3ff4fe3bfe12, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 | USA 17, server: 7700bc80-sz1ds0-t1rk9o-1j3zm.hy2.gotochinatown.net, port: 8443, type: hysteria2, password: 6ce63b80-8b5b-11ef-b635-f23c9164ca5d, auth: 6ce63b80-8b5b-11ef-b635-f23c9164ca5d, udp: true}
-  - {name: 🇺🇸 美国 | USA 18, server: 188.164.248.77, port: 8880, type: vless, uuid: 40c708ca-42e4-4224-a12d-1dbd7ef1e0b7, tls: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: free.cfdns.online}}, udp: true}
-  - {name: 🇺🇸 美国 | USA 19, server: 9ab50efe-syzj40-tei4of-1qxa1.cu2.plebai.net, port: 15229, type: trojan, password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d, udp: true}
-  - {name: 🇺🇸 美国 | USA 20, server: 446ed7be-sz1ds0-tfeciy-1iddy.hy2.gotochinatown.net, port: 8443, type: hysteria2, password: e168c43e-c6d9-11ed-a8bf-f23c91cfbbc9, auth: e168c43e-c6d9-11ed-a8bf-f23c91cfbbc9, udp: true}
-  - {name: 🇺🇸 美国 | USA 21, server: 87acfc3b-sz1ds0-t03u2l-1t8q3.cu2.plebai.net, port: 15229, type: trojan, password: 775baa4a-d75b-11ef-a11a-f23c913c8d2b, udp: true}
-  - {name: 🇺🇸 美国 | USA 22, server: e548d978-sxaf40-t6570q-1q3dm.hy2.gotochinatown.net, port: 8443, type: hysteria2, password: c1785de0-212f-11ef-92aa-f23c9164ca5d, auth: c1785de0-212f-11ef-92aa-f23c9164ca5d, sni: e548d978-sxaf40-t6570q-1q3dm.hy2.gotochinatown.net, udp: true}
-  - {name: 🇺🇸 美国 | USA 23, server: 4232cce3-sz1ds0-t4v3jz-1k8ga.hy2.gotochinatown.net, port: 8443, type: hysteria2, password: f860f2da-5035-11ed-bb74-f23c9164ca5d, auth: f860f2da-5035-11ed-bb74-f23c9164ca5d, udp: true}
-  - {name: 🇺🇸 美国 | USA 24, server: 164.38.155.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /Telegram🇨🇳 @WangCai2, headers: {Host: ip.langmanshanxi.top}}, udp: true}
-  - {name: 🇺🇸 美国 | USA 25, server: e6b715d6-sxaf40-syqpvr-20qs.hy2.gotochinatown.net, port: 8443, type: hysteria2, password: e668cd78-6892-11eb-a8bf-f23c91cfbbc9, auth: e668cd78-6892-11eb-a8bf-f23c91cfbbc9, sni: e6b715d6-sxaf40-syqpvr-20qs.hy2.gotochinatown.net, udp: true}
-  - {name: 🇺🇸 美国 | USA 26, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: f1e4a51c-cea8-4b35-b54f-b738fc370b3a, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国 | USA 27, server: 89.116.180.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: ip.langmanshanxi.top}}, udp: true}
-  - {name: 🇺🇸 美国 | USA 28, server: 143.14.220.111, port: 25888, type: vless, uuid: b57ad319-3c09-4ec5-ad36-c6f077e569a3, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: eHaAkgZIfsYhrH_0HCj07-Vbd7nrMHnnAa663_969DA, short-id: "be1be5fc" }, servername: www.samsung.com, client-fingerprint: ios, network: tcp, udp: true}
-  - {name: 🇺🇸 美国 | USA 29, server: 154.197.64.77, port: 8880, type: vless, uuid: 40c708ca-42e4-4224-a12d-1dbd7ef1e0b7, tls: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: free.cfdns.online}}, udp: true}
-  - {name: 🇺🇸 美国 | USA 30, server: 192.0.54.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: /Telegram🇨🇳 @WangCai2, headers: {Host: ip.langmanshanxi.top}}, udp: true}
-  - {name: 🇺🇸 美国 | USA 31, server: us.xn--mes91t7ofgnw.com, port: 20227, type: hysteria2, password: 66f85c66-8e55-4b81-93c3-bddfffa53c9b, auth: 66f85c66-8e55-4b81-93c3-bddfffa53c9b, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 | USA 32, server: 143.14.220.111, port: 25888, type: vless, uuid: f4ebd558-3ec1-42fa-a175-53af42067c6d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: eHaAkgZIfsYhrH_0HCj07-Vbd7nrMHnnAa663_969DA, short-id: "be1be5fc" }, servername: www.samsung.com, client-fingerprint: qq, network: tcp, udp: true}
-  - {name: 🇺🇸 美国 | USA 33, server: eeddcvfgt6.444682.xyz, port: 443, type: trojan, password: 0f7070cd-c91d-4532-a51f-56da4f0e94be, sni: eeddcvfgt6.444682.xyz, alpn: [http/1.1], skip-cert-verify: false, network: ws, ws-opts: {path: /ctHoQlqeZn8pbEUSLppj7jCmY, headers: {Host: eeddcvfgt6.444682.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 | USA 34, server: 143.14.220.111, port: 25888, type: vless, uuid: 8f44d0c3-02d8-4fee-affc-7dab2d97aafa, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: eHaAkgZIfsYhrH_0HCj07-Vbd7nrMHnnAa663_969DA, short-id: "be1be5fc" }, servername: www.samsung.com, client-fingerprint: ios, network: tcp, udp: true}
-  - {name: 🇺🇸 美国 | USA 35, server: 143.14.220.111, port: 25888, type: vless, uuid: 2ac0e285-4f51-406b-805f-4e4c3cfbfe27, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: eHaAkgZIfsYhrH_0HCj07-Vbd7nrMHnnAa663_969DA, short-id: "be1be5fc" }, servername: www.samsung.com, client-fingerprint: edge, network: tcp, udp: true}
-  - {name: 🇺🇸 美国 | USA 36, server: 143.14.220.111, port: 25888, type: vless, uuid: 59622997-084f-410a-b3c2-dbd7552f9557, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: eHaAkgZIfsYhrH_0HCj07-Vbd7nrMHnnAa663_969DA, short-id: "be1be5fc" }, servername: www.samsung.com, client-fingerprint: edge, network: tcp, udp: true}
-  - {name: 🇺🇸 美国 | USA 37, server: 45.150.165.121, port: 7885, type: vless, uuid: 82f6a148-5c4a-48f9-931a-e3b26777ffa2, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: cauu7I7nFMqzwMDdULVRJam0T04U4knX8koK0OG5dC8, short-id: "40cb281a" }, servername: www.yahoo.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇺🇸 美国 | USA 38, server: 25.129.198.77, port: 8880, type: vless, uuid: 40c708ca-42e4-4224-a12d-1dbd7ef1e0b7, tls: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: free.cfdns.online}}, udp: true}
-  - {name: 🇺🇸 美国 | USA 39, server: 66.81.247.77, port: 8880, type: vless, uuid: 40c708ca-42e4-4224-a12d-1dbd7ef1e0b7, tls: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: free.cfdns.online}}, udp: true}
-  - {name: 🇺🇸 美国 | USA 40, server: 143.14.220.111, port: 25888, type: vless, uuid: 11425139-cf04-4256-b7c6-aa5a60a9d6ff, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: eHaAkgZIfsYhrH_0HCj07-Vbd7nrMHnnAa663_969DA, short-id: "be1be5fc" }, servername: www.samsung.com, client-fingerprint: edge, network: tcp, udp: true}
-  - {name: 🇺🇸 美国 | USA 41, server: 5.10.246.77, port: 8880, type: vless, uuid: 40c708ca-42e4-4224-a12d-1dbd7ef1e0b7, tls: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: free.cfdns.online}}, udp: true}
-  - {name: 🇺🇸 美国 | USA 42, server: 42e492a8-syzj40-t3057p-1o20w.hy2.gotochinatown.net, port: 8443, type: hysteria2, password: d70a9508-5477-11ef-bf61-f23c913c8d2b, auth: d70a9508-5477-11ef-bf61-f23c913c8d2b, udp: true}
-  - {name: 🇺🇸 美国 | USA 43, server: 3bf84ac1-sz1ds0-t0grjj-ezjz.cu2.plebai.net, port: 15229, type: trojan, password: 591ac730-bd6f-11ed-a8bf-f23c91cfbbc9, udp: true}
-  - {name: 🇺🇸 美国 | USA 44, server: 192.0.54.77, port: 8880, type: vless, uuid: 40c708ca-42e4-4224-a12d-1dbd7ef1e0b7, tls: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: free.cfdns.online}}, udp: true}
-  - {name: 🇺🇸 美国 | USA 45, server: 91.193.58.171, port: 8880, type: vless, uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf, tls: false, servername: Telegram-channel-WangCai2, client-fingerprint: chrome, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: kjgx.laoyoutiao.link}}, udp: true}
-  - {name: 🇺🇸 美国 | USA 46, server: 155.46.213.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: ip.langmanshanxi.top}}, udp: true}
-  - {name: 🇺🇸 美国 | USA 47, server: 199.34.229.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, servername: ip.langmanshanxi.top, network: ws, ws-opts: {path: /Telegram🇨🇳 @WangCai2, headers: {Host: ip.langmanshanxi.top}}, udp: true}
+  - {name: 🇦🇪 阿联酋 | ARE, server: sg.xn--mes91t7ofgnw.com, port: 20251, type: hysteria2, password: cb8ee020-44dc-4b56-bebc-a1943ae1027b, auth: cb8ee020-44dc-4b56-bebc-a1943ae1027b, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇦 加拿大 | CAN, server: 40.233.121.211, port: 42557, type: vless, uuid: 2429bee3-e0c1-47dd-b420-75e6512b184b, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: LiHpb4jWrgHBSpi1mjKH3I8m2ahpVNexeNDh-sMW3Xo, short-id: "f430927d" }, servername: www.yahoo.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇨🇦 加拿大 | CAN 2, server: yjjdjnd.yunjijd.xyz, port: 26523, type: hysteria2, password: 150b0f70-4723-4533-a0cd-693a4ad23ba5, auth: 150b0f70-4723-4533-a0cd-693a4ad23ba5, sni: yjjdjnd.yunjijd.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾 | TWN, server: tw.xiao666666.site, port: 26900, type: hysteria2, password: 327db146-c993-4a06-ad86-c2ca53d00e84, auth: 327db146-c993-4a06-ad86-c2ca53d00e84, sni: tw.xiao666666.site, up: 150, down: 150, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 德国 | DEU, server: 45.145.42.229, port: 4002, type: vless, uuid: 92f18c31-c9c7-4bd4-9e9c-27aa8476ed81, tls: true, servername: etc.mesa.ip-ddns.com, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: etc.mesa.ip-ddns.com}}, udp: true}
+  - {name: 🇩🇪 德国 | DEU 2, server: 104.24.68.5, port: 443, type: vless, uuid: 8b5cf811-af1f-475a-9e61-28b93c38d309, tls: true, servername: vpn.6662221.xyz, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: vpn.6662221.xyz}}, udp: true}
+  - {name: 🇩🇪 德国 | DEU 3, server: 104.25.32.118, port: 2083, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: true, alpn: [h2%2Chttp%2F1.1], servername: jAEGBSEM36.CFD, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: jAEGBSEM36.CFD}}, udp: true}
+  - {name: 🇫🇷 法国 | FRA, server: 183.240.179.89, port: 31263, type: trojan, password: 12a81f5a-fa9e-11ef-8400-f23c9164ca5d, udp: true}
+  - {name: 🇫🇷 法国 | FRA 2, server: 183.240.179.89, port: 31263, type: trojan, password: 28213b50-7ed5-11ee-add6-f23c91369f2d, udp: true}
+  - {name: 🇫🇷 法国 | FRA 3, server: 183.240.179.89, port: 31263, type: trojan, password: de629d50-1711-11ed-bd7c-f23c913c8d2b, udp: true}
+  - {name: 🇫🇷 法国 | FRA 4, server: 183.240.179.89, port: 31263, type: trojan, password: 44e76f8c-7362-11ec-bb74-f23c9164ca5d, udp: true}
+  - {name: 🇫🇷 法国 | FRA 5, server: 183.240.179.89, port: 31263, type: trojan, password: 591ac730-bd6f-11ed-a8bf-f23c91cfbbc9, udp: true}
+  - {name: 🇫🇷 法国 | FRA 6, server: 183.240.179.89, port: 31263, type: trojan, password: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b, udp: true}
+  - {name: 🇫🇷 法国 | FRA 7, server: 183.240.179.89, port: 31263, type: trojan, password: a664d16a-4e47-11ef-9d7e-f23c9164ca5d, udp: true}
+  - {name: 🇫🇷 法国 | FRA 8, server: 183.240.179.89, port: 31263, type: trojan, password: bd515574-3b10-11ee-ac14-f23c9164ca5d, udp: true}
+  - {name: 🇬🇧 英国 | GBR, server: zz.xn--mes91t7ofgnw.com, port: 8085, type: ss, cipher: 2022-blake3-aes-128-gcm, password: Zjk2M2ZjNTRhZmYwZDliMw==:ZjIxYjI2YzUtZDA0My00OQ==, udp: true}
+  - {name: 🇭🇰 香港 | HKG, server: 39.112.168.50, port: 10189, type: vless, uuid: 92f18c31-c9c7-4bd4-9e9c-27aa8476ed81, tls: true, servername: etc.mesa.ip-ddns.com, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: etc.mesa.ip-ddns.com}}, udp: true}
+  - {name: 🇭🇰 香港 | HKG 2, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: f7d95364-607b-11ee-93af-f23c91369f2d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+  - {name: 🇭🇰 香港 | HKG 3, server: yjjdxg.yunjijd.xyz, port: 26323, type: hysteria2, password: 150b0f70-4723-4533-a0cd-693a4ad23ba5, auth: 150b0f70-4723-4533-a0cd-693a4ad23ba5, sni: yjjdxg.yunjijd.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 | HKG 4, server: hk.xn--2vxn29amga.com, port: 21185, type: hysteria2, password: 7d9aa1c9-0d30-4ac4-a730-98fa60a27309, auth: 7d9aa1c9-0d30-4ac4-a730-98fa60a27309, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 | HKG 5, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 4fb15f9c-f078-11ed-814b-f23c91369f2d, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: broadcastlv.chat.bilibili.com}}, udp: true}
+  - {name: 🇮🇳 印度 | IND, server: 183.240.179.89, port: 32233, type: trojan, password: 9c6d1142-dc2b-11ee-88c7-f23c913c8d2b, udp: true}
+  - {name: 🇮🇳 印度 | IND 2, server: 183.240.179.89, port: 32233, type: trojan, password: a305ac08-d136-11ee-b6db-f23c91cfbbc9, udp: true}
+  - {name: 🇮🇳 印度 | IND 3, server: 183.240.179.89, port: 32233, type: trojan, password: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, udp: true}
+  - {name: 🇮🇳 印度 | IND 4, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: e11d5389-c293-4dbc-812c-ccdee547f9bf, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇮🇳 印度 | IND 5, server: 183.240.179.89, port: 32233, type: trojan, password: 91365a7a-46d7-11ee-a8b9-f23c9164ca5d, udp: true}
+  - {name: 🇮🇳 印度 | IND 6, server: 183.240.179.89, port: 32233, type: trojan, password: a33115b6-75fa-11ed-8826-f23c9164ca5d, udp: true}
+  - {name: 🇮🇳 印度 | IND 7, server: 183.240.179.89, port: 32233, type: trojan, password: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9, udp: true}
+  - {name: 🇯🇵 日本 | JPN, server: jp.xn--2vxn29amga.com, port: 21146, type: hysteria2, password: 877d197e-daf0-4995-b5fc-0556f148f631, auth: 877d197e-daf0-4995-b5fc-0556f148f631, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 | JPN 2, server: 121.85.55.59, port: 19842, type: vless, uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec, tls: true, servername: steep.skyfigure.top, network: ws, ws-opts: {path: "Telegram🇨🇳 @pgkj666 /?ed=2560", headers: {Host: steep.skyfigure.top}}, udp: true}
+  - {name: 🇯🇵 日本 | JPN 3, server: jp.xn--mes91t7ofgnw.com, port: 20218, type: hysteria2, password: 43c30fa0-fa3f-4e71-b609-6e0f7b9062ce, auth: 43c30fa0-fa3f-4e71-b609-6e0f7b9062ce, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 | JPN 4, server: tls.93.node-for-bigairport.win, port: 34002, type: vmess, uuid: c69374da-2208-4cbd-b81e-cdf88b5e7f53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tls.93.node-for-bigairport.win}}, udp: true}
+  - {name: 🇯🇵 日本 | JPN 5, server: 140.83.57.20, port: 13118, type: vless, uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec, tls: true, servername: steep.skyfigure.top, network: ws, ws-opts: {path: "Telegram🇨🇳 @pgkj666 /?ed=2560", headers: {Host: steep.skyfigure.top}}, udp: true}
+  - {name: 🇰🇷 韩国 | KOR, server: 183.240.179.89, port: 31433, type: trojan, password: 32315324-cf6b-11ed-979b-f23c9164ca5d, udp: true}
+  - {name: 🇰🇷 韩国 | KOR 2, server: 183.240.179.89, port: 31433, type: trojan, password: 6e313598-a088-11ea-a22e-f23c91cfbbc9, udp: true}
+  - {name: 🇰🇷 韩国 | KOR 3, server: 183.240.179.89, port: 31433, type: trojan, password: 0a4d1c88-fb3a-11ef-8c3f-f23c913c8d2b, udp: true}
+  - {name: 🇰🇷 韩国 | KOR 4, server: 183.240.179.89, port: 31433, type: trojan, password: fd224a6c-addc-11ed-a8bf-f23c91cfbbc9, udp: true}
+  - {name: 🇰🇷 韩国 | KOR 5, server: yjjdhg.yunjijd.xyz, port: 26723, type: hysteria2, password: be81e21d-02d8-4a60-a07e-c2202a50a549, auth: be81e21d-02d8-4a60-a07e-c2202a50a549, sni: yjjdhg.yunjijd.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 韩国 | KOR 6, server: 183.240.179.89, port: 31433, type: trojan, password: 5f091cbe-fb34-11ea-9777-f23c9164ca5d, udp: true}
+  - {name: 🇲🇾 马来西亚 | MYS, server: 183.240.179.89, port: 31233, type: trojan, password: c1785de0-212f-11ef-92aa-f23c9164ca5d, udp: true}
+  - {name: 🇲🇾 马来西亚 | MYS 2, server: 183.240.179.89, port: 31233, type: trojan, password: 7c077572-6da9-11ef-b786-f23c91cfbbc9, udp: true}
+  - {name: 🇲🇾 马来西亚 | MYS 3, server: 183.240.179.89, port: 31233, type: trojan, password: 4fb15f9c-f078-11ed-814b-f23c91369f2d, udp: true}
+  - {name: 🇲🇾 马来西亚 | MYS 4, server: 183.240.179.89, port: 31233, type: trojan, password: dcccacba-fa44-11ef-8400-f23c9164ca5d, udp: true}
+  - {name: 🇲🇾 马来西亚 | MYS 5, server: 183.240.179.89, port: 31233, type: trojan, password: 460749c2-bcef-11ee-89fc-f23c913c8d2b, udp: true}
+  - {name: 🇲🇾 马来西亚 | MYS 6, server: 183.240.179.89, port: 31233, type: trojan, password: 591ac730-bd6f-11ed-a8bf-f23c91cfbbc9, udp: true}
+  - {name: 🇷🇺 俄罗斯 | RUS, server: 46.29.163.177, port: 80, type: hysteria2, password: ac8aca09-e4f3-43f7-9ab5-671c7bcf5eb5, auth: ac8aca09-e4f3-43f7-9ab5-671c7bcf5eb5, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: OGU1NTEyMGE2ZDhkODdhOQ==, udp: true}
+  - {name: 🇸🇬 新加坡 | SGP, server: ti3hyra4.slashdevslashnetslashtun.net, port: 16002, type: ss, cipher: aes-256-gcm, password: 8K2Z6NDKV2LP5EQS, udp: true}
+  - {name: 🇸🇬 新加坡 | SGP 2, server: 45.144.167.46, port: 19816, type: vless, uuid: e46d518d-4a20-4f9a-873d-a86e9455321c, tls: true, servername: mixing-proper-sharon-literary.trycloudflare.com, client-fingerprint: chrome, network: ws, ws-opts: {path: "/e46d518d-4a20-4f9a-873d-a86e9455321c-vless?ed=2048", headers: {Host: mixing-proper-sharon-literary.trycloudflare.com}}, udp: true}
+  - {name: 🇸🇬 新加坡 | SGP 3, server: 183.240.179.89, port: 31253, type: trojan, password: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b, udp: true}
+  - {name: 🇸🇬 新加坡 | SGP 4, server: 43.156.217.68, port: 41283, type: vless, uuid: 4839e0b9-b275-47ea-81ab-9bfd38bbe7af, tls: false, network: tcp, udp: true}
+  - {name: 🇸🇬 新加坡 | SGP 5, server: 146.235.18.248, port: 45137, type: vless, uuid: 63601f9f-7c67-4952-919a-1ef802b5a7ec, tls: true, servername: steep.skyfigure.top, network: ws, ws-opts: {path: "Telegram🇨🇳 @pgkj666 /?ed=2560", headers: {Host: steep.skyfigure.top}}, udp: true}
+  - {name: 🇸🇬 新加坡 | SGP 6, server: 183.240.179.89, port: 31253, type: trojan, password: 526a1128-7487-11ee-9bca-f23c913c8d2b, udp: true}
+  - {name: 🇸🇬 新加坡 | SGP 7, server: ti3hyra4.slashdevslashnetslashtun.net, port: 16010, type: ss, cipher: aes-256-gcm, password: QOFQ26ICQ0H480SX, udp: true}
+  - {name: 🇸🇬 新加坡 | SGP 8, server: 183.240.179.89, port: 31253, type: trojan, password: 40639730-e027-11ea-87ad-f23c913c8d2b, udp: true}
+  - {name: 🇸🇬 新加坡 | SGP 9, server: 183.240.179.89, port: 31253, type: trojan, password: dcdb1278-4b7d-11ed-bb74-f23c9164ca5d, udp: true}
+  - {name: 🇸🇬 新加坡 | SGP 10, server: 52.221.255.180, port: 10264, type: hysteria2, password: vlJbyJEtcNjHvV6dnkZ1Z4VjpI, auth: vlJbyJEtcNjHvV6dnkZ1Z4VjpI, sni: bing.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 | SGP 11, server: 183.240.179.89, port: 31253, type: trojan, password: e168c43e-c6d9-11ed-a8bf-f23c91cfbbc9, udp: true}
+  - {name: 🇹🇷 土耳其 | TUR, server: 2.58.56.192, port: 1701, type: vless, uuid: b1a801ac-08a8-4707-96f4-86f2fcc51e56, tls: true, servername: ennyfe.zipgd3vx91o.ddns-ip.net, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: ennyfe.zipgd3vx91o.ddns-ip.net}}, udp: true}
+  - {name: 🇺🇸 美国 | USA, server: bestcf.030101.xyz, port: 443, type: vless, uuid: 897a4bec-26b8-11e8-94be-00505695472c, tls: true, servername: xv6.jpmj.dpdns.org, network: ws, ws-opts: {path: "/bbs?ed=2048", headers: {Host: xv6.jpmj.dpdns.org}}, udp: true}
+  - {name: 🇺🇸 美国 | USA 2, server: fbedeaa2-syxog0-szapkm-1hpo0.hy2.gotochinatown.net, port: 8443, type: hysteria2, password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9, auth: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9, udp: true}
+  - {name: 🇺🇸 美国 | USA 3, server: 45.67.214.77, port: 8880, type: vless, uuid: 40c708ca-42e4-4224-a12d-1dbd7ef1e0b7, tls: false, servername: Telegram-channel-WangCai2, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: free.cfdns.online}}, udp: true}
+  - {name: 🇺🇸 美国 | USA 4, server: e0969c46-syvts0-tbpkla-1otc2.hy2.gotochinatown.net, port: 8443, type: hysteria2, password: 0114339c-488d-11ee-8792-f23c9164ca5d, auth: 0114339c-488d-11ee-8792-f23c9164ca5d, udp: true}
+  - {name: 🇺🇸 美国 | USA 5, server: 46.29.163.177, port: 20073, type: vmess, uuid: 9e685eb8-a296-4cf4-9049-4e4321beb12c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 美国 | USA 6, server: us.xn--2vxn29amga.com, port: 21179, type: hysteria2, password: 80efd5de-02f8-421f-83d9-a5bdce8b1ee8, auth: 80efd5de-02f8-421f-83d9-a5bdce8b1ee8, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 | USA 7, server: zz.xn--mes91t7ofgnw.com, port: 8082, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YTNkZmMwNDBhN2E1ZjE0ZA==:MWFiZDMxMjctYTU4Ni00ZA==, udp: true}
+  - {name: 🇺🇸 美国 | USA 8, server: 46.29.163.177, port: 80, type: hysteria2, password: e5040fb9-5df8-4637-b2fa-5279c8311321, auth: e5040fb9-5df8-4637-b2fa-5279c8311321, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: OGU1NTEyMGE2ZDhkODdhOQ==, udp: true}
+  - {name: 🇺🇸 美国 | USA 9, server: 46.29.163.177, port: 30076, type: hysteria2, password: e583ec43-6207-4206-8e43-1aaece208b14, auth: e583ec43-6207-4206-8e43-1aaece208b14, up: 1, down: 1, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇺🇸 美国 | USA 10, server: e9856a75-sz1ds0-szxfsm-v3c2.hy2.gotochinatown.net, port: 8443, type: hysteria2, password: 5f091cbe-fb34-11ea-9777-f23c9164ca5d, auth: 5f091cbe-fb34-11ea-9777-f23c9164ca5d, udp: true}
+  - {name: 🇺🇸 美国 | USA 11, server: us.xn--2vxn29amga.com, port: 21130, type: hysteria2, password: 80efd5de-02f8-421f-83d9-a5bdce8b1ee8, auth: 80efd5de-02f8-421f-83d9-a5bdce8b1ee8, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 | USA 12, server: 46.29.163.177, port: 30076, type: hysteria2, password: 602800b3-a0af-4984-bd56-71aa73e41d6c, auth: 602800b3-a0af-4984-bd56-71aa73e41d6c, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇺🇸 美国 | USA 13, server: by.xiaoqi666.xyz, port: 443, type: hysteria2, password: 9b06fdbd-7538-4743-978b-738cf7682c7d, auth: 9b06fdbd-7538-4743-978b-738cf7682c7d, sni: by.xiaoqi666.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 | USA 14, server: 159.112.235.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, servername: Telegram-channel-WangCai2, client-fingerprint: chrome, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: ip.langmanshanxi.top}}, udp: true}
+  - {name: 🇺🇸 美国 | USA 15, server: 46.29.163.177, port: 80, type: hysteria2, password: 651b09ae-abab-4bb4-a741-3bcdf8c7e9a7, auth: 651b09ae-abab-4bb4-a741-3bcdf8c7e9a7, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: OGU1NTEyMGE2ZDhkODdhOQ==, udp: true}
+  - {name: 🇺🇸 美国 | USA 16, server: 104.16.150.225, port: 443, type: vless, uuid: 8b5cf811-af1f-475a-9e61-28b93c38d309, tls: true, servername: vpn.6662221.xyz, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: vpn.6662221.xyz}}, udp: true}
+  - {name: 🇺🇸 美国 | USA 17, server: yjjdmg.yunjijd.xyz, port: 26223, type: hysteria2, password: 164e429e-35b9-4c38-a7d3-00faf190bf20, auth: 164e429e-35b9-4c38-a7d3-00faf190bf20, sni: yjjdmg.yunjijd.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 | USA 18, server: 89.116.180.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: ip.langmanshanxi.top}}, udp: true}
+  - {name: 🇺🇸 美国 | USA 19, server: 92.53.189.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, servername: Telegram-channel-WangCai2, client-fingerprint: chrome, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: ip.langmanshanxi.top}}, udp: true}
+  - {name: 🇺🇸 美国 | USA 20, server: 46.29.163.177, port: 33079, type: hysteria2, password: 16158475-87d6-43ea-8d1f-ba41dda4039d, auth: 16158475-87d6-43ea-8d1f-ba41dda4039d, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇺🇸 美国 | USA 21, server: 143.14.220.111, port: 25888, type: vless, uuid: 2f7c1d88-d135-4482-b49a-ecb3b96e61f5, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: eHaAkgZIfsYhrH_0HCj07-Vbd7nrMHnnAa663_969DA, short-id: "be1be5fc" }, servername: www.samsung.com, client-fingerprint: qq, network: tcp, udp: true}
+  - {name: 🇺🇸 美国 | USA 22, server: 143.14.220.111, port: 25888, type: vless, uuid: 09eb97d0-6ac8-44f3-a06f-07dd377ad565, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: eHaAkgZIfsYhrH_0HCj07-Vbd7nrMHnnAa663_969DA, short-id: "be1be5fc" }, servername: www.samsung.com, client-fingerprint: firefox, network: tcp, udp: true}
+  - {name: 🇺🇸 美国 | USA 23, server: 172.67.149.202, port: 443, type: vless, uuid: ce921385-2b31-45fe-84c5-1843e8ae845b, tls: true, alpn: [http%2F1.1], servername: LlLLLlLLLLLkjh.222560.xyZ, client-fingerprint: chrome, network: ws, ws-opts: {path: /1xrOld7e5RpK3I98dxLkez, headers: {Host: LlLLLlLLLLLkjh.222560.xyZ}}, udp: true}
+  - {name: 🇺🇸 美国 | USA 24, server: 156.238.18.220, port: 8443, type: trojan, password: d6b8011a-c725-435a-9fec-bf6d3530392c, sni: vle.amclubdns.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560&PROT_TYPE=trojan", headers: {Host: vle.amclubdns.dpdns.org}}, udp: true}
+  - {name: 🇺🇸 美国 | USA 25, server: d5a9f8af-swd340-syfwbx-1k0yf.hy2.gotochinatown.net, port: 8443, type: hysteria2, password: 9cc3c03e-21fd-11ee-a642-f23c91369f2d, auth: 9cc3c03e-21fd-11ee-a642-f23c91369f2d, sni: d5a9f8af-swd340-syfwbx-1k0yf.hy2.gotochinatown.net, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 | USA 26, server: 46.29.163.177, port: 80, type: hysteria2, password: 4ba01bea-aaf4-4917-9e07-2a65dca8e367, auth: 4ba01bea-aaf4-4917-9e07-2a65dca8e367, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: OGU1NTEyMGE2ZDhkODdhOQ==, udp: true}
+  - {name: 🇺🇸 美国 | USA 27, server: 143.14.220.111, port: 25888, type: vless, uuid: 81a40afc-a390-4adf-8456-26b543f19122, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: eHaAkgZIfsYhrH_0HCj07-Vbd7nrMHnnAa663_969DA, short-id: "be1be5fc" }, servername: www.samsung.com, client-fingerprint: ios, network: tcp, udp: true}
+  - {name: 🇺🇸 美国 | USA 28, server: 46.29.163.177, port: 25000, type: vmess, uuid: c0058f19-d160-4218-8baf-8d1261e776da, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 美国 | USA 29, server: 172.64.67.126, port: 443, type: vless, uuid: 8b5cf811-af1f-475a-9e61-28b93c38d309, tls: true, servername: vpn.6662221.xyz, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: vpn.6662221.xyz}}, udp: true}
+  - {name: 🇺🇸 美国 | USA 30, server: 46.29.163.177, port: 80, type: hysteria2, password: bf6ffbef-49b1-4372-8130-ae0a4b6e1a68, auth: bf6ffbef-49b1-4372-8130-ae0a4b6e1a68, up: 15, down: 15, skip-cert-verify: true, obfs: salamander, obfs-password: OGU1NTEyMGE2ZDhkODdhOQ==, udp: true}
+  - {name: 🇺🇸 美国 | USA 31, server: 66.81.247.82, port: 80, type: vless, uuid: 53fa8faf-ba4b-4322-9c69-a3e5b1555049, tls: false, servername: reedfree8mahsang2.redorg.ir, network: ws, ws-opts: {path: "/Channel id: @ShadowProxy66/?ed=2560", headers: {Host: reedfree8mahsang2.redorg.ir}}, udp: true}
+  - {name: 🇺🇸 美国 | USA 32, server: 143.14.220.111, port: 25888, type: vless, uuid: 7e5f8431-ac6d-4223-9098-1a744322ce50, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: eHaAkgZIfsYhrH_0HCj07-Vbd7nrMHnnAa663_969DA, short-id: "be1be5fc" }, servername: www.samsung.com, client-fingerprint: safari, network: tcp, udp: true}
+  - {name: 🇺🇸 美国 | USA 33, server: 46.29.163.177, port: 80, type: hysteria2, password: 9f0889f8-e144-4f14-94f6-65ab87538786, auth: 9f0889f8-e144-4f14-94f6-65ab87538786, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: OGU1NTEyMGE2ZDhkODdhOQ==, udp: true}
+  - {name: 🇺🇸 美国 | USA 34, server: 103.21.244.95, port: 443, type: vless, uuid: 34c01e61-f4f3-4afb-a83b-406caf8caa33, tls: true, servername: yg.bantony199.top, client-fingerprint: random, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: yg.bantony199.top}}, udp: true}
+  - {name: 🇺🇸 美国 | USA 35, server: e1fc2cd9-sz1ds0-teu3io-1t4wg.hy2.gotochinatown.net, port: 8443, type: hysteria2, password: 1b13e20c-e778-11ef-907f-f23c913c8d2b, auth: 1b13e20c-e778-11ef-907f-f23c913c8d2b, udp: true}
+  - {name: 🇺🇸 美国 | USA 36, server: zz.xn--2vxn29amga.com, port: 8092, type: ss, cipher: 2022-blake3-aes-128-gcm, password: YWJlYzEwNTJmNjBiM2E1Mw==:N2Q5YWExYzktMGQzMC00YQ==, udp: true}
+  - {name: 🇺🇸 美国 | USA 37, server: 46.29.163.177, port: 33079, type: hysteria2, password: 29cd1af7-3bac-42d6-aa6f-25853beed807, auth: 29cd1af7-3bac-42d6-aa6f-25853beed807, up: 15, down: 15, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇺🇸 美国 | USA 38, server: 46.29.163.177, port: 25000, type: vmess, uuid: 9e685eb8-a296-4cf4-9049-4e4321beb12c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 美国 | USA 39, server: 46.29.163.177, port: 30076, type: hysteria2, password: 3c352b2e-3531-4533-8d5d-d813d9609f97, auth: 3c352b2e-3531-4533-8d5d-d813d9609f97, up: 100, down: 100, skip-cert-verify: true, obfs: salamander, obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==, udp: true}
+  - {name: 🇺🇸 美国 | USA 40, server: 188.244.122.177, port: 8880, type: vless, uuid: 583ceab3-4022-4553-9158-9bedc625ad4e, tls: false, servername: Telegram-channel-WangCai2, client-fingerprint: chrome, network: ws, ws-opts: {path: "/Telegram🇨🇳 @WangCai2 /?ed=2560", headers: {Host: ip.langmanshanxi.top}}, udp: true}
+  - {name: 🇺🇸 美国 | USA 41, server: 46.29.163.177, port: 25000, type: vmess, uuid: a9a279ee-2180-455f-82d8-2c1821fe10c8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 美国 | USA 42, server: 188.164.159.214, port: 2083, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560&proxyip=ts.hpc.tw", headers: {Host: epml.ambercc.filegear-sg.me}}, udp: true}
 proxy-groups:
   - name: ☁️ 代理选择
     type: select
@@ -121,57 +121,62 @@ proxy-groups:
     type: select
     proxies:
       - 🇦🇪 阿联酋 | ARE
-      - 🇦🇪 阿联酋 | ARE 2
-      - 🇦🇪 阿联酋 | ARE 3
-      - 🇦🇪 阿联酋 | ARE 4
       - 🇨🇦 加拿大 | CAN
+      - 🇨🇦 加拿大 | CAN 2
       - 🇨🇳 台湾 | TWN
-      - 🇨🇳 台湾 | TWN 2
-      - 🇨🇳 台湾 | TWN 3
       - 🇩🇪 德国 | DEU
+      - 🇩🇪 德国 | DEU 2
+      - 🇩🇪 德国 | DEU 3
       - 🇫🇷 法国 | FRA
+      - 🇫🇷 法国 | FRA 2
+      - 🇫🇷 法国 | FRA 3
+      - 🇫🇷 法国 | FRA 4
+      - 🇫🇷 法国 | FRA 5
+      - 🇫🇷 法国 | FRA 6
+      - 🇫🇷 法国 | FRA 7
+      - 🇫🇷 法国 | FRA 8
       - 🇬🇧 英国 | GBR
       - 🇭🇰 香港 | HKG
       - 🇭🇰 香港 | HKG 2
       - 🇭🇰 香港 | HKG 3
       - 🇭🇰 香港 | HKG 4
       - 🇭🇰 香港 | HKG 5
-      - 🇭🇰 香港 | HKG 6
-      - 🇭🇰 香港 | HKG 7
-      - 🇭🇰 香港 | HKG 8
-      - 🇭🇰 香港 | HKG 9
-      - 🇭🇰 香港 | HKG 10
-      - 🇭🇰 香港 | HKG 11
+      - 🇮🇳 印度 | IND
+      - 🇮🇳 印度 | IND 2
+      - 🇮🇳 印度 | IND 3
+      - 🇮🇳 印度 | IND 4
+      - 🇮🇳 印度 | IND 5
+      - 🇮🇳 印度 | IND 6
+      - 🇮🇳 印度 | IND 7
       - 🇯🇵 日本 | JPN
       - 🇯🇵 日本 | JPN 2
       - 🇯🇵 日本 | JPN 3
       - 🇯🇵 日本 | JPN 4
       - 🇯🇵 日本 | JPN 5
-      - 🇯🇵 日本 | JPN 6
-      - 🇯🇵 日本 | JPN 7
-      - 🇯🇵 日本 | JPN 8
-      - 🇯🇵 日本 | JPN 9
-      - 🇯🇵 日本 | JPN 10
-      - 🇯🇵 日本 | JPN 11
-      - 🇳🇱 荷兰 | NLD
-      - 🇳🇱 荷兰 | NLD 2
-      - 🇵🇱 波兰 | POL
+      - 🇰🇷 韩国 | KOR
+      - 🇰🇷 韩国 | KOR 2
+      - 🇰🇷 韩国 | KOR 3
+      - 🇰🇷 韩国 | KOR 4
+      - 🇰🇷 韩国 | KOR 5
+      - 🇰🇷 韩国 | KOR 6
+      - 🇲🇾 马来西亚 | MYS
+      - 🇲🇾 马来西亚 | MYS 2
+      - 🇲🇾 马来西亚 | MYS 3
+      - 🇲🇾 马来西亚 | MYS 4
+      - 🇲🇾 马来西亚 | MYS 5
+      - 🇲🇾 马来西亚 | MYS 6
       - 🇷🇺 俄罗斯 | RUS
-      - 🇷🇺 俄罗斯 | RUS 2
-      - 🇷🇺 俄罗斯 | RUS 3
-      - 🇷🇺 俄罗斯 | RUS 4
-      - 🇷🇺 俄罗斯 | RUS 5
-      - 🇷🇺 俄罗斯 | RUS 6
-      - 🇷🇺 俄罗斯 | RUS 7
-      - 🇷🇺 俄罗斯 | RUS 8
-      - 🇷🇺 俄罗斯 | RUS 9
-      - 🇷🇺 俄罗斯 | RUS 10
-      - 🇷🇺 俄罗斯 | RUS 11
-      - 🇷🇺 俄罗斯 | RUS 12
-      - 🇷🇺 俄罗斯 | RUS 13
       - 🇸🇬 新加坡 | SGP
       - 🇸🇬 新加坡 | SGP 2
       - 🇸🇬 新加坡 | SGP 3
+      - 🇸🇬 新加坡 | SGP 4
+      - 🇸🇬 新加坡 | SGP 5
+      - 🇸🇬 新加坡 | SGP 6
+      - 🇸🇬 新加坡 | SGP 7
+      - 🇸🇬 新加坡 | SGP 8
+      - 🇸🇬 新加坡 | SGP 9
+      - 🇸🇬 新加坡 | SGP 10
+      - 🇸🇬 新加坡 | SGP 11
       - 🇹🇷 土耳其 | TUR
       - 🇺🇸 美国 | USA
       - 🇺🇸 美国 | USA 2
@@ -215,11 +220,6 @@ proxy-groups:
       - 🇺🇸 美国 | USA 40
       - 🇺🇸 美国 | USA 41
       - 🇺🇸 美国 | USA 42
-      - 🇺🇸 美国 | USA 43
-      - 🇺🇸 美国 | USA 44
-      - 🇺🇸 美国 | USA 45
-      - 🇺🇸 美国 | USA 46
-      - 🇺🇸 美国 | USA 47
   - name: 📲 电报消息
     type: select
     proxies:
@@ -303,12 +303,6 @@ proxy-groups:
       - 🇭🇰 香港 | HKG 3
       - 🇭🇰 香港 | HKG 4
       - 🇭🇰 香港 | HKG 5
-      - 🇭🇰 香港 | HKG 6
-      - 🇭🇰 香港 | HKG 7
-      - 🇭🇰 香港 | HKG 8
-      - 🇭🇰 香港 | HKG 9
-      - 🇭🇰 香港 | HKG 10
-      - 🇭🇰 香港 | HKG 11
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -316,8 +310,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇨🇳 台湾 | TWN
-      - 🇨🇳 台湾 | TWN 2
-      - 🇨🇳 台湾 | TWN 3
   - name: 🇸🇬 狮城节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -327,6 +319,14 @@ proxy-groups:
       - 🇸🇬 新加坡 | SGP
       - 🇸🇬 新加坡 | SGP 2
       - 🇸🇬 新加坡 | SGP 3
+      - 🇸🇬 新加坡 | SGP 4
+      - 🇸🇬 新加坡 | SGP 5
+      - 🇸🇬 新加坡 | SGP 6
+      - 🇸🇬 新加坡 | SGP 7
+      - 🇸🇬 新加坡 | SGP 8
+      - 🇸🇬 新加坡 | SGP 9
+      - 🇸🇬 新加坡 | SGP 10
+      - 🇸🇬 新加坡 | SGP 11
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -338,19 +338,18 @@ proxy-groups:
       - 🇯🇵 日本 | JPN 3
       - 🇯🇵 日本 | JPN 4
       - 🇯🇵 日本 | JPN 5
-      - 🇯🇵 日本 | JPN 6
-      - 🇯🇵 日本 | JPN 7
-      - 🇯🇵 日本 | JPN 8
-      - 🇯🇵 日本 | JPN 9
-      - 🇯🇵 日本 | JPN 10
-      - 🇯🇵 日本 | JPN 11
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - DIRECT
+      - 🇰🇷 韩国 | KOR
+      - 🇰🇷 韩国 | KOR 2
+      - 🇰🇷 韩国 | KOR 3
+      - 🇰🇷 韩国 | KOR 4
+      - 🇰🇷 韩国 | KOR 5
+      - 🇰🇷 韩国 | KOR 6
   - name: 🇺🇸 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -399,68 +398,68 @@ proxy-groups:
       - 🇺🇸 美国 | USA 40
       - 🇺🇸 美国 | USA 41
       - 🇺🇸 美国 | USA 42
-      - 🇺🇸 美国 | USA 43
-      - 🇺🇸 美国 | USA 44
-      - 🇺🇸 美国 | USA 45
-      - 🇺🇸 美国 | USA 46
-      - 🇺🇸 美国 | USA 47
   - name: ⚡ 延迟最低
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 🇦🇪 阿联酋 | ARE
-      - 🇦🇪 阿联酋 | ARE 2
-      - 🇦🇪 阿联酋 | ARE 3
-      - 🇦🇪 阿联酋 | ARE 4
       - 🇨🇦 加拿大 | CAN
+      - 🇨🇦 加拿大 | CAN 2
       - 🇨🇳 台湾 | TWN
-      - 🇨🇳 台湾 | TWN 2
-      - 🇨🇳 台湾 | TWN 3
       - 🇩🇪 德国 | DEU
+      - 🇩🇪 德国 | DEU 2
+      - 🇩🇪 德国 | DEU 3
       - 🇫🇷 法国 | FRA
+      - 🇫🇷 法国 | FRA 2
+      - 🇫🇷 法国 | FRA 3
+      - 🇫🇷 法国 | FRA 4
+      - 🇫🇷 法国 | FRA 5
+      - 🇫🇷 法国 | FRA 6
+      - 🇫🇷 法国 | FRA 7
+      - 🇫🇷 法国 | FRA 8
       - 🇬🇧 英国 | GBR
       - 🇭🇰 香港 | HKG
       - 🇭🇰 香港 | HKG 2
       - 🇭🇰 香港 | HKG 3
       - 🇭🇰 香港 | HKG 4
       - 🇭🇰 香港 | HKG 5
-      - 🇭🇰 香港 | HKG 6
-      - 🇭🇰 香港 | HKG 7
-      - 🇭🇰 香港 | HKG 8
-      - 🇭🇰 香港 | HKG 9
-      - 🇭🇰 香港 | HKG 10
-      - 🇭🇰 香港 | HKG 11
+      - 🇮🇳 印度 | IND
+      - 🇮🇳 印度 | IND 2
+      - 🇮🇳 印度 | IND 3
+      - 🇮🇳 印度 | IND 4
+      - 🇮🇳 印度 | IND 5
+      - 🇮🇳 印度 | IND 6
+      - 🇮🇳 印度 | IND 7
       - 🇯🇵 日本 | JPN
       - 🇯🇵 日本 | JPN 2
       - 🇯🇵 日本 | JPN 3
       - 🇯🇵 日本 | JPN 4
       - 🇯🇵 日本 | JPN 5
-      - 🇯🇵 日本 | JPN 6
-      - 🇯🇵 日本 | JPN 7
-      - 🇯🇵 日本 | JPN 8
-      - 🇯🇵 日本 | JPN 9
-      - 🇯🇵 日本 | JPN 10
-      - 🇯🇵 日本 | JPN 11
-      - 🇳🇱 荷兰 | NLD
-      - 🇳🇱 荷兰 | NLD 2
-      - 🇵🇱 波兰 | POL
+      - 🇰🇷 韩国 | KOR
+      - 🇰🇷 韩国 | KOR 2
+      - 🇰🇷 韩国 | KOR 3
+      - 🇰🇷 韩国 | KOR 4
+      - 🇰🇷 韩国 | KOR 5
+      - 🇰🇷 韩国 | KOR 6
+      - 🇲🇾 马来西亚 | MYS
+      - 🇲🇾 马来西亚 | MYS 2
+      - 🇲🇾 马来西亚 | MYS 3
+      - 🇲🇾 马来西亚 | MYS 4
+      - 🇲🇾 马来西亚 | MYS 5
+      - 🇲🇾 马来西亚 | MYS 6
       - 🇷🇺 俄罗斯 | RUS
-      - 🇷🇺 俄罗斯 | RUS 2
-      - 🇷🇺 俄罗斯 | RUS 3
-      - 🇷🇺 俄罗斯 | RUS 4
-      - 🇷🇺 俄罗斯 | RUS 5
-      - 🇷🇺 俄罗斯 | RUS 6
-      - 🇷🇺 俄罗斯 | RUS 7
-      - 🇷🇺 俄罗斯 | RUS 8
-      - 🇷🇺 俄罗斯 | RUS 9
-      - 🇷🇺 俄罗斯 | RUS 10
-      - 🇷🇺 俄罗斯 | RUS 11
-      - 🇷🇺 俄罗斯 | RUS 12
-      - 🇷🇺 俄罗斯 | RUS 13
       - 🇸🇬 新加坡 | SGP
       - 🇸🇬 新加坡 | SGP 2
       - 🇸🇬 新加坡 | SGP 3
+      - 🇸🇬 新加坡 | SGP 4
+      - 🇸🇬 新加坡 | SGP 5
+      - 🇸🇬 新加坡 | SGP 6
+      - 🇸🇬 新加坡 | SGP 7
+      - 🇸🇬 新加坡 | SGP 8
+      - 🇸🇬 新加坡 | SGP 9
+      - 🇸🇬 新加坡 | SGP 10
+      - 🇸🇬 新加坡 | SGP 11
       - 🇹🇷 土耳其 | TUR
       - 🇺🇸 美国 | USA
       - 🇺🇸 美国 | USA 2
@@ -504,11 +503,6 @@ proxy-groups:
       - 🇺🇸 美国 | USA 40
       - 🇺🇸 美国 | USA 41
       - 🇺🇸 美国 | USA 42
-      - 🇺🇸 美国 | USA 43
-      - 🇺🇸 美国 | USA 44
-      - 🇺🇸 美国 | USA 45
-      - 🇺🇸 美国 | USA 46
-      - 🇺🇸 美国 | USA 47
   - name: 🎈 其余流量
     type: select
     proxies:
