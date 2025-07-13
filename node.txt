@@ -29,3 +29,4 @@ https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/main/all_configs.txt
 https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash
 https://raw.githubusercontent.com/go4sharing/sub/main/sub.yaml
 https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml
+https://v2ray.zmkk.fun/raw/ff3eee19-9a5d-4c33-b23c-6fd927b7e348?password=0000
